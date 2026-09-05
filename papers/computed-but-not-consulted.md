@@ -293,7 +293,9 @@ availability selected the target; prevalence did not.
 
 **Screens.** From 518,662 gated purchasable compounds: G12D n = 19,639, G12V n = 9,913,
 covering 81 percent of codon-12-mutant PDAC. Neither produced a compound competitive with the
-clinical inhibitors. A G12R screen is in progress.
+clinical inhibitors. A G12R screen is partially complete (1,663 of 10,000 compounds at
+the time of writing); no compound has beaten the strongest control in either completed
+screen or in the partial one.
 
 ### 3.7 Our replacement methods failed in the same way, and the gates caught them
 

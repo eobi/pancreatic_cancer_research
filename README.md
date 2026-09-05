@@ -89,10 +89,10 @@ G12C — the variant with marketed drugs — is a **lung** variant and barely pr
 |---|---|---|---|---|
 | G12D | 39% | 9HFK | 19,639 | essentially nothing |
 | G12V | 29% | 9YMQ | 9,913 | 2 past the cognate ligand |
-| G12R | 15% | 9XB7 (1.36 A) | validated, screen queued | cognate redock **0.99 A** (needs high exhaustiveness) |
+| G12R | 15% | 9XB7 (1.36 A) | validated; 1,663 of 10,000 screened, [resumable](RESUME-G12R.md) | cognate redock **0.99 A** |
 | G12C | 1.7% | 8AFB | 2,000 | 82 hits, wrong variant for PDAC |
 
-Screened coverage is **68%** of pancreatic KRAS. G12R is now validated and queued; screening it takes coverage to **83%**.
+Screened coverage is **68%** of pancreatic KRAS by variant frequency. G12R is validated and partially screened; completing it takes coverage to **83%**.
 
 ### Fidelity ladder — from a docking score to a computed binding free energy
 

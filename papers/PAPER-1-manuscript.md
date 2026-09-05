@@ -118,7 +118,7 @@ The campaign's output file carries 32 columns. Among them is `Epoxide Ring Prese
 | `Good Docking Quality Overall` | **True for 72 of 73** | not applicable |
 | `FDA Approved` | False for 73 of 73 | not applicable |
 
-Three molecules were selected for synthesis: Hit 13, Hit 41 and Hit 73. Each has
+Three molecules were selected for synthesis: Hit 13, Hit 41 and Hit 73 (Figure 2). Each has
 `Epoxide Ring Present = True`. Epoxides are strained three-membered ethers, opened by
 nucleophiles, acids and bases, and in these structures they co-occur with hydrazines and
 free aldehydes that attack them. The audit script identifies twelve molecules whose own
@@ -127,6 +127,33 @@ functional groups react with one another, including all three synthesis candidat
 The signal was not weak, ambiguous or buried. It was a boolean column named after the
 offending group, set to True, in the file used to choose what to make.
 
+![](figures/fig_structures.png)
+
+**Figure 2. The three molecules sent to synthetic chemists, beside the two reference drugs
+in the same file.** Red, epoxide. Blue, hydrazine or triazane nitrogen. Orange, free
+aldehyde. Structures drawn from the SMILES strings in Table 2; no atom has been moved or
+omitted.
+
+**Table 2. The three synthesis candidates as recorded in the campaign output.**
+
+| molecule | SMILES | MW | SA score | aromatic ring | groups present |
+|---|---|---|---|---|---|
+| Hit 13 | `NN(N1)C2CCC[C@H1]2CCCC3OC31CC=O` | 239 | 5.24 | **no** | epoxide, hydrazine, triazane, aldehyde |
+| Hit 41 | `NN(N)C1CCC[C@H1]1CCCC2OC2C=O` | 227 | 4.60 | **no** | epoxide, hydrazine, triazane, aldehyde |
+| Hit 73 | `NN(N)C1CCC[C@H1]1CCCC2OC2CN(OCC3CCCCCCCC=4)CC=43` | 407 | 5.29 | **no** | epoxide, hydrazine, triazane |
+| Sotorasib | *(ref. 9)* | 561 | 3.84 | yes | none of the above |
+| Adagrasib | *(ref. 10)* | 604 | 4.21 | yes | none of the above |
+
+Each of the three carries **an epoxide and a hydrazine in the same molecule**. A hydrazine is
+a strong nucleophile and an epoxide is a strained electrophile; they consume one another.
+Two of the three additionally carry a free aldehyde, which condenses with the hydrazine to a
+hydrazone. Every one contains a triazane, a nitrogen-nitrogen-nitrogen chain that is
+notoriously unstable.
+
+The two approved drugs sit in the same spreadsheet, carry none of these groups, contain
+aromatic rings, and are roughly twice the molecular weight. The comparison was available at
+the moment of selection.
+
 ### 3.2 The failure is not a property of generative models
 
 If generative models generally produced unmakeable molecules, this campaign would be an
@@ -134,7 +161,7 @@ instance of a known problem rather than a finding. We tested that directly again
 released outputs of eight published generative models, applying **BRENK and PAINS exactly as
 shipped in RDKit**, with none of our own modifications.
 
-**Table 2. One filter battery, unmodified published catalogues, applied across models.**
+**Table 3. One filter battery, unmodified published catalogues, applied across models.**
 
 | set | n | pass filter | aromatic ring | median MW |
 |---|---|---|---|---|
@@ -151,12 +178,12 @@ shipped in RDKit**, with none of our own modifications.
 
 ![](figures/fig_benchmark.png)
 
-**Figure 2. One filter battery across nine sources.** Left, fraction passing unmodified
+**Figure 3. One filter battery across nine sources.** Left, fraction passing unmodified
 BRENK and PAINS as shipped in RDKit (ref. 21). Right, fraction containing an aromatic ring.
 Red, the audited campaign. Blue, purchasable compounds. Grey, eight published generative
 models whose released outputs are distributed with the MOSES benchmark (ref. 15).
 
-Eight published models, 240,214 molecules, pass at 81 to 89 percent (Figure 2). This campaign passes at
+Eight published models, 240,214 molecules, pass at 81 to 89 percent (Figure 3). This campaign passes at
 6.8 percent, and **not one of its 73 molecules contains an aromatic ring**, against 95 to 99
 percent for every model tested and 100 percent for purchasable compounds. Both reference
 drugs contain aromatic rings.
@@ -172,7 +199,7 @@ instrument that produced it.
 
 Applying that identical unmodified catalogue to the two reference drugs:
 
-**Table 3. The filter that separates the sets also rejects the drugs.**
+**Table 4. The filter that separates the sets also rejects the drugs.**
 
 | molecule | status | passes unmodified BRENK + PAINS |
 |---|---|---|
@@ -192,7 +219,7 @@ established which of its verdicts to believe.
 Re-running each component of the vetting stack against molecules whose correct classification
 is known yields five failures. They reduce to three mechanisms.
 
-**Table 4. Failures grouped by mechanism.**
+**Table 5. Failures grouped by mechanism.**
 
 | mechanism | instance | consequence |
 |---|---|---|
@@ -219,7 +246,7 @@ In every instance the tool returned well-formed output and raised no error.
 All five instances are detected by requiring each tool to reproduce known answers before its
 output is used. The operative variable is panel size.
 
-**Table 5. Detection as a function of control-panel size.**
+**Table 6. Detection as a function of control-panel size.**
 
 | control set | size | instances detected |
 |---|---|---|
@@ -235,7 +262,7 @@ ADMET stage re-runs its control check on every invocation and exits if any contr
 Eleven phases, each with a known-answer gate. **Nine of the eleven gates exist because a tool
 had already failed silently.**
 
-**Table 6. Method validation across four targets.**
+**Table 7. Method validation across four targets.**
 
 | variant | structure | cognate redock RMSD | control spread | criterion |
 |---|---|---|---|---|
@@ -279,7 +306,7 @@ the reason we report it.
 
 **Rescoring cannot rank a shortlist flat in the primary score.**
 
-**Table 7. Two independent rescoring methods on the G12V top-200.**
+**Table 8. Two independent rescoring methods on the G12V top-200.**
 
 | quantity | value |
 |---|---|
@@ -292,11 +319,11 @@ the reason we report it.
 
 ![](figures/fig_rescoring.png)
 
-**Figure 3. A flat shortlist carries no ordering to recover.** Left, MM-GBSA against Vina
+**Figure 4. A flat shortlist carries no ordering to recover.** Left, MM-GBSA against Vina
 for all 200 G12V compounds. Right, the Vina score distribution, spanning 1.80 kcal/mol
 against a documented method error of about 2.5 kcal/mol.
 
-Neither rescoring method is malfunctioning (Figure 3). The shortlist spans less than the primary method's
+Neither rescoring method is malfunctioning (Figure 4). The shortlist spans less than the primary method's
 own error and carries no ordering to recover. Reported without the primary spread, ρ = 0.106
 reads as a failed rescoring method rather than a property of the input. Interim estimates during
 the run were 0.239 (n = 50), 0.347 (n = 60), 0.196 (n = 80) and 0.106 (n = 200); the apparent
@@ -306,7 +333,7 @@ unstable small-n correlations are in this setting.
 **Search effort buys geometry, not ranking.** Every screen ran at docking exhaustiveness 4 while
 every validation gate ran at 16, so the gate never covered the configuration used.
 
-**Table 8. Exhaustiveness sensitivity, 50 compounds, identical embedding seed.**
+**Table 9. Exhaustiveness sensitivity, 50 compounds, identical embedding seed.**
 
 | exhaustiveness | mean Δ vs ex128 | ρ vs ex128 | top-10 retained | median cost |
 |---|---|---|---|---|
@@ -317,12 +344,12 @@ every validation gate ran at 16, so the gate never covered the configuration use
 
 ![](figures/fig_exhaustiveness.png)
 
-**Figure 4. Search effort changes geometry, not ranking.** Fifty compounds docked at four
+**Figure 5. Search effort changes geometry, not ranking.** Fifty compounds docked at four
 exhaustiveness levels with an identical embedding seed, so the only variable is the search.
 Left, mean score drift against the deepest search. Centre, rank correlation. Right, top-10
 compounds retained.
 
-A 31-fold compute increase moves the median score by 0.08 kcal/mol (Figure 4), so the completed screens are
+A 31-fold compute increase moves the median score by 0.08 kcal/mol (Figure 5), so the completed screens are
 sound. The same parameter on G12R moved the cognate's score only from −9.28 to −9.80 while moving
 its **pose from 7.19 Å to 0.99 Å**, converting a failed validation into a passed one. Screening
 consumes rank and tolerates shallow search; validation and pose-dependent rescoring consume
@@ -336,10 +363,10 @@ compounds, binned into deciles by Vina score.
 
 ![](figures/fig_deciles.png)
 
-**Figure 5. Docking rank against makeability, inside a catalogue.** Unmodified filter pass
+**Figure 6. Docking rank against makeability, inside a catalogue.** Unmodified filter pass
 rate and aromatic content by Vina decile, best binding on the left.
 
-**Table 9. Makeability is flat across the docking range.**
+**Table 10. Makeability is flat across the docking range.**
 
 | decile | Vina range (kcal/mol) | passes filter | aromatic | median MW |
 |---|---|---|---|---|
@@ -349,7 +376,7 @@ rate and aromatic content by Vina decile, best binding on the left.
 | 7 | −8.45 to −8.15 | 97.0% | 100% | 516.7 |
 | 10 (worst) | −7.03 to −4.51 | 100.0% | 100% | 533.6 |
 
-There is no gradient (Figure 5). Selecting hard on a docking objective is safe when the search space is
+There is no gradient (Figure 6). Selecting hard on a docking objective is safe when the search space is
 a catalogue, because the catalogue bounds the search to chemistry that exists. The failure
 documented here therefore required **both** an unconstrained generative search space **and**
 the absence of any criterion able to reject a molecule. Neither alone reproduces it.
@@ -371,10 +398,10 @@ sampled papers were retrievable as open-access full text and were scored.
 
 ![](figures/fig_gate_coverage.png)
 
-**Figure 6. Gate coverage against outcome.** Left, fraction of computed properties able to
+**Figure 7. Gate coverage against outcome.** Left, fraction of computed properties able to
 halt the pipeline. Right, molecules actually synthesised. Red, the audited campaign.
 
-**Table 10. Pilot survey of gate coverage (n = 4 scored, rubric fixed in advance).**
+**Table 11. Pilot survey of gate coverage (n = 4 scored, rubric fixed in advance).**
 
 | campaign | ref. | computed | gating | coverage | stability gate | synthesised | hits |
 |---|---|---|---|---|---|---|---|
@@ -384,7 +411,7 @@ halt the pipeline. Right, molecules actually synthesised. Red, the audited campa
 | CLM (ROR-gamma) | 20 | 4 | 0 | **0.00** | no | 3 | **3** |
 | This campaign | 13 | 19 | 3 | 0.16 | no | **0** | 0 |
 
-**The hypothesis fails** (Figure 6). Two campaigns with gate coverage of zero synthesised their designs
+**The hypothesis fails** (Figure 7). Two campaigns with gate coverage of zero synthesised their designs
 and obtained hits, one of them three from three at 0.37 micromolar (ref. 20). Automated gate
 coverage does not distinguish them from a campaign that produced nothing.
 
@@ -404,7 +431,7 @@ consulted. It does not have to be automated, and automating it is not sufficient
 We state these together because the pattern is the paper's most useful methodological
 content.
 
-**Table 11. Hypotheses proposed during this work and their outcomes.**
+**Table 12. Hypotheses proposed during this work and their outcomes.**
 
 | hypothesis | test | outcome |
 |---|---|---|
@@ -418,12 +445,12 @@ unusually complete audit trail, set against 73 positive controls from the litera
 
 ### 3.11 The 2025 campaign and the rebuilt pipeline, stage by stage
 
-Table 12 sets the audited campaign beside its replacement. The 2025 column is taken from the
+Table 13 sets the audited campaign beside its replacement. The 2025 column is taken from the
 published method (ref. 13) and from the column headings of the output file itself; it is not
 a characterisation. The distinguishing column is the last one: whether a stage could stop a
 molecule, or only describe it.
 
-**Table 12. Campaign as run in 2025 against the rebuilt pipeline.**
+**Table 13. Campaign as run in 2025 against the rebuilt pipeline.**
 
 | stage | 2025 campaign | rebuilt pipeline | can it stop a molecule? |
 |---|---|---|---|

@@ -52,8 +52,17 @@ The limitations of the individual components are known. Generative models propos
 that cannot readily be synthesised (ref. 1). Structural-alert catalogues over-reject, and
 Capuzzi et al. report that **87 small-molecule FDA-approved drugs carry PAINS alerts**,
 cautioning explicitly against using such alerts to triage compounds (refs. 2, 3).
-Deep-learning docking methods produce physically invalid poses (ref. 4). We claim novelty
-for none of these.
+Deep-learning docking methods produce physically invalid poses (ref. 4). The field has also
+been reviewed recently and comprehensively (ref. 14), and that review is accompanied by a
+curated compilation of 73 generative campaigns that reached experimental validation, which
+we use as the comparison class throughout this paper. We claim novelty for none of these.
+
+That compilation also sets the scale against which this campaign must be judged. Across the
+56 entries carrying a numeric hit rate, **239 of 459 synthesised compounds were active at
+10 micromolar or better, a pooled hit rate of 52 percent**, with a median of 5 compounds
+synthesised per campaign. Generative design routinely reaches the bench and routinely works.
+Any account of the failure reported here has to explain why this campaign did not, against
+73 that did.
 
 What this paper contributes is a chain with **ground truth at the end of it**. The molecules
 did not stop at a benchmark. Three went to synthetic chemists, and the synthesis did not
@@ -148,6 +157,13 @@ shipped in RDKit**, with none of our own modifications.
 | LatentGAN | 26,799 | 84.7% | 97.5% | 307.4 |
 | Combinatorial | 30,000 | 81.5% | 95.4% | 325.4 |
 | **This campaign** | **73** | **6.8%** | **0.0%** | 226.3 |
+
+![](figures/fig_benchmark.png)
+
+**Figure 2. One filter battery across nine sources.** Left, fraction passing unmodified
+BRENK and PAINS as shipped in RDKit (ref. 21). Right, fraction containing an aromatic ring.
+Red, the audited campaign. Blue, purchasable compounds. Grey, eight published generative
+models whose released outputs are distributed with the MOSES benchmark (ref. 15).
 
 Eight published models, 240,214 molecules, pass at 81 to 89 percent. This campaign passes at
 6.8 percent, and **not one of its 73 molecules contains an aromatic ring**, against 95 to 99
@@ -283,6 +299,12 @@ the reason we report it.
 | Spearman ρ, Vina vs Vinardo (n = 200) | +0.259 |
 | Shared compounds in the two top-10 rankings | **2 of 10** |
 
+![](figures/fig_rescoring.png)
+
+**Figure 6. A flat shortlist carries no ordering to recover.** Left, MM-GBSA against Vina
+for all 200 G12V compounds. Right, the Vina score distribution, spanning 1.80 kcal/mol
+against a documented method error of about 2.5 kcal/mol.
+
 Neither rescoring method is malfunctioning. The shortlist spans less than the primary method's
 own error and carries no ordering to recover. Reported without the primary spread, ρ = 0.106
 reads as a failed rescoring method rather than a property of the input. Interim estimates during
@@ -302,6 +324,13 @@ every validation gate ran at 16, so the gate never covered the configuration use
 | 64 | −0.01 | 0.977 | 10 of 10 | 347 s |
 | 128 | 0.00 | 1.000 | 10 of 10 | 747 s |
 
+![](figures/fig_exhaustiveness.png)
+
+**Figure 5. Search effort changes geometry, not ranking.** Fifty compounds docked at four
+exhaustiveness levels with an identical embedding seed, so the only variable is the search.
+Left, mean score drift against the deepest search. Centre, rank correlation. Right, top-10
+compounds retained.
+
 A 31-fold compute increase moves the median score by 0.08 kcal/mol, so the completed screens are
 sound. The same parameter on G12R moved the cognate's score only from −9.28 to −9.80 while moving
 its **pose from 7.19 Å to 0.99 Å**, converting a failed validation into a passed one. Screening
@@ -309,6 +338,95 @@ consumes rank and tolerates shallow search; validation and pose-dependent rescor
 geometry and do not.
 
 ---
+
+### 3.8 Selecting hard on docking does not, by itself, reduce makeability
+
+If a docking objective pulled a pipeline away from real chemistry, the effect should be
+visible inside a purchasable library. We tested this on 1,986 G12D-screened purchasable
+compounds, binned into deciles by Vina score.
+
+![](figures/fig_deciles.png)
+
+**Figure 7. Docking rank against makeability, inside a catalogue.** Unmodified filter pass
+rate and aromatic content by Vina decile, best binding on the left.
+
+**Table 9. Makeability is flat across the docking range.**
+
+| decile | Vina range (kcal/mol) | passes filter | aromatic | median MW |
+|---|---|---|---|---|
+| 1 (best) | -12.50 to -10.01 | 100.0% | 100% | 520.5 |
+| 2 | -10.00 to -9.57 | 100.0% | 100% | 516.2 |
+| 5 | -9.03 to -8.76 | 99.5% | 100% | 517.6 |
+| 7 | -8.45 to -8.15 | 97.0% | 100% | 516.7 |
+| 10 (worst) | -7.03 to -4.51 | 100.0% | 100% | 533.6 |
+
+There is no gradient. Selecting hard on a docking objective is safe when the search space is
+a catalogue, because the catalogue bounds the search to chemistry that exists. The failure
+documented here therefore required **both** an unconstrained generative search space **and**
+the absence of any criterion able to reject a molecule. Neither alone reproduces it.
+
+We report this because it refutes a mechanism we ourselves proposed on the strength of
+section 3.2, and because it is the control a reader is entitled to demand.
+
+### 3.9 Gate coverage does not predict whether molecules get made
+
+The obvious explanation for the campaign's failure is that too few of its computed
+properties were wired to decisions. We defined **gate coverage** as the fraction of computed
+property types carrying a threshold able to remove a molecule, and tested whether it
+separates successful campaigns from this one.
+
+Papers were drawn as a seeded random sample from the curated corpus of 73 generative
+campaigns with experimental validation compiled by Du et al. (ref. 14). Scoring followed a
+rubric fixed before any paper was read (released with this manuscript). Four of twelve
+sampled papers were retrievable as open-access full text and were scored.
+
+![](figures/fig_gate_coverage.png)
+
+**Figure 8. Gate coverage against outcome.** Left, fraction of computed properties able to
+halt the pipeline. Right, molecules actually synthesised. Red, the audited campaign.
+
+**Table 10. Pilot survey of gate coverage (n = 4 scored, rubric fixed in advance).**
+
+| campaign | ref. | computed | gating | coverage | stability gate | synthesised | hits |
+|---|---|---|---|---|---|---|---|
+| ClickGen (PARP1) | 17 | 15 | 8 | **0.53** | **yes** | 3 | 2 |
+| DRAGONFLY (PPAR-gamma) | 18 | 14 | 3 | 0.21 | no | 3 | 2 |
+| CLM (Nurr1) | 19 | 8 | 0 | **0.00** | no | 6 | 2 |
+| CLM (ROR-gamma) | 20 | 4 | 0 | **0.00** | no | 3 | **3** |
+| This campaign | 13 | 19 | 3 | 0.16 | no | **0** | 0 |
+
+**The hypothesis fails.** Two campaigns with gate coverage of zero synthesised their designs
+and obtained hits, one of them three from three at 0.37 micromolar (ref. 20). Automated gate
+coverage does not distinguish them from a campaign that produced nothing.
+
+What the ROR-gamma paper does record is a different kind of gate. Its first round of designs
+was judged "synthetically inaccessible by medicinal chemists", retrosynthetic analysis "did
+not find a synthetic route", and that assessment prompted a revision of the method rather
+than an order for synthesis (ref. 20). The gate existed, it was a person, and it fired before
+money was spent. The campaign audited here has no equivalent step in its record: the
+spreadsheet in section 3.1 was produced and three molecules were requested from chemists.
+
+The claim that survives is narrower than the one we set out to make, and is about process
+rather than tooling. **A criterion capable of stopping the pipeline must exist and must be
+consulted. It does not have to be automated, and automating it is not sufficient.**
+
+### 3.10 Three hypotheses of ours, tested and refuted
+
+We state these together because the pattern is the paper's most useful methodological
+content.
+
+**Table 11. Hypotheses proposed during this work and their outcomes.**
+
+| hypothesis | test | outcome |
+|---|---|---|
+| Generative models produce molecules that cannot be made | filter battery, 240,214 molecules, 8 models (3.2) | **refuted**, they pass at 81 to 89 percent |
+| Goal-directed optimisation degrades makeability | decile analysis (3.8), plus 50 goal-directed campaigns pooling a 50 percent hit rate (ref. 14) | **refuted** |
+| Low gate coverage explains the failure | pilot survey, 4 campaigns (3.9) | **refuted**, two campaigns at coverage 0.00 succeeded |
+
+Each was plausible, each would have made a more quotable paper, and each was removed by a
+control we ran on ourselves. What remains is a single documented negative case with an
+unusually complete audit trail, set against 73 positive controls from the literature.
+
 
 ## 4. Discussion
 
@@ -332,6 +450,13 @@ drawn from real chemistry. This campaign selected against docking thresholds and
 that distribution, with nothing positioned to notice. **Not one of its 73 molecules has an
 aromatic ring**, a feature present in essentially every drug-like compound and in both its own
 reference drugs. A single aromaticity check would have flagged the entire set.
+
+The pilot survey (section 3.9) constrains this further than we would like. Two campaigns
+with no automated gates at all synthesised their molecules and obtained hits. The mechanism
+cannot therefore be gate coverage as a number. What distinguishes the successful campaigns
+in the sample is that a criterion, in one documented case a medicinal chemist's judgement,
+was positioned to reject designs and did so before synthesis was commissioned. The
+architectural claim survives; its automated form does not.
 
 We report our own two failures for the same reason we report the campaign's. A paper arguing
 that computational tools fail silently would be self-refuting if it presented its own tools as
@@ -357,6 +482,16 @@ computational audit, which is fully reproducible, as the evidential core.
 sufficient panel construction is open.
 
 **One target family.** All docking results are KRAS.
+
+**The gate-coverage survey is a pilot, n = 4.** Twelve papers were sampled at random from
+the corpus; eight were not retrievable as open-access full text. Four scored papers cannot
+establish a population claim, and the survey is reported as refuting our hypothesis rather
+than establishing its replacement. A full survey requires institutional access and is the
+obvious next step.
+
+**Three of our own hypotheses were refuted during this work** (section 3.10). We report them
+rather than the tidier account that would have followed from stopping earlier, because the
+refutations bound what the surviving claim can carry.
 
 **Self-audit.** We built the system audited here. This gives us the primary artefacts and an
 obvious interest in the interpretation. All data and code are released so the analysis can be
@@ -398,16 +533,26 @@ record containing only successes cannot support a methodological claim.
 
 ## 8. References
 
-1. Gao, W. & Coley, C. W. The Synthesizability of Molecules Proposed by Generative Models. *J. Chem. Inf. Model.* **60**, 5714–5723 (2020). doi:10.1021/acs.jcim.0c00174
-2. Capuzzi, S. J., Muratov, E. N. & Tropsha, A. Phantom PAINS: Problems with the Utility of Alerts for Pan-Assay INterference CompoundS. *J. Chem. Inf. Model.* **57**, 417–427 (2017). doi:10.1021/acs.jcim.6b00465
-3. Baell, J. B. & Nissink, J. W. M. Seven Year Itch: Pan-Assay Interference Compounds (PAINS) in 2017, Utility and Limitations. *ACS Chem. Biol.* **13**, 36–44 (2018). doi:10.1021/acschembio.7b00903
-4. Buttenschoen, M., Morris, G. M. & Deane, C. M. PoseBusters: AI-based docking methods fail to generate physically valid poses or generalise to novel sequences. *Chem. Sci.* **15**, 3130–3139 (2024). doi:10.1039/D3SC04185A
-5. Brenk, R. et al. Lessons Learnt from Assembling Screening Libraries for Drug Discovery for Neglected Diseases. *ChemMedChem* **3**, 435–444 (2008). doi:10.1002/cmdc.200700139
-6. Eberhardt, J., Santos-Martins, D., Tillack, A. F. & Forli, S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. *J. Chem. Inf. Model.* **61**, 3891–3898 (2021). doi:10.1021/acs.jcim.1c00203
-7. Wang, X. et al. Identification of MRTX1133, a Noncovalent, Potent, and Selective KRAS^G12D^ Inhibitor. *J. Med. Chem.* **65**, 3123–3133 (2022). doi:10.1021/acs.jmedchem.1c01688
-8. Ardalan, B., Ciner, A., Baca, Y. et al. Distinct Molecular and Clinical Features of Specific Variants of KRAS Codon 12 in Pancreatic Adenocarcinoma. *Clin. Cancer Res.* **31**, 1082–1090 (2025). doi:10.1158/1078-0432.CCR-24-3149
-9. Canon, J. et al. The clinical KRAS(G12C) inhibitor AMG 510 drives anti-tumour immunity. *Nature* **575**, 217–223 (2019). doi:10.1038/s41586-019-1694-1
-10. Hallin, J. et al. The KRAS^G12C^ Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients. *Cancer Discov.* **10**, 54–71 (2020). doi:10.1158/2159-8290.CD-19-1167
+1. Gao, W. & Coley, C. W. The Synthesizability of Molecules Proposed by Generative Models. *J. Chem. Inf. Model.* **60**, 5714-5723 (2020). doi:10.1021/acs.jcim.0c00174
+2. Capuzzi, S. J., Muratov, E. N. & Tropsha, A. Phantom PAINS: Problems with the Utility of Alerts for Pan-Assay INterference CompoundS. *J. Chem. Inf. Model.* **57**, 417-427 (2017). doi:10.1021/acs.jcim.6b00465
+3. Baell, J. B. & Nissink, J. W. M. Seven Year Itch: Pan-Assay Interference Compounds (PAINS) in 2017, Utility and Limitations. *ACS Chem. Biol.* **13**, 36-44 (2018). doi:10.1021/acschembio.7b00903
+4. Buttenschoen, M., Morris, G. M. & Deane, C. M. PoseBusters: AI-based docking methods fail to generate physically valid poses or generalise to novel sequences. *Chem. Sci.* **15**, 3130-3139 (2024). doi:10.1039/D3SC04185A
+5. Brenk, R. et al. Lessons Learnt from Assembling Screening Libraries for Drug Discovery for Neglected Diseases. *ChemMedChem* **3**, 435-444 (2008). doi:10.1002/cmdc.200700139
+6. Eberhardt, J., Santos-Martins, D., Tillack, A. F. & Forli, S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. *J. Chem. Inf. Model.* **61**, 3891-3898 (2021). doi:10.1021/acs.jcim.1c00203
+7. Wang, X. et al. Identification of MRTX1133, a Noncovalent, Potent, and Selective KRAS-G12D Inhibitor. *J. Med. Chem.* **65**, 3123-3133 (2022). doi:10.1021/acs.jmedchem.1c01688
+8. Ardalan, B., Ciner, A., Baca, Y. et al. Distinct Molecular and Clinical Features of Specific Variants of KRAS Codon 12 in Pancreatic Adenocarcinoma. *Clin. Cancer Res.* **31**, 1082-1090 (2025). doi:10.1158/1078-0432.CCR-24-3149
+9. Canon, J. et al. The clinical KRAS(G12C) inhibitor AMG 510 drives anti-tumour immunity. *Nature* **575**, 217-223 (2019). doi:10.1038/s41586-019-1694-1
+10. Hallin, J. et al. The KRAS-G12C Inhibitor MRTX849 Provides Insight toward Therapeutic Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients. *Cancer Discov.* **10**, 54-71 (2020). doi:10.1158/2159-8290.CD-19-1167
 11. Genheden, S. et al. AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. *J. Cheminform.* **12**, 70 (2020). doi:10.1186/s13321-020-00472-1
 12. Swanson, K. et al. ADMET-AI: a machine learning ADMET platform for evaluation of large-scale chemical libraries. *Bioinformatics* **40**, btae416 (2024). doi:10.1093/bioinformatics/btae416
-13. Obi, E. D., Yentumi, J. A., Mbatuegwu, D., Ayobami, F. & Obi, T. Generating Novel Small Molecule Drugs for Selected SARS-CoV-2 Proteins: The Medgnosis GenAI Approach. *Advances in Multidisciplinary and Scientific Research Journal* **10**(4), 7–18 (2024). doi:10.22624/AIMS/V10N4P1
+13. Obi, E. D., Yentumi, J. A., Mbatuegwu, D., Ayobami, F. & Obi, T. Generating Novel Small Molecule Drugs for Selected SARS-CoV-2 Proteins: The Medgnosis GenAI Approach. *Advances in Multidisciplinary and Scientific Research Journal* **10**(4), 7-18 (2024). doi:10.22624/AIMS/V10N4P1
+14. Du, Y. et al. Machine learning-aided generative molecular design. *Nature Machine Intelligence* **6**, 589-604 (2024). doi:10.1038/s42256-024-00843-5
+15. Polykovskiy, D. et al. Molecular Sets (MOSES): A Benchmarking Platform for Molecular Generation Models. *Front. Pharmacol.* **11** (2020). doi:10.3389/fphar.2020.565644
+16. Brown, N., Fiscato, M., Segler, M. H. S. & Vaucher, A. C. GuacaMol: Benchmarking Models for de Novo Molecular Design. *J. Chem. Inf. Model.* **59**, 1096-1108 (2019). doi:10.1021/acs.jcim.8b00839
+17. Wang, et al. ClickGen: Directed exploration of synthesizable chemical space via modular reactions and reinforcement learning. *Nat. Commun.* **15** (2024). doi:10.1038/s41467-024-54456-y
+18. Atz, K. et al. Prospective de novo drug design with deep interactome learning. *Nat. Commun.* **15** (2024). doi:10.1038/s41467-024-47613-w
+19. Ballarotto, M. et al. De Novo Design of Nurr1 Agonists via Fragment-Augmented Generative Deep Learning. *J. Med. Chem.* **66**, 8170-8177 (2023). doi:10.1021/acs.jmedchem.3c00485
+20. Moret, M. et al. Beam Search for Automated Design and Scoring of Novel ROR Ligands with Machine Intelligence. *Angew. Chem. Int. Ed.* **60**, 19477-19482 (2021). doi:10.1002/anie.202104405
+21. RDKit: Open-source cheminformatics. https://www.rdkit.org
+
+*All entries verified against CrossRef publisher records on 2026-09-05. Resolution notes in* `papers/REFERENCES.md`.

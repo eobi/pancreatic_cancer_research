@@ -63,3 +63,39 @@ appear.** Reported coverage:
 |---|---|---|
 | G12D + G12V | 81% | 68% |
 | G12D + G12V + G12R | **98%** | **83%** |
+
+## Additions for the expanded manuscript (verified via CrossRef, 2026-09-05)
+
+14. **Du, Y., Jamasb, A. R., Guo, J., Fu, T., Harris, C., Wang, Y., Duan, C., Lio, P.,
+    Schwaller, P. & Blundell, T. L.** Machine learning-aided generative molecular design.
+    *Nature Machine Intelligence* **6**, 589-604 (2024).
+    https://doi.org/10.1038/s42256-024-00843-5
+    *Source of the curated corpus of 73 generative campaigns with experimental validation
+    used in section 3.6. Direct and recent prior art; must be cited in the introduction.*
+15. **Polykovskiy, D. et al.** Molecular Sets (MOSES): A Benchmarking Platform for
+    Molecular Generation Models. *Frontiers in Pharmacology* **11** (2020).
+    https://doi.org/10.3389/fphar.2020.565644
+    *Source of the eight baseline model outputs used in the filter battery.*
+16. **Brown, N., Fiscato, M., Segler, M. H. S. & Vaucher, A. C.** GuacaMol: Benchmarking
+    Models for de Novo Molecular Design. *J. Chem. Inf. Model.* **59**, 1096-1108 (2019).
+    https://doi.org/10.1021/acs.jcim.8b00839
+17. **Wang, et al.** ClickGen: Directed exploration of synthesizable chemical space via
+    modular reactions and reinforcement learning. *Nature Communications* **15** (2024).
+    https://doi.org/10.1038/s41467-024-54456-y
+    *Surveyed campaign, gate coverage 0.53, the only one of four applying a reactive-group
+    filter.*
+18. **Atz, K. et al.** Prospective de novo drug design with deep interactome learning.
+    *Nature Communications* **15** (2024). https://doi.org/10.1038/s41467-024-47613-w
+    *Surveyed campaign, gate coverage 0.21.*
+19. **Ballarotto, M. et al.** De Novo Design of Nurr1 Agonists via Fragment-Augmented
+    Generative Deep Learning. *J. Med. Chem.* **66**, 8170-8177 (2023).
+    https://doi.org/10.1021/acs.jmedchem.3c00485
+    *Surveyed campaign, gate coverage 0.00, 6 synthesised, 2 hits.*
+20. **Moret, M. et al.** Beam Search for Automated Design and Scoring of Novel ROR Ligands
+    with Machine Intelligence. *Angew. Chem. Int. Ed.* **60**, 19477-19482 (2021).
+    https://doi.org/10.1002/anie.202104405
+    *Surveyed campaign, gate coverage 0.00, 3 synthesised, 3 hits. Records medicinal
+    chemists rejecting the first design round as synthetically inaccessible, prompting a
+    method revision. The key observation in section 3.6.*
+21. **RDKit: Open-source cheminformatics.** https://www.rdkit.org
+    *BRENK and PAINS catalogues used unmodified throughout.*

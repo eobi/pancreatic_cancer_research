@@ -1,38 +1,38 @@
 ---
-title: "Computed, recorded, ignored: a self-audit of a generative drug-discovery campaign whose failure was visible in its own output"
+title: "Computed but not consulted: a self-audit of a generative drug-discovery campaign against KRAS in pancreatic cancer"
 author: "Obi Ebuka David (Autogon Inc.)"
 date: "2026-09-05"
 ---
 
-# Computed, recorded, ignored
+# Computed but not consulted
 
-## A self-audit of a generative drug-discovery campaign whose failure was visible in its own output
+## A self-audit of a generative drug-discovery campaign against KRAS in pancreatic cancer
 
 **Obi Ebuka David**, Autogon Inc. Correspondence: davidobi023@gmail.com
 
 ## Abstract
 
 We report a self-audit of a generative small-molecule campaign against KRAS in pancreatic
-ductal adenocarcinoma, conducted by the authors of the generative system itself. The system
-(ref. 13) produced 73 candidate molecules; three were sent to synthetic chemists and
-approximately one year of laboratory work produced no compound. The audit finds that the
-failure was not a failure of prediction. The campaign's own output file contains a column
-named `Epoxide Ring Present`, and its value is **True for all three molecules sent for
-synthesis**. The same file records predicted mutagenicity (AMES) at a median of 0.93 across
-all 73 molecules, drug-likeness (QED) at 0.39, and synthetic accessibility at 5.47 against
-4.21 and 3.84 for the two reference drugs. Every signal required to halt the campaign was
-computed, written down, and shipped. None of it was connected to a decision. Selection used
-docking thresholds alone, and the one criterion with authority over the outcome,
-`Good Docking Quality Overall`, reads True for 72 of 73 molecules. We further show, against
-a control of 240,214 molecules released by eight published generative models, that this is
-**not** a general property of generative chemistry: those models produce molecules passing
-an unmodified published filter at 81 to 89 percent, against 6.8 percent for this campaign.
-The distinguishing feature was not the generator but the absence of any gate between
-prediction and purchase order. We rebuild the pipeline so that every stage must reproduce
-known answers before its output is used, report four validated targets and three completed
-screens, and document the two occasions on which our own replacement methods failed in the
-same manner and were caught by those gates. Code, data, and all negative results are
-released.
+ductal adenocarcinoma, conducted by the authors of the generative system. It produced 73
+candidate molecules; three were sent to synthetic chemists and approximately one year of
+laboratory work produced no compound. The failure was not one of prediction. The campaign's
+own output file contains a column named "Epoxide Ring Present", set True for all three
+molecules sent for synthesis. The same file records predicted mutagenicity at a median of 0.93 across all 73 molecules and
+synthetic accessibility at 5.47 against 4.21 and 3.84 for the two reference drugs. Every
+signal required to halt the campaign was computed, written down, and shipped, and none was
+connected to a decision. Selection used docking thresholds alone, and the one criterion with
+authority over the outcome, "Good Docking Quality Overall", reads True for 72 of 73
+molecules. Against a control of 240,214 molecules from eight published
+generative models, this is not a general property of generative chemistry: those models pass
+an unmodified published filter at 81 to 89 percent, against 6.8 percent here. The
+distinguishing feature was not the generator but the absence of any gate between prediction
+and purchase order. We rebuild the pipeline so that every stage must reproduce
+known answers before its output is used, and report four validated targets, three completed
+screens, and two occasions on which our own replacement methods failed in the same manner
+and were caught by those gates. We also report four hypotheses we proposed for the failure and could not
+support, including our own, and state where the surviving claim is bounded: the audit is of
+a single campaign, the laboratory outcome is attested rather than documented, and no
+compound has been measured. Code, data, and all negative results are released.
 
 ## 1. Introduction
 

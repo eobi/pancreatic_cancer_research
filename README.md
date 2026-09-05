@@ -1,7 +1,45 @@
-# Digitising pancreatic cancer drug discovery, end to end
+# Computed but not consulted
 
-A validated pipeline from target structure to an orderable compound, and the plan for
-extending it through the chemical and biological validation that normally happens in a lab.
+### Digitising pancreatic cancer drug discovery, end to end
+
+**A validated screening pipeline for KRAS in pancreatic ductal adenocarcinoma, and a
+self-audit of the generative campaign that preceded it.**
+
+Keywords: pancreatic cancer, pancreatic ductal adenocarcinoma, KRAS, KRAS G12D, KRAS G12V,
+KRAS G12R, virtual screening, molecular docking, AutoDock Vina, MM-GBSA, generative
+chemistry, de novo molecular design, ADMET, retrosynthesis, cheminformatics, reproducible
+research, negative results.
+
+---
+
+## Paper
+
+**[Computed but not consulted: a self-audit of a generative drug-discovery campaign against
+KRAS in pancreatic cancer](papers/computed-but-not-consulted.pdf)**
+Obi Ebuka David, Autogon Inc. (2026).
+[Manuscript source](papers/computed-but-not-consulted.md) |
+[Verified references](papers/REFERENCES.md) |
+[Figures](papers/figures/) |
+[Adversarial review](papers/CRITIQUE.md)
+
+A generative campaign produced 73 candidate molecules for KRAS. Three went to synthetic
+chemists and roughly a year of laboratory work produced no compound. The campaign's own
+output file contains a column named `Epoxide Ring Present`, set **True for all three
+molecules sent for synthesis**. Every signal needed to stop the campaign was computed,
+recorded, and connected to nothing.
+
+Against 240,214 molecules from eight published generative models, this is not a general
+property of generative chemistry: those models pass an unmodified BRENK and PAINS filter at
+81 to 89 percent, against 6.8 percent here.
+
+The repository contains the rebuilt pipeline, four validated targets, three completed
+screens, and every negative result including four hypotheses we could not support.
+
+**Citation:** see [CITATION.cff](CITATION.cff). The generative system audited here is
+published as Obi et al. (2024), *Advances in Multidisciplinary and Scientific Research
+Journal* **10**(4), 7-18, doi:10.22624/AIMS/V10N4P1.
+
+---
 
 **[DISCOVERIES.md](DISCOVERIES.md)** — what we found, with the numbers.
 **[PIPELINE.md](PIPELINE.md)** — every phase, its command, and the gate it must pass.

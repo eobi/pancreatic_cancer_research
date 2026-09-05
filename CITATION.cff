@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+title: >-
+  Computed but not consulted: a self-audit of a generative
+  drug-discovery campaign against KRAS in pancreatic cancer
+message: If you use this software, data or analysis, please cite it as below.
+type: software
+authors:
+  - family-names: Obi
+    given-names: Ebuka David
+    affiliation: Autogon Inc.
+    email: davidobi023@gmail.com
+repository-code: https://github.com/eobi/pancreatic_cancer_research
+abstract: >-
+  A validated computational pipeline for small-molecule discovery against KRAS in
+  pancreatic ductal adenocarcinoma, together with a self-audit of a prior generative
+  campaign whose three synthesis candidates could not be made. Every stage carries a
+  known-answer gate that must reproduce results for approved drugs before its output
+  is used. Includes four validated KRAS targets (G12C, G12D, G12V, G12R), three
+  completed virtual screens over 518,662 purchasable compounds, MM-GBSA rescoring,
+  a filter battery across 240,214 molecules from eight published generative models,
+  and all negative results.
+keywords:
+  - drug discovery
+  - pancreatic cancer
+  - pancreatic ductal adenocarcinoma
+  - KRAS
+  - KRAS G12D
+  - KRAS G12V
+  - KRAS G12R
+  - virtual screening
+  - molecular docking
+  - AutoDock Vina
+  - MM-GBSA
+  - generative chemistry
+  - de novo molecular design
+  - cheminformatics
+  - ADMET
+  - retrosynthesis
+  - synthetic accessibility
+  - reproducibility
+  - negative results
+license: MIT
+date-released: '2026-09-05'
+version: 1.0.0
+references:
+  - type: article
+    title: >-
+      Generating Novel Small Molecule Drugs for Selected SARS-CoV-2 Proteins:
+      The Medgnosis GenAI Approach
+    authors:
+      - family-names: Obi
+        given-names: E. D.
+      - family-names: Yentumi
+        given-names: J. A.
+      - family-names: Mbatuegwu
+        given-names: D.
+      - family-names: Ayobami
+        given-names: F.
+      - family-names: Obi
+        given-names: T.
+    journal: Advances in Multidisciplinary and Scientific Research Journal
+    volume: '10'
+    issue: '4'
+    start: 7
+    end: 18
+    year: 2024
+    doi: 10.22624/AIMS/V10N4P1

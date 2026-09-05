@@ -218,7 +218,7 @@ RP03514 **−33.02**, G12D-selective MRTX-1133 **−5.70** kcal/mol. The method 
 wrong-variant drug last unprompted, and **cannot** separate two close analogues 0.2
 kcal/mol apart. Both facts belong in the paper; the second bounds what the first licenses.
 
-**A pre-registered premise, confirmed.** `PAPER-2-prospective-gates.md` was written before
+**A pre-registered premise, confirmed.** the prospective protocol (withdrawn) was written before
 this run finished and predicted no meaningful rank correlation *on the grounds that* the
 Vina spread lies inside Vina's error. The measured spread (1.80 kcal/mol) and the measured
 rho (+0.106) confirm **the premise**. The prediction itself concerns *measured* activity

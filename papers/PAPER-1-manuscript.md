@@ -416,6 +416,44 @@ Each was plausible, each would have made a more quotable paper, and each was rem
 control we ran on ourselves. What remains is a single documented negative case with an
 unusually complete audit trail, set against 73 positive controls from the literature.
 
+### 3.11 The 2025 campaign and the rebuilt pipeline, stage by stage
+
+Table 12 sets the audited campaign beside its replacement. The 2025 column is taken from the
+published method (ref. 13) and from the column headings of the output file itself; it is not
+a characterisation. The distinguishing column is the last one: whether a stage could stop a
+molecule, or only describe it.
+
+**Table 12. Campaign as run in 2025 against the rebuilt pipeline.**
+
+| stage | 2025 campaign | rebuilt pipeline | can it stop a molecule? |
+|---|---|---|---|
+| Target choice | G12C leads the docking columns; structure availability | variant chosen by PDAC prevalence (ref. 8); a cognate ligand is required | 2025 no, now yes |
+| Receptor | not stated | box defined by the crystallographic ligand, plus 10 A | n/a |
+| Method validation | none reported | cognate redock RMSD < 2.0 A; measured 0.67, 0.88, 1.55, 0.99 A | **new gate** |
+| Docking | DiffDock blind docking, GNINA CNN rescoring | site-directed Vina 1.2.7 into the validated box (ref. 6) | ranking only, both |
+| Scoring reliability | not assessed | 4.0 kcal/mol run-to-run variance measured on the old method and it was replaced | **new gate** |
+| Library | generated, unconstrained | 518,662 purchasable compounds, MW window bracketing the reference drugs | constrains the space |
+| Chemical reality | `Epoxide Ring Present`, `PAINS` computed and reported | 14-drug calibration panel must survive the filter | 2025 **no**, now yes |
+| Selection heuristic | not applicable | similarity plus diversity, validated against a random arm (-8.68 vs -8.24) | measured, not assumed |
+| Selection rule | DiffDock confidence >= -1.5, GNINA affinity <= -5.0 kcal/mol | docking rank after every gate has passed | both, but on different inputs |
+| ADMET | ADMET-AI computed: AMES, ClinTox, Carcinogens, QED, Lipinski, TPSA, logP | ADMET-AI with thresholds derived from approved controls; the script exits if a control fails | 2025 **no**, now yes |
+| Synthetic accessibility | SA score computed, median 5.47 against 4.21 and 3.84 for the reference drugs | retrosynthesis plus a forward chemoselectivity and conditions check | 2025 **no**, now yes |
+| Independent rescoring | none | MM-GBSA, gated on the cognate ligand scoring as a binder | **new gate** |
+| Laboratory capture | none | specified, **not built** | still no |
+| Outcome | 3 molecules to chemists, ~1 year, no compound | 3 targets screened, no compound ordered yet | |
+
+Two features of this table matter more than the rest.
+
+**Most of the 2025 stages existed.** The campaign computed reactive-group flags, PAINS,
+mutagenicity and synthetic accessibility. Six of the fourteen rows differ not in whether a
+property was calculated but in whether the calculation was permitted to remove a molecule.
+
+**The rebuilt pipeline has not yet produced a compound either.** It has produced four
+validated targets, three completed screens and a set of gates, and no purchase order. On the
+only measure that finally matters, a molecule in a vial with a number attached, the two
+columns currently read the same. The difference claimed here is in what is known about why,
+not in a better outcome.
+
 ## 4. Discussion
 
 The components of this stack behaved as documented. Structural alerts over-rejected, as Capuzzi

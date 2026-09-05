@@ -15,3 +15,9 @@ data/screens/screen_g12v.json
 data/screens/screen_g12d_random.json
 data/screens/screen_g12d_sim.json
 data/raw/library_K.smi
+
+# Third-party journal full text retrieved for the survey (section 3.9).
+# NOT redistributable: publisher XML under their own licence terms, and it carries
+# 106 author email addresses belonging to people unconnected with this work.
+# Regenerate with: src/survey_score.py after re-fetching from Europe PMC.
+data/survey/fulltext/

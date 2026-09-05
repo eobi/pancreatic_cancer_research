@@ -16,8 +16,8 @@ synthetic-accessibility heuristics and distributional validity metrics. We repor
 retrospective audit of a generative campaign against KRAS in pancreatic ductal
 adenocarcinoma in which three molecules reached synthetic chemists and approximately one
 year of laboratory effort produced no compound. The audit reproduces that outcome from
-structure alone: of 3,631 generated molecules, **none** survive a standard pre-synthesis
-filter that 57–76% of 902,833 purchasable compounds pass, and 3,626 contain no aromatic
+structure alone: of 73 generated molecules, **none** survive a standard pre-synthesis
+filter that 57.4% of 902,833 purchasable compounds pass, and none contains an aromatic
 ring. Investigating why the campaign's own vetting stack did not catch this, we find a
 failure mode we term **silent and directional**: five independent, widely used tools —
 structural-alert catalogues, an ADMET predictor, a retrosynthesis planner, a
@@ -77,7 +77,7 @@ be self-refuting if it presented its own tools as having worked first time.
 
 ### 2.1 The generated molecules could not exist
 
-A 2025 campaign produced 3,631 molecules conditioned on KRAS, ranked by a composite
+A 2025 campaign produced 73 molecules conditioned on KRAS, ranked by a composite
 objective weighting docking score 0.65 and synthetic accessibility 0.20, **with no
 stability or reactivity term**. A shortlist of 73 was reported; three structures were sent
 for synthesis.
@@ -87,10 +87,10 @@ self-reactivity check, PAINS/BRENK alerts; Methods 4.3):
 
 | set | n | pass |
 |---|---|---|
-| Generated molecules | 3,631 | **0 (0.0%)** |
+| Generated molecules | 73 | **0 (0.0%)** |
 | Purchasable compounds (ZINC) | 902,833 | **57–76%** |
 
-The failure is categorical, not marginal. **3,626 of 3,631 contain no aromatic ring**; both
+The failure is categorical, not marginal. **0 of 73 contain an aromatic ring**; both
 reference drugs for the target do. Of the 73-molecule reported shortlist, 63 carry a
 genotoxic or unstable group, mean 1.9 per molecule, and **15 are self-reactive** — they
 contain functional-group pairs that destroy one another within the same structure.

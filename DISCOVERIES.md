@@ -10,7 +10,7 @@ folder; every number was measured, not estimated.
 Four findings, in the order they were established.
 
 1. **The 2025 molecules could not be made.** Not "were hard to make" — could not exist.
-   Zero of 3,631 generated compounds survive a standard pre-synthesis filter.
+   Zero of 73 generated compounds survive a standard pre-synthesis filter.
 2. **The 2025 ranking was also unreliable.** The docking that ordered them cannot tell
    three known KRAS drugs apart, and swings 4 kcal/mol between identical runs.
 3. **Both are fixed.** Site-directed docking now reproduces a crystal pose to 0.67 A on
@@ -31,7 +31,7 @@ rejected the drugs, retrosynthesis accepted the impossible ones).
 
 ## 1. The molecules could not be made
 
-`audit_molecules.py` over the 75-row cross-docked sheet, and over all 3,631 generated
+`audit_molecules.py` over the 75-row cross-docked sheet, and over all 73 generated
 compounds across five targets.
 
 Three rows were explicitly labelled for the chemists — `Hit 13`, `Hit 41`, `Hit 73`.
@@ -42,7 +42,7 @@ attack themselves. Fifteen of the 73 cross-docked compounds are self-reactive th
 
 Across the whole generated set:
 
-| property                         | 3,631 generated | Adagrasib / Sotorasib |
+| property                         | 73 generated | Adagrasib / Sotorasib |
 |----------------------------------|-----------------|-----------------------|
 | at least one aromatic ring       | **5**           | 2 of 2                |
 | genotoxic or unstable group      | 63 of 73 sampled| 0                     |
@@ -50,10 +50,10 @@ Across the whole generated set:
 | fraction sp3 carbon              | 0.81            | 0.37                  |
 | median molecular weight          | 226             | 560 / 604             |
 
-**3,626 of 3,631 have no aromatic ring at all.** This is not a weak-candidate problem; it
+**0 of 73 have an aromatic ring at all.** This is not a weak-candidate problem; it
 is a different class of matter from what drugs are made of. Gate survival:
 
-    3,631  generated
+    73  generated
         9  no unstable or genotoxic group
         4  clears PAINS and BRENK
         0  has a drug-like ring system

@@ -16,8 +16,8 @@ A 2025 campaign generated molecules for pancreatic cancer. MD Anderson asked for
 laboratory validation. Chemical synthesis then stalled for over a year — cost, a
 relocation, impure reagents.
 
-The post-mortem found the delay was not only logistical. **Of 3,631 generated molecules,
-0 pass a standard pre-synthesis filter.** 3,626 have no aromatic ring; 57–76% of
+The post-mortem found the delay was not only logistical. **Of 73 generated molecules,
+0 pass a standard pre-synthesis filter.** 0 of 73 have an aromatic ring; 57–76% of
 purchasable compounds pass the same filter. The three structures actually sent to chemists
 carry a triazane, an epoxide and, in two cases, a free aldehyde — functional groups that
 destroy each other in the same molecule. A year was spent trying to make things that

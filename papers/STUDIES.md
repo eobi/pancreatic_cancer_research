@@ -13,11 +13,11 @@ carry.
 ## Study 1 — Generative models produce molecules that cannot exist
 
 **Claim.** A protein-conditioned generative model, evaluated only on docking score and a
-synthetic-accessibility heuristic, produced 3,631 molecules of which **none** survive a
+synthetic-accessibility heuristic, produced 73 molecules of which **none** survive a
 standard pre-synthesis filter. The failure is categorical, not marginal.
 
 **Evidence.**
-- 3,626 of 3,631 have **no aromatic ring**. Reference drugs: 2 of 2.
+- **0 of 73 have an aromatic ring.** Reference drugs: 2 of 2 do.
 - 63 of 73 in the reported shortlist carry a genotoxic or unstable group; mean 1.9 each.
 - 15 are **self-reactive** — functional groups that destroy each other in the same molecule.
 - The three structures actually sent to chemists all carry a triazane, an epoxide and (in

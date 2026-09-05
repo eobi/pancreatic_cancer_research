@@ -85,9 +85,9 @@ drafting. Treat the table as a checklist, not a bibliography.*
 
 ## Evidence in hand
 
-**Generative output (n = 3,631).**
+**Generative output (n = 73).**
 - **0** survive a standard pre-synthesis filter.
-- **3,626** contain no aromatic ring. Reference drugs: 2 of 2 do.
+- **0 of 73** contain an aromatic ring. Reference drugs: 2 of 2 do.
 - 63 of 73 in the reported shortlist carry a genotoxic or unstable group; mean 1.9 each.
 - **15 are self-reactive** — functional groups that destroy one another in the same molecule.
 - The three structures sent to chemists carry a **triazane**, an **epoxide**, and (in two)

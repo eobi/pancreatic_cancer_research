@@ -38,7 +38,7 @@ Coverage **68%** now, **83%** once G12R runs.
 
 ### What the experiments established
 
-1. 0 of 3,631 generated molecules pass a filter 57-76% of purchasable compounds pass.
+1. 0 of 73 generated molecules pass a filter 57-76% of purchasable compounds pass.
 2. Five independent filters failed in the same direction, each rejecting approved drugs.
 3. Retrosynthesis scored an impossible molecule above a marketed drug (80% vs 71%).
 4. Blind docking could not rank (4.0 kcal/mol variance); site-directed can.

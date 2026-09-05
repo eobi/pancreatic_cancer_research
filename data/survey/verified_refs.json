@@ -1,0 +1,482 @@
+[
+  {
+    "doi": "10.31557/apjcp.2026.27.1.265",
+    "first": "Gusrin",
+    "n_auth": 3,
+    "title": "Comprehensive Molecular Docking and Molecular Dynamics Reveal Inhibitors of HER2 L755S, T798I, and T798M based on a Large Database of Curcumin Derivatives",
+    "journal": "Asian Pacific Journal of Cancer Prevention",
+    "year": 2026,
+    "volume": "27",
+    "page": "265-279"
+  },
+  {
+    "doi": "10.3390/dj14050301",
+    "first": "Guzm\u00e1n-Flores",
+    "n_auth": 8,
+    "title": "In Silico Identification of Dual-Action Compounds Targeting TLR2 and Streptococcus mutans Proteins for the Prevention of Early Childhood Caries",
+    "journal": "Dentistry Journal",
+    "year": 2026,
+    "volume": "14",
+    "page": "301"
+  },
+  {
+    "doi": "10.3389/fphar.2025.1713452",
+    "first": "Iqbal",
+    "n_auth": 5,
+    "title": "Computational-experimental integration identifies potent carbohydrate-hydrolyzing enzyme inhibitors from Nardostachys jatamansi: molecular docking, dynamics and pharmacokinetic predictions",
+    "journal": "Frontiers in Pharmacology",
+    "year": 2026,
+    "volume": "16",
+    "page": null
+  },
+  {
+    "doi": "10.3389/fcimb.2026.1723132",
+    "first": "Soares",
+    "n_auth": 9,
+    "title": "Integrative proteome-wide structural analysis and high-throughput docking identify broad-spectrum antiviral scaffolds against Zika, Yellow Fever, West Nile, Saint Louis encephalitis, and Usutu viruses",
+    "journal": "Frontiers in Cellular and Infection Microbiology",
+    "year": 2026,
+    "volume": "16",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41698-026-01296-2",
+    "first": "Yu",
+    "n_auth": 5,
+    "title": "AI-driven virtual screening platform identifies novel NSUN2 inhibitor candidates for targeted cancer therapy: a computational drug discovery approach",
+    "journal": "npj Precision Oncology",
+    "year": 2026,
+    "volume": "10",
+    "page": null
+  },
+  {
+    "doi": "10.3390/ijms262412038",
+    "first": "Al Khzem",
+    "n_auth": 10,
+    "title": "In Silico Lead Identification of Staphylococcus aureus LtaS Inhibitors: A High-Throughput Computational Pipeline Towards Prototype Development",
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2025,
+    "volume": "26",
+    "page": "12038"
+  },
+  {
+    "doi": "10.1371/journal.pone.0323781",
+    "first": "Alanzi",
+    "n_auth": 4,
+    "title": "Discovery of ROCK2 inhibitors through computational screening of ZINC database: Integrating pharmacophore modeling, molecular docking, and MD simulations",
+    "journal": "PLOS One",
+    "year": 2025,
+    "volume": "20",
+    "page": "e0323781"
+  },
+  {
+    "doi": "10.1038/s41598-025-20714-2",
+    "first": "Ali",
+    "n_auth": 6,
+    "title": "Computational discovery of BRD4 inhibitors for neuroblastoma therapy using pharmacophore screening and molecular simulations",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1016/j.heliyon.2025.e42238",
+    "first": "Cabrera",
+    "n_auth": 9,
+    "title": "CADD-based discovery of novel oligomeric modulators of PKM2 with antitumor activity in aggressive human glioblastoma models",
+    "journal": "Heliyon",
+    "year": 2025,
+    "volume": "11",
+    "page": "e42238"
+  },
+  {
+    "doi": "10.3389/fbinf.2025.1499255",
+    "first": "Gakpey",
+    "n_auth": 11,
+    "title": "Targeting aldose reductase using natural African compounds as promising agents for managing diabetic complications",
+    "journal": "Frontiers in Bioinformatics",
+    "year": 2025,
+    "volume": "5",
+    "page": null
+  },
+  {
+    "doi": "10.1021/acs.jmedchem.5c00512",
+    "first": "Garc\u00eda",
+    "n_auth": 10,
+    "title": "AI-Driven De Novo Design and Development of Nontoxic DYRK1A Inhibitors",
+    "journal": "Journal of Medicinal Chemistry",
+    "year": 2025,
+    "volume": "68",
+    "page": "10346-10364"
+  },
+  {
+    "doi": "10.1186/s13065-025-01575-2",
+    "first": "Han",
+    "n_auth": 14,
+    "title": "Virtual screening, optimization design, and synthesis analysis of novel benzofuran derivatives as pan-genotypic HCV NS5B polymerase inhibitors using molecular modeling",
+    "journal": "BMC Chemistry",
+    "year": 2025,
+    "volume": "19",
+    "page": null
+  },
+  {
+    "doi": "10.3389/fmolb.2025.1581711",
+    "first": "Hassan",
+    "n_auth": 6,
+    "title": "Structure-guided virtual screening reveals phytoconstituents as potent cathepsin B inhibitors: Implications for cancer, traumatic brain injury, and Alzheimer\u2019s disease",
+    "journal": "Frontiers in Molecular Biosciences",
+    "year": 2025,
+    "volume": "12",
+    "page": null
+  },
+  {
+    "doi": "10.3390/biom15060849",
+    "first": "Islam",
+    "n_auth": 2,
+    "title": "Conditioned Generative Modeling of Molecular Glues: A Realistic AI Approach for Synthesizable Drug-like Molecules",
+    "journal": "Biomolecules",
+    "year": 2025,
+    "volume": "15",
+    "page": "849"
+  },
+  {
+    "doi": "10.1038/s41598-024-82043-0",
+    "first": "Islam",
+    "n_auth": 11,
+    "title": "Investigating new drugs from marine seaweed metabolites for cervical cancer therapy by molecular dynamic modeling approach",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41598-025-92868-y",
+    "first": "Jadhav",
+    "n_auth": 6,
+    "title": "Unlocking the therapeutic potential of unexplored phytocompounds as hepatoprotective agents through integration of network pharmacology and in-silico analysis",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41598-025-13282-y",
+    "first": "Kamel",
+    "n_auth": 8,
+    "title": "Mechanism-based inhibition of squalene epoxidase by phenothiazines for lipid metabolism disruption using repurposed antipsychotic drugs",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.3389/fchem.2025.1586728",
+    "first": "Kaviyarasu",
+    "n_auth": 5,
+    "title": "Virtual screening and molecular dynamics of anti-Alzheimer compounds from Cardiospermum halicacabum via GC-MS",
+    "journal": "Frontiers in Chemistry",
+    "year": 2025,
+    "volume": "13",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41598-025-10589-8",
+    "first": "Kotadiya",
+    "n_auth": 6,
+    "title": "In silico identification of prospective p53-MDM2 inhibitors from ASINEX database using a comprehensive molecular modelling approach",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.31557/apjcp.2025.26.11.4227",
+    "first": "Kumar",
+    "n_auth": 6,
+    "title": "In Silico and In Vitro Evaluation of Novel Small Molecule Inhibitors Targeting Apoptosis Pathways in Breast Cancer Cells",
+    "journal": "Asian Pacific Journal of Cancer Prevention",
+    "year": 2025,
+    "volume": "26",
+    "page": "4227-4237"
+  },
+  {
+    "doi": "10.1186/s40001-025-03197-9",
+    "first": "Mei",
+    "n_auth": 8,
+    "title": "Conjoint analysis of single-cell sequencing and high-throughput virtual screening regarding DDR2 in osteoarthritis disease models",
+    "journal": "European Journal of Medical Research",
+    "year": 2025,
+    "volume": "30",
+    "page": null
+  },
+  {
+    "doi": "10.1080/14756366.2025.2568121",
+    "first": "Peng",
+    "n_auth": 6,
+    "title": "Molecular screening of natural compounds targeting KRAS(G12C): a multi-parametric strategy against acute lymphoblastic leukemia",
+    "journal": "Journal of Enzyme Inhibition and Medicinal Chemistry",
+    "year": 2025,
+    "volume": "40",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41467-025-59874-0",
+    "first": "Pu",
+    "n_auth": 17,
+    "title": "Oral ENPP1 inhibitor designed using generative AI as next generation STING modulator for solid tumors",
+    "journal": "Nature Communications",
+    "year": 2025,
+    "volume": "16",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41598-025-20527-3",
+    "first": "Rahman",
+    "n_auth": 8,
+    "title": "Identification of stigmasterol derived AChE inhibitors for Alzheimer\u2019s disease using high throughput virtual screening and molecular dynamics simulations",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41598-025-22409-0",
+    "first": "Salama",
+    "n_auth": 4,
+    "title": "Bioinformatics approach for discovery of potential lead compound of NSP6 of SARS-CoV-2 using structure based virtual screening and molecular dynamics simulations",
+    "journal": "Scientific Reports",
+    "year": 2025,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1371/journal.pone.0325441",
+    "first": "Shah",
+    "n_auth": 11,
+    "title": "Computer-aided discovery of dual-target compounds for Alzheimer\u2019s from ayurvedic medicinal plants",
+    "journal": "PLOS One",
+    "year": 2025,
+    "volume": "20",
+    "page": "e0325441"
+  },
+  {
+    "doi": "10.1038/s41467-025-59870-4",
+    "first": "Sun",
+    "n_auth": 47,
+    "title": "A novel, covalent broad-spectrum inhibitor targeting human coronavirus Mpro",
+    "journal": "Nature Communications",
+    "year": 2025,
+    "volume": "16",
+    "page": null
+  },
+  {
+    "doi": "10.3390/ph18111679",
+    "first": "Twala",
+    "n_auth": 3,
+    "title": "Computational Chemistry Advances in the Development of PARP1 Inhibitors for Breast Cancer Therapy",
+    "journal": "Pharmaceuticals",
+    "year": 2025,
+    "volume": "18",
+    "page": "1679"
+  },
+  {
+    "doi": "10.1371/journal.pone.0317716",
+    "first": "Wang",
+    "n_auth": 7,
+    "title": "Exploration of small molecules as inhibitors of potential BACE1 protein to treat amyloid cerebrovascular disease by employing molecular modeling and simulation approaches",
+    "journal": "PLOS ONE",
+    "year": 2025,
+    "volume": "20",
+    "page": "e0317716"
+  },
+  {
+    "doi": "10.3390/bioengineering12060622",
+    "first": "Zekri",
+    "n_auth": 5,
+    "title": "Discovery of Novel Natural Inhibitors of H5N1 Neuraminidase Using Integrated Molecular Modeling and ADMET Prediction",
+    "journal": "Bioengineering",
+    "year": 2025,
+    "volume": "12",
+    "page": "622"
+  },
+  {
+    "doi": "10.1039/d5ra04840k",
+    "first": "Zheng",
+    "n_auth": 6,
+    "title": "Exploring pocket-aware inhibitors of BTK kinase by generative deep learning, molecular docking, and molecular dynamics simulations",
+    "journal": "RSC Advances",
+    "year": 2025,
+    "volume": "15",
+    "page": "35336-35355"
+  },
+  {
+    "doi": "10.3390/ph17070884",
+    "first": "Achappa",
+    "n_auth": 9,
+    "title": "Computational Exploration of Potential Pharmacological Inhibitors Targeting the Envelope Protein of the Kyasanur Forest Disease Virus",
+    "journal": "Pharmaceuticals",
+    "year": 2024,
+    "volume": "17",
+    "page": "884"
+  },
+  {
+    "doi": "10.1371/journal.pone.0311527",
+    "first": "Alanzi",
+    "n_auth": 5,
+    "title": "Integration of pharmacophore-based virtual screening, molecular docking, ADMET analysis, and MD simulation for targeting EGFR: A comprehensive drug discovery study using commercial databases",
+    "journal": "PLOS ONE",
+    "year": 2024,
+    "volume": "19",
+    "page": "e0311527"
+  },
+  {
+    "doi": "10.1371/journal.pone.0306804",
+    "first": "Alanzi",
+    "n_auth": 5,
+    "title": "In silico exploration of PD-L1 binding compounds: Structure-based virtual screening, molecular docking, and MD simulation",
+    "journal": "PLOS ONE",
+    "year": 2024,
+    "volume": "19",
+    "page": "e0306804"
+  },
+  {
+    "doi": "10.1371/journal.pone.0303597",
+    "first": "Albrijawi",
+    "n_auth": 2,
+    "title": "LSTM-driven drug design using SELFIES for target-focused de novo generation of HIV-1 protease inhibitor candidates for AIDS treatment",
+    "journal": "PLOS ONE",
+    "year": 2024,
+    "volume": "19",
+    "page": "e0303597"
+  },
+  {
+    "doi": "10.1038/s41467-024-47613-w",
+    "first": "Atz",
+    "n_auth": 17,
+    "title": "Prospective de novo drug design with deep interactome learning",
+    "journal": "Nature Communications",
+    "year": 2024,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.3390/md22080375",
+    "first": "Chen",
+    "n_auth": 4,
+    "title": "Identification of Marine-Derived SLC7A11 Inhibitors: Molecular Docking, Structure-Based Virtual Screening, Cytotoxicity Prediction, and Molecular Dynamics Simulation",
+    "journal": "Marine Drugs",
+    "year": 2024,
+    "volume": "22",
+    "page": "375"
+  },
+  {
+    "doi": "10.3390/cimb46100666",
+    "first": "Ewell",
+    "n_auth": 3,
+    "title": "In Silico Screening of 1,3,4-Thiadiazole Derivatives as Inhibitors of Vascular Endothelial Growth Factor Receptor-2 (VEGFR-2)",
+    "journal": "Current Issues in Molecular Biology",
+    "year": 2024,
+    "volume": "46",
+    "page": "11220-11235"
+  },
+  {
+    "doi": "10.1038/s41587-024-02503-w",
+    "first": "Fu",
+    "n_auth": 23,
+    "title": "Intestinal mucosal barrier repair and immune regulation with an AI-developed gut-restricted PHD inhibitor",
+    "journal": "Nature Biotechnology",
+    "year": 2024,
+    "volume": "43",
+    "page": "1772-1777"
+  },
+  {
+    "doi": "10.3389/fphar.2024.1360226",
+    "first": "Gheidari",
+    "n_auth": 3,
+    "title": "Virtual screening, molecular docking, MD simulation studies, DFT calculations, ADMET, and drug likeness of Diaza-adamantane as potential MAPKERK inhibitors",
+    "journal": "Frontiers in Pharmacology",
+    "year": 2024,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41598-024-61439-y",
+    "first": "Hu",
+    "n_auth": 6,
+    "title": "Identification of potential modulators for human GPD1 by docking-based virtual screening, molecular dynamics simulations, binding free energy calculations, and DeLA-drug analysis",
+    "journal": "Scientific Reports",
+    "year": 2024,
+    "volume": "14",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41467-024-46569-1",
+    "first": "Huang",
+    "n_auth": 11,
+    "title": "A dual diffusion model enables 3D molecule generation and lead optimization based on target pockets",
+    "journal": "Nature Communications",
+    "year": 2024,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41467-024-52060-8",
+    "first": "Isigkeit",
+    "n_auth": 12,
+    "title": "Automated design of multi-target ligands by generative deep learning",
+    "journal": "Nature Communications",
+    "year": 2024,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.1021/acs.jcim.4c00634",
+    "first": "Li",
+    "n_auth": 11,
+    "title": "Mining for Potent Inhibitors through Artificial Intelligence and Physics: A Unified Methodology for Ligand Based and Structure Based Drug Design",
+    "journal": "Journal of Chemical Information and Modeling",
+    "year": 2024,
+    "volume": "64",
+    "page": "9082-9097"
+  },
+  {
+    "doi": "10.3390/ijms251910779",
+    "first": "Mohamed",
+    "n_auth": 10,
+    "title": "Unveiling the Anticancer Potential: Computational Exploration of Nitrogenated Derivatives of (+)-Pancratistatin as Topoisomerase I Inhibitors",
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2024,
+    "volume": "25",
+    "page": "10779"
+  },
+  {
+    "doi": "10.1038/s41467-024-47120-y",
+    "first": "Munson",
+    "n_auth": 8,
+    "title": "De novo generation of multi-target compounds using deep generative chemistry",
+    "journal": "Nature Communications",
+    "year": 2024,
+    "volume": "15",
+    "page": null
+  },
+  {
+    "doi": "10.3389/fchem.2024.1380266",
+    "first": "Siddique",
+    "n_auth": 10,
+    "title": "Revisiting methotrexate and phototrexate Zinc15 library-based derivatives using deep learning in-silico drug design approach",
+    "journal": "Frontiers in Chemistry",
+    "year": 2024,
+    "volume": "12",
+    "page": null
+  },
+  {
+    "doi": "10.1038/s41467-024-54456-y",
+    "first": "Wang",
+    "n_auth": 15,
+    "title": "ClickGen: Directed exploration of synthesizable chemical space via modular reactions and reinforcement learning",
+    "journal": "Nature Communications",
+    "year": 2024,
+    "volume": "15",
+    "page": null
+  }
+]

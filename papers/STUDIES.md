@@ -28,8 +28,8 @@ standard pre-synthesis filter. The failure is categorical, not marginal.
 → `results/audit-output.txt`
 
 **Does not support.** That generative chemistry cannot work — only that this model, with
-this objective, did not. The objective weighted docking 0.65 and synthetic accessibility
-0.20, with no stability term at all.
+this objective, did not. Selection used docking thresholds only (DiffDock confidence >= -1.5, GNINA
+minimised affinity <= -5.0 kcal/mol); no stability or reactivity criterion was applied.
 
 **Why it is worth publishing.** The failure mode is invisible to every metric the field
 routinely reports. A paper that says "we shipped three impossible molecules to a lab and

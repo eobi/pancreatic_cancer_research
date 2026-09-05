@@ -1,0 +1,92 @@
+[
+  {
+    "model": "aae",
+    "n": 27730,
+    "parse_fail": 2270,
+    "pass_pct": 87.71,
+    "aromatic_pct": 97.89,
+    "ring_pct": 99.95,
+    "median_mw": 323.4
+  },
+  {
+    "model": "char_rnn",
+    "n": 29653,
+    "parse_fail": 347,
+    "pass_pct": 86.2,
+    "aromatic_pct": 98.16,
+    "ring_pct": 99.93,
+    "median_mw": 310.4
+  },
+  {
+    "model": "combinatorial",
+    "n": 30000,
+    "parse_fail": 0,
+    "pass_pct": 81.49,
+    "aromatic_pct": 95.44,
+    "ring_pct": 98.73,
+    "median_mw": 325.4
+  },
+  {
+    "model": "hmm",
+    "n": 3381,
+    "parse_fail": 26619,
+    "pass_pct": 89.44,
+    "aromatic_pct": 77.64,
+    "ring_pct": 92.37,
+    "median_mw": 108.1
+  },
+  {
+    "model": "jtn",
+    "n": 30000,
+    "parse_fail": 0,
+    "pass_pct": 86.04,
+    "aromatic_pct": 98.61,
+    "ring_pct": 99.94,
+    "median_mw": 307.8
+  },
+  {
+    "model": "latent_gan",
+    "n": 26799,
+    "parse_fail": 3201,
+    "pass_pct": 84.72,
+    "aromatic_pct": 97.52,
+    "ring_pct": 99.96,
+    "median_mw": 307.4
+  },
+  {
+    "model": "ngram",
+    "n": 7134,
+    "parse_fail": 22866,
+    "pass_pct": 85.51,
+    "aromatic_pct": 89.88,
+    "ring_pct": 99.07,
+    "median_mw": 233.3
+  },
+  {
+    "model": "vae",
+    "n": 29297,
+    "parse_fail": 703,
+    "pass_pct": 86.5,
+    "aromatic_pct": 98.32,
+    "ring_pct": 99.96,
+    "median_mw": 306.4
+  },
+  {
+    "model": "OUR-CAMPAIGN",
+    "n": 73,
+    "parse_fail": 0,
+    "pass_pct": 6.85,
+    "aromatic_pct": 0.0,
+    "ring_pct": 98.63,
+    "median_mw": 226.3
+  },
+  {
+    "model": "PURCHASABLE",
+    "n": 30000,
+    "parse_fail": 0,
+    "pass_pct": 97.52,
+    "aromatic_pct": 100.0,
+    "ring_pct": 100.0,
+    "median_mw": 523.6
+  }
+]

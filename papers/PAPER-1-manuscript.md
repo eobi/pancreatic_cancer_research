@@ -77,9 +77,8 @@ be self-refuting if it presented its own tools as having worked first time.
 
 ### 2.1 The generated molecules could not exist
 
-A 2025 campaign produced 73 molecules conditioned on KRAS, ranked by a composite
-objective weighting docking score 0.65 and synthetic accessibility 0.20, **with no
-stability or reactivity term**. A shortlist of 73 was reported; three structures were sent
+A 2025 campaign produced 73 molecules conditioned on KRAS, selected by docking thresholds alone (DiffDock confidence ≥ −1.5, GNINA minimised
+affinity ≤ −5.0 kcal/mol), **with no stability or reactivity criterion**. A shortlist of 73 was reported; three structures were sent
 for synthesis.
 
 Applying a standard pre-synthesis filter (aromatic-ring requirement, unstable-group SMARTS,

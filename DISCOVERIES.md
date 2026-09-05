@@ -622,6 +622,19 @@ tolerates a cheap search; validation compares geometry to a crystal and does not
 two-tier arrangement was correct — but it was never checked until now, and could as easily
 have gone the other way.
 
+**The campaign's own output file recorded the reason it would fail.** The source
+spreadsheet carries an `Epoxide Ring Present` column. **All three molecules sent for
+synthesis have it set to True.** The same file records `AMES` (mutagenicity) at a median of
+**0.93** across all 73 molecules, `QED` at 0.39 against a >0.5 norm, and synthetic
+accessibility at median 5.47 against 4.21 and 3.84 for the two reference drugs, with 22 of
+73 above 6. Meanwhile `Good Docking Quality Overall` reads True for 72 of 73.
+
+Nothing was undetected. Every signal needed to stop the campaign was computed, recorded,
+and shipped **as a column to read rather than a gate that stops**. Selection used docking
+thresholds only (DiffDock confidence >= -1.5, GNINA minimised affinity <= -5.0 kcal/mol),
+per the published method (Obi et al. 2024). The failure was not perception. It was that
+perception had no authority to halt anything.
+
 **A control is only meaningful if it is cognate.** Judging 8AFB with Sotorasib, whose
 structure is 6OIM, measures the wrong thing.
 

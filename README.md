@@ -112,6 +112,135 @@ measurement.
 
 ---
 
+## What each phase does, and what it caught
+
+Eleven phases. Each has a **gate** — a check against a known answer that must pass before
+anything downstream is believed. The gates are the point: nine of the eleven were added
+because something upstream had already failed silently.
+
+### Phase 0 — Target intake
+Pick the variant by **disease prevalence**, then find a structure for it.
+**Gate:** the structure must contain a co-crystallised drug-like ligand.
+
+*What it caught:* G12C was chosen first only because 8AFB had a cognate ligand — and G12C
+is **1.7%** of pancreatic cancer. It is the lung variant. 82 hits were found against a
+target that barely occurs in this disease. Prevalence drives the choice now, and a
+structure without a cognate ligand is rejected outright, because phase 2 cannot run
+without one.
+
+### Phase 1 — Receptor prep
+Strip waters and ions, keep the pocket, define the box around the crystal ligand.
+
+*Why it matters here:* KRAS has an induced-fit switch-II pocket that only exists when a
+ligand holds it open. An apo structure has no pocket to dock into.
+
+### Phase 2 — Method validation ← the gate missing in 2025
+Redock the crystal ligand and measure RMSD to its known pose.
+**Gate: cognate redock RMSD < 2.0 Å.** Measured **0.67 Å** (G12C), **0.88 Å** (G12D).
+
+Also record the **control spread** — how far apart the known binders score: 2.96 kcal/mol
+on G12C, 4.84 on G12D. A spread near zero means the function cannot rank at all.
+
+*What it caught:* the original DiffDock + GNINA setup showed **4.0 kcal/mol run-to-run
+variance on the same molecule** (Sotorasib scored −3.80 and −7.78 on repeat runs). It was
+not ranking, it was sampling noise. Replaced with site-directed Vina.
+
+### Phase 3 — Library acquisition
+Download purchasable compounds from ZINC, resumable and polite.
+**Gate:** the mass range must bracket the target's known drugs.
+
+*What it caught:* ZINC tranche letters are **mass bins** — I = 425–450, J = 450–500,
+K = 500–953. MRTX-1133 is 600 Da. The first library pulled was centred on 437 Da and had
+to be thrown away. Also: `files.docking.org` returns 503 under parallel requests and
+writes the HTML error page into your `.smi` file, and 403s urllib's default User-Agent
+while allowing curl's. Both corrupt a library without announcing it.
+
+### Phase 4 — Chemical reality gate ← the phase that would have saved the year
+Can this molecule exist? Aromatic rings, unstable groups, self-reactive pairs, PAINS/BRENK.
+**Gate: a PANEL of known drugs must survive it** — not two or three.
+
+*What it caught:* **five separate catalogue rules were broken in the same direction.**
+BRENK flags acrylamide as a Michael acceptor, rejecting Sotorasib and Adagrasib — the
+warhead *is* the mechanism. A nitroso pattern also matched nitro groups, rejecting
+Venetoclax. And the gate rejected **MRTX-1133** on the alkyne in its structure. A 14-drug
+panel found all of them; a 3-drug check had missed them. Streaming is required — a 22M
+compound list exhausts 16 GB otherwise.
+
+### Phase 5 — Selection
+Similarity to known binders, with a diversity cap so the shortlist is not one scaffold.
+
+*Validated against a random control arm:* similarity-selected median **−8.68** vs random
+**−8.24** kcal/mol. The heuristic earns its place; it is not assumed.
+
+### Phase 6 — Docking screen
+Site-directed Vina into the validated box. One Vina per ligand at one core each —
+**4× faster** than one Vina on ten cores, because Vina's search threads poorly.
+Checkpointed every 25 and resumable.
+
+*Result:* G12D essentially nothing across 19,639. G12V 2 past the cognate across 9,913.
+
+### Phase 7 — ADMET
+Absorption, distribution, metabolism, excretion, toxicity — as a **filter**, not a column.
+**Gate: the approved controls must pass.** Re-checked on every invocation; the script
+exits if one fails.
+
+*What it caught:* textbook cutoffs (DILI < 0.70, hERG < 0.70) rejected **199 of 200
+compounds, including Sotorasib and Adagrasib**. Every approved control failed them. Those
+two endpoints are now informational, with the thresholds derived from a 14-drug panel
+rather than a textbook.
+
+### Phase 8 — Route and buyability
+Retrosynthesis (AiZynthFinder) for molecules nobody has made; vendor and price lookup for
+ones you can buy. **Gate: chemical reality first** — the script refuses ungated input.
+
+*What it caught:* retrosynthesis gave an impossible molecule an **80% in-stock precursor
+fraction, better than Adagrasib's 71%**. It cannot judge stability: a triazane that
+decomposes on formation still has a valid formal disconnection. Running this stage alone
+reproduces the 2025 failure with more confidence attached.
+
+Now extended by `route_forward.py`, which asks the question retrosynthesis structurally
+cannot: **will each step work on this molecule?** It checks chemoselectivity (the reagent
+cannot tell three identical sites apart) and condition compatibility (an epoxide does not
+survive the acid that removes a Boc). Calibrated: generated molecules need a median of
+**4** interventions where a purchasable compound needs **1**.
+
+### Phase 9 — Order dossier
+Join survivors back to ZINC IDs, vendor, price and availability. The output a human
+approves before money is spent.
+
+### Rung 2 — MM-GBSA rescoring
+An independent physics-based check on the docking ranking, scoring the **docked pose**.
+**Gate: the cognate ligand must score as a binder, and the known drugs must order sensibly.**
+
+*What it caught — my own bug:* the first version re-embedded each ligand from SMILES, so
+it sat in an arbitrary frame near the origin while the protein sat elsewhere. The
+"complex" was two things floating apart. The crystallographic ligand scored **+23.44
+kcal/mol** — impossible. Scoring the docked pose gives **−33.22**. The gate initially only
+*counted* results instead of checking the ranking it promised, so the broken run proceeded
+and burned 37 minutes. Both are fixed and commented.
+
+### Phase 10 — Lab capture — NOT BUILT
+Orders placed from inside the system; NMR, LC-MS, purity and assay readouts ingested back
+onto the molecule record that predicted them.
+
+**This matters more than anything above it.** Every phase improves only if measured
+outcomes return. Without it the pipeline never learns, and the phases that need real assay
+data — potency, cell response, exposure — cannot be built at all.
+
+---
+
+## The pattern across all of it
+
+Nine of eleven gates exist because a tool gave a confident, plausible, wrong answer.
+None of them threw an error. A filter that rejects the drugs it should rank first still
+returns a tidy sorted list, and a scoring function with 4 kcal/mol of noise still prints
+numbers to two decimal places.
+
+The only defence that worked was running every stage against molecules whose answer was
+already known, and refusing to believe the stage until it reproduced them.
+
+---
+
 ## Layout
 
     src/          every pipeline script, plus the Kaggle notebook and status helpers

@@ -456,39 +456,42 @@ unusually complete audit trail, set against 73 positive controls from the litera
 
 Table 13 sets the audited campaign beside its replacement. The 2025 column is taken from the
 published method (ref. 13) and from the column headings of the output file itself; it is not
-a characterisation. The distinguishing column is the last one: whether a stage could stop a
-molecule, or only describe it.
+a characterisation. The last two columns record only one thing about each stage: whether it
+could remove a molecule. **GATE** means it could, **rank** means it ordered molecules without
+removing any, and **none** means the stage produced a record only.
 
-**Table 13. Campaign as run in 2025 against the rebuilt pipeline.**
+**Table 13. Campaign as run in 2025 against the rebuilt pipeline.** *The 2025 column is drawn
+from a published method; the rebuilt column is our own account of our own unpublished system.
+The evidential standards are not equal and the comparison should be read accordingly.*
 
-| stage | 2025 campaign | rebuilt pipeline | can it stop a molecule? |
-|---|---|---|---|
-| Target choice | G12C leads the docking columns; structure availability | variant chosen by PDAC prevalence (ref. 8); a cognate ligand is required | 2025 no, now yes |
-| Receptor | not stated | box defined by the crystallographic ligand, plus 10 A | n/a |
-| Method validation | none reported | cognate redock RMSD < 2.0 A; measured 0.67, 0.88, 1.55, 0.99 A | **new gate** |
-| Docking | DiffDock blind docking, GNINA CNN rescoring | site-directed Vina 1.2.7 into the validated box (ref. 6) | ranking only, both |
-| Scoring reliability | not assessed | 4.0 kcal/mol run-to-run variance measured on the old method and it was replaced | **new gate** |
-| Library | generated, unconstrained | 518,662 purchasable compounds, MW window bracketing the reference drugs | constrains the space |
-| Chemical reality | `Epoxide Ring Present`, `PAINS` computed and reported | 14-drug calibration panel must survive the filter | 2025 **no**, now yes |
-| Selection heuristic | not applicable | similarity plus diversity, validated against a random arm (-8.68 vs -8.24) | measured, not assumed |
-| Selection rule | DiffDock confidence >= -1.5, GNINA affinity <= -5.0 kcal/mol | docking rank after every gate has passed | both, but on different inputs |
-| ADMET | ADMET-AI computed: AMES, ClinTox, Carcinogens, QED, Lipinski, TPSA, logP | ADMET-AI with thresholds derived from approved controls; the script exits if a control fails | 2025 **no**, now yes |
-| Synthetic accessibility | SA score computed, median 5.47 against 4.21 and 3.84 for the reference drugs | retrosynthesis plus a forward chemoselectivity and conditions check | 2025 **no**, now yes |
-| Independent rescoring | none | MM-GBSA, gated on the cognate ligand scoring as a binder | **new gate** |
-| Laboratory capture | none | specified, **not built** | still no |
-| Outcome | 3 molecules to chemists, ~1 year, no compound | 3 targets screened, no compound ordered yet | |
+| stage | 2025 campaign | rebuilt pipeline | 2025 | now |
+|---|---|---|---|---|
+| Target choice | G12C leads the docking columns | chosen by PDAC prevalence (ref. 8); cognate ligand required | none | **GATE** |
+| Method validation | none reported | cognate redock RMSD < 2.0 A | none | **GATE** |
+| Scoring reliability | not assessed | 4.0 kcal/mol variance measured, method replaced | none | **GATE** |
+| Docking | DiffDock blind, GNINA rescoring | site-directed Vina 1.2.7 (ref. 6) | rank | rank |
+| Library | generated, unconstrained | 518,662 purchasable, MW-windowed | none | **GATE** |
+| Chemical reality | epoxide and PAINS flags computed | 14-drug calibration panel must survive | none | **GATE** |
+| Selection heuristic | not applicable | similarity plus diversity, validated vs random | none | rank |
+| Selection rule | DiffDock >= -1.5, GNINA <= -5.0 | docking rank after all gates pass | **GATE** | **GATE** |
+| ADMET | AMES, ClinTox, QED, Lipinski computed | thresholds from approved controls; exits on failure | none | **GATE** |
+| Synthetic accessibility | SA score computed, median 5.47 | retrosynthesis plus chemoselectivity check | none | **GATE** |
+| Independent rescoring | none | MM-GBSA, gated on the cognate scoring as a binder | none | **GATE** |
+| Laboratory capture | none | specified, **not built** | none | none |
+| **Stages able to stop a molecule** | | | **1 of 12** | **9 of 12** |
 
 Two features of this table matter more than the rest.
 
 **Most of the 2025 stages existed.** The campaign computed reactive-group flags, PAINS,
-mutagenicity and synthetic accessibility. Six of the fourteen rows differ not in whether a
-property was calculated but in whether the calculation was permitted to remove a molecule.
+mutagenicity and synthetic accessibility. In seven of the twelve rows the difference is not
+whether a property was calculated but whether the calculation could remove a molecule. One
+stage in the 2025 campaign could stop a molecule; nine can now.
 
-**The rebuilt pipeline has not yet produced a compound either.** It has produced four
-validated targets, three completed screens and a set of gates, and no purchase order. On the
-only measure that finally matters, a molecule in a vial with a number attached, the two
-columns currently read the same. The difference claimed here is in what is known about why,
-not in a better outcome.
+**The rebuilt pipeline has not produced a compound either.** It has produced four validated
+targets, three completed screens and a set of gates, and no purchase order. On the only
+measure that finally matters, a molecule in a vial with a number attached, the two columns
+read the same. The difference claimed here is in what is known about why, not in a better
+outcome.
 
 ## 4. Discussion
 
@@ -609,7 +612,11 @@ record containing only successes cannot support a methodological claim.
 20. Moret, M. et al. Beam Search for Automated Design and Scoring of Novel ROR Ligands with Machine Intelligence. *Angew. Chem. Int. Ed.* **60**, 19477-19482 (2021). doi:10.1002/anie.202104405
 21. RDKit: Open-source cheminformatics. https://www.rdkit.org
 
-*References 22 to 50 are the contemporary campaigns retrieved for the gate-coverage survey described in section 3.9 and its limitations. They are listed so the sampling frame is inspectable.*
+## Supplementary reference list: gate-coverage survey corpus
+
+The papers below are the contemporary campaigns (2024 to 2026) retrieved as the sampling frame
+for the gate-coverage survey in section 3.9. They are listed so the frame is inspectable, and
+are not cited individually in the argument.
 
 22. Gusrin et al. Comprehensive Molecular Docking and Molecular Dynamics Reveal Inhibitors of HER2 L755S, T798I, and T798M based on a Large Database of Curcumin Derivatives. *Asian Pacific Journal of Cancer Prevention* **27**, 265-279, (2026). doi:10.31557/apjcp.2026.27.1.265
 23. Guzmán-Flores et al. In Silico Identification of Dual-Action Compounds Targeting TLR2 and Streptococcus mutans Proteins for the Prevention of Early Childhood Caries. *Dentistry Journal* **14**, 301, (2026). doi:10.3390/dj14050301

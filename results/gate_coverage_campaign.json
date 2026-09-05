@@ -1,0 +1,29 @@
+{
+  "label": "KRAS campaign",
+  "types_computed": 19,
+  "types_gating": 3,
+  "coverage": 0.158,
+  "gating": [
+    "DiffDockConfidence",
+    "GNINAAffinity",
+    "DockingQuality"
+  ],
+  "inert": [
+    "MolecularWeight",
+    "SyntheticAccessibility",
+    "EpoxideRingPresent",
+    "PAINS",
+    "logP",
+    "Lipinski",
+    "QED",
+    "AMES",
+    "BBB",
+    "Bioavailability",
+    "Carcinogens",
+    "ClinTox",
+    "HBA",
+    "HBD",
+    "TPSA",
+    "FDAApproved"
+  ]
+}

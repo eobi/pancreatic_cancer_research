@@ -635,6 +635,16 @@ thresholds only (DiffDock confidence >= -1.5, GNINA minimised affinity <= -5.0 k
 per the published method (Obi et al. 2024). The failure was not perception. It was that
 perception had no authority to halt anything.
 
+**Optimising docking does not, by itself, destroy makeability.** Proposed mechanism,
+tested and refuted. Across 1,986 G12D-screened purchasable compounds binned into deciles by
+Vina score, the unmodified BRENK+PAINS pass rate is 97-100% in every decile and aromatic
+content is 100% throughout, from the best decile (-12.50..-10.01) to the worst
+(-7.03..-4.51). Selecting hard on a docking objective inside a catalogue is safe, because
+the catalogue bounds the search to real chemistry. The campaign's failure therefore needed
+BOTH an unconstrained generative search space AND no stability gate; neither alone
+reproduces it. Recorded because it is the control a reviewer would demand, and because the
+mechanism it refutes was ours.
+
 **A control is only meaningful if it is cognate.** Judging 8AFB with Sotorasib, whose
 structure is 6OIM, measures the wrong thing.
 

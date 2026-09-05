@@ -1,0 +1,37 @@
+{
+  "target": "KRAS G12V (9YMQ)",
+  "n": 200,
+  "spearman_rho": 0.1065,
+  "spearman_p": 0.1334,
+  "pearson_r": 0.1919,
+  "pearson_p": 0.006474,
+  "vina_range": [
+    -12.66,
+    -10.86
+  ],
+  "vina_spread": 1.8,
+  "mmgbsa_range": [
+    -45.56,
+    41.72
+  ],
+  "mmgbsa_spread": 87.28,
+  "predicted_binders": 166,
+  "top10_overlap": 2,
+  "controls": {
+    "AM-2383": -33.22352378974239,
+    "MRTX-1133": -5.698280873475255,
+    "RP03514": -33.02204510596641
+  },
+  "vinardo_rho_same_shortlist": 0.259,
+  "runtime": {
+    "wall_hours": 14.33,
+    "workers": 8,
+    "sec_per_compound": 286
+  },
+  "interim_rho_by_n": {
+    "50": 0.239,
+    "60": 0.347,
+    "80": 0.196,
+    "200": 0.106
+  }
+}

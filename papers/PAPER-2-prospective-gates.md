@@ -174,4 +174,33 @@ reason. This costs nothing now and is the difference between a prediction and a
 post-hoc explanation.
 
 ### Amendments
-*(none)*
+*(none — hypotheses and predictions unchanged)*
+
+---
+
+## Results recorded against the pre-registration
+
+**2026-09-05 — in-silico premise of prediction 3 confirmed; the prediction itself untested.**
+
+Prediction 3 was: *because the G12V top-200 Vina scores span only 1.4 kcal/mol, we predict
+no meaningful rank correlation with measured activity.*
+
+Completed: MM-GBSA on all 200 (8 workers, 286 s each, 14.3 h wall).
+
+| quantity | predicted | measured |
+|---|---|---|
+| Vina spread across the shortlist | ~1.4 kcal/mol | **1.80 kcal/mol** |
+| rank correlation, Vina vs an independent method | near zero | **rho = +0.106** (p = 0.13, n = 200) |
+
+**What this does and does not establish.** It confirms the *premise* — the shortlist is
+flat in the primary score, and a second independent method (MM-GBSA, molecular mechanics)
+agrees with a third (Vinardo, empirical, rho = 0.259) that no ranking is recoverable in
+silico. **Prediction 3 concerns measured activity and remains untested**; no compound has
+been assayed. This entry must not be read as the prediction having been met.
+
+**Consequence for the experimental design.** Compounds ordered from the G12V shortlist
+cannot be described as top-ranked, because the three available methods do not agree on a
+rank (top-10 overlap between Vina and MM-GBSA: **2 of 10**). Either order the intersection
+as an explicitly unranked diversity set, or draw the ordered set from a target whose
+shortlist is not flat. G12R was validated on 2026-09-05 (cognate redock 0.99 A) and is the
+better source.

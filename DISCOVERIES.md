@@ -603,6 +603,13 @@ the cognate moved 0.52 kcal/mol and **7.19 A -> 0.99 A**, turning FAIL into PASS
 ligand whose convergence the gate depends on. Any G12R screen therefore needs raised
 exhaustiveness, at roughly 8x the cost per ligand.
 
+**Check the spread before you pay to rescore.** The G12V top-200 spans **1.80 kcal/mol**
+in Vina score — inside Vina's own ~2.5 kcal/mol error. Rescoring it with MM-GBSA (200
+compounds, 14.3 h) gave rho = **+0.106**; Vinardo gave **+0.259**. Neither method failed:
+the input carried no ordering to recover. A flat shortlist bounds rho near zero before
+rescoring starts, so a low correlation gets misread as a bad rescoring method rather than
+a property of the shortlist. Measure the primary score's spread first; it costs nothing.
+
 **A control is only meaningful if it is cognate.** Judging 8AFB with Sotorasib, whose
 structure is 6OIM, measures the wrong thing.
 

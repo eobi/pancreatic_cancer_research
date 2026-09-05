@@ -180,3 +180,85 @@ Full runbook: `../PIPELINE.md`. Full narrative with all numbers: `../DISCOVERIES
 | every pipeline script | `src/` | 132 KB |
 
 Reproducing any study needs only `src/` plus the named data directory.
+
+---
+
+## Study 6 — Rescoring cannot rank a shortlist that is flat in the primary score
+
+**Claim.** When a virtual screen's shortlist spans less than the primary scoring function's
+own error, no rescoring method recovers a meaningful ranking — and two independent methods,
+of different physical type, both fail. The shortlist is not merely hard to order; it
+carries no ordering information to recover.
+
+### Evidence
+
+Target KRAS G12V (9YMQ), site-directed Vina shortlist, top 200 of 9,913 screened.
+
+| quantity | value |
+|---|---|
+| Vina score spread across all 200 | **1.80 kcal/mol** (−12.66 … −10.86) |
+| Vina's own documented error | ~2.5 kcal/mol |
+| MM-GBSA spread across the same 200 | **87.28 kcal/mol** (−45.56 … +41.72) |
+| Spearman rho, Vina vs MM-GBSA (n=200) | **+0.106** (p = 0.13) |
+| Spearman rho, Vina vs Vinardo (same shortlist) | **+0.259** |
+| Top-10 overlap between the two rankings | **2 of 10** |
+| Compounds MM-GBSA calls binders | 166 / 200 |
+
+Two rescoring functions of different type — Vinardo, an empirical function, and MM-GBSA,
+molecular mechanics with GB implicit solvent — independently fail to agree with the
+docking ranking. Vinardo additionally **failed its own controls**, ranking MRTX-1133 last
+of three, which disqualified it as an arbiter on this target.
+
+The disagreement is not subtle. One method reports the compounds as indistinguishable
+(1.80 kcal/mol apart), the other as differing by 87 kcal/mol. Which ten compounds you
+order depends almost entirely on which method you believe.
+
+**MM-GBSA controls (the gate that licenses the number):** cognate AM-2383 **−33.22**,
+RP03514 **−33.02**, G12D-selective MRTX-1133 **−5.70** kcal/mol. The method places the
+wrong-variant drug last unprompted, and **cannot** separate two close analogues 0.2
+kcal/mol apart. Both facts belong in the paper; the second bounds what the first licenses.
+
+**A pre-registered premise, confirmed.** `PAPER-2-prospective-gates.md` was written before
+this run finished and predicted no meaningful rank correlation *on the grounds that* the
+Vina spread lies inside Vina's error. The measured spread (1.80 kcal/mol) and the measured
+rho (+0.106) confirm **the premise**. The prediction itself concerns *measured* activity
+and remains untested — no compound has been assayed.
+
+**Interim estimates were noise, and the record shows it.** rho by sample size:
+0.239 (n=50) → 0.347 (n=60) → 0.196 (n=80) → **0.106 (n=200)**. The apparent significance
+at n=60 (p = 0.007) was a sampling artefact. Reporting it as a trend would have been wrong,
+and the interim values are kept here deliberately as evidence of how unstable small-n
+correlations are in this setting.
+
+**Reproduce.** `results/mmgbsa_g12v.json`, `results/rescoring_verdict_g12v.json`,
+`results/rescore_g12v.json`. 200 compounds, 8 workers, 286 s each, 14.3 h wall.
+
+### Methodological contribution — a failure mode worth naming
+
+The first MM-GBSA implementation scored a **re-embedded conformer** rather than the docked
+pose, so ligand and receptor sat in unrelated coordinate frames. The crystallographic
+cognate ligand scored **+23.44 kcal/mol** — non-binding, and impossible for a ligand
+resolved in the structure. Scoring the docked pose gives **−33.22**.
+
+The bug was caught only because a control gate demanded the cognate score as a binder. An
+earlier version of that gate *counted* results instead of checking the ranking its own
+docstring promised, and let the broken run proceed for 37 minutes. **A gate that does not
+check what it claims to check is indistinguishable from no gate.**
+
+### Does not support
+
+- That MM-GBSA is unreliable in general. It ordered the controls correctly here. It failed
+  to rank a set that contains no rank signal.
+- That these 200 compounds are inactive. Nothing was measured. They are unrankable *by
+  these methods*, which is a different claim.
+- That rescoring is not worth doing. It is the check that revealed the shortlist was flat.
+  A negative result from a cheap method is why the expensive method was not run.
+- Any conclusion about compounds outside this shortlist, or about other targets.
+
+### Why it is worth publishing
+
+The field routinely reports rescoring correlations without reporting the **spread of the
+primary score**. If the shortlist is flat, rho is bounded near zero before any rescoring
+begins, and a low correlation will be read as a failure of the rescoring method rather
+than a property of the input. The practical rule this yields is one line: **check that
+your shortlist spans more than your scoring function's error before you pay to rescore it.**

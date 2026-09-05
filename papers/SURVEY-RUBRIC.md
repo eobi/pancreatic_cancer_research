@@ -62,4 +62,16 @@ cannot be read as having found whatever we went looking for.
 
 ## Amendment log
 
-*(none)*
+**2026-09-05, amendment 1.** An automated keyword scorer was written to apply this rubric at
+scale across 45 open-access papers. It was validated against two papers scored by hand and
+**failed**: coverage errors of -0.23 and +0.29 on a 0 to 0.5 scale, in opposite directions.
+The scorer measures proximity of filter verbs to property names, not gate coverage. Its
+output (`results/survey_scored.json`) is marked DO NOT CITE and no number from it appears in
+any manuscript.
+
+The corpus itself is sound: 49 open-access full texts retrieved, 45 eligible under the
+inclusion criteria above. Scoring must be done by hand, or by a scorer that reproduces
+manual reads within 0.10 on a held-out set of at least 10 papers.
+
+The pre-registered prediction (median coverage below 0.35) is therefore **untested**, not
+confirmed. The automated median of 0.36 must not be read as evidence either way.

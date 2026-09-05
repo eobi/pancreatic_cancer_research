@@ -1,0 +1,1407 @@
+{
+  "scored": [
+    {
+      "pmcid": "PMC12081877",
+      "year": "2025",
+      "title": "SARS",
+      "computed": [
+        "ADMET",
+        "QED",
+        "SA_score",
+        "docking",
+        "selectivity"
+      ],
+      "gating": [],
+      "n_computed": 5,
+      "n_gating": 0,
+      "coverage": 0.0,
+      "stability_gate": false,
+      "evidence": {}
+    },
+    {
+      "pmcid": "PMC12102218",
+      "year": "2025",
+      "title": "Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)",
+      "computed": [
+        "ADMET",
+        "SA_score",
+        "docking",
+        "novelty",
+        "reactive",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [],
+      "n_computed": 8,
+      "n_gating": 0,
+      "coverage": 0.0,
+      "stability_gate": false,
+      "evidence": {}
+    },
+    {
+      "pmcid": "PMC12512888",
+      "year": "2025",
+      "title": "Conjoint analysis of single-cell sequencing and high-throughput virtual screenin",
+      "computed": [
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [],
+      "n_computed": 7,
+      "n_gating": 0,
+      "coverage": 0.0,
+      "stability_gate": false,
+      "evidence": {}
+    },
+    {
+      "pmcid": "PMC12948173",
+      "year": "2025",
+      "title": "In Silico and In Vitro Evaluation of Novel Small Molecule Inhibitors Targeting A",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "toxicity"
+      ],
+      "gating": [],
+      "n_computed": 8,
+      "n_gating": 0,
+      "coverage": 0.0,
+      "stability_gate": false,
+      "evidence": {}
+    },
+    {
+      "pmcid": "PMC13418042",
+      "year": "2026",
+      "title": "Comprehensive Molecular Docking and Molecular Dynamics Reveal Inhibitors of HER2",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [],
+      "n_computed": 8,
+      "n_gating": 0,
+      "coverage": 0.0,
+      "stability_gate": false,
+      "evidence": {}
+    },
+    {
+      "pmcid": "PMC12833380",
+      "year": "2026",
+      "title": "Computational-experimental integration identifies potent carbohydrate-hydrolyzin",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET"
+      ],
+      "n_computed": 10,
+      "n_gating": 1,
+      "coverage": 0.1,
+      "stability_gate": false,
+      "evidence": {
+        "ADMET": " validation through in vitro (Caco-2, hepatocyte stability, CYP450 profiling) and in vivo pharmacokinetic studies remains essential. Critical translational barriers emerged: uniformly poor predicted oral bioavailability (HIA: \u2212\u2212\u2212), hig"
+      }
+    },
+    {
+      "pmcid": "PMC11315321",
+      "year": "2024",
+      "title": "In silico exploration of PD-L1 binding compounds: Structure-based virtual screen",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "selectivity",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET"
+      ],
+      "n_computed": 9,
+      "n_gating": 1,
+      "coverage": 0.111,
+      "stability_gate": false,
+      "evidence": {
+        "ADMET": "ties is an important part of drug development. Computational tools are used to assess the pharmacokinetic and toxicological profiles of the identified PD-L1 inhibitors, providing information about their potential efficacy and safety. T"
+      }
+    },
+    {
+      "pmcid": "PMC11927919",
+      "year": "2025",
+      "title": "Exploration of small molecules as inhibitors of potential BACE1 protein to treat",
+      "computed": [
+        "ADMET",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "novelty",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "MW"
+      ],
+      "n_computed": 9,
+      "n_gating": 1,
+      "coverage": 0.111,
+      "stability_gate": false,
+      "evidence": {
+        "MW": "ies of the selected hits were predicted using OSIRIS Property Explorer and SwissADME. The molecular weight of a compound indicates its easy distribution in the cells so the compounds with less weight can easily distribute in the body as"
+      }
+    },
+    {
+      "pmcid": "PMC12232071",
+      "year": "2025",
+      "title": "Virtual screening, optimization design, and synthesis analysis of novel benzofur",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "docking"
+      ],
+      "n_computed": 9,
+      "n_gating": 1,
+      "coverage": 0.111,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "ding the five reported inhibitors described previously. For the purpose of predicting the binding affinity of the screened small molecule compounds with a benzofuran nucleus towards NS5B polymerase, in this study, a library of prepared "
+      }
+    },
+    {
+      "pmcid": "PMC12546947",
+      "year": "2025",
+      "title": "Computational discovery of BRD4 inhibitors for neuroblastoma therapy using pharm",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "QED"
+      ],
+      "n_computed": 9,
+      "n_gating": 1,
+      "coverage": 0.111,
+      "stability_gate": false,
+      "evidence": {
+        "QED": ".21 \u2212 0.30 \u2212 0.01 \u2212 0.00 Significant values are in bold. All hits lie within the range of drug-likeness (\u2212 10 to + 10) criteria, while MCULE-3,895,595,807, MCULE-8,812,795,806, CSC101661920, MCULE-2,532,030,345, and CHEMBL4216188 hit"
+      }
+    },
+    {
+      "pmcid": "PMC12559228",
+      "year": "2025",
+      "title": "Bioinformatics approach for discovery of potential lead compound of NSP6 of SARS",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski"
+      ],
+      "n_computed": 9,
+      "n_gating": 1,
+      "coverage": 0.111,
+      "stability_gate": false,
+      "evidence": {
+        "Lipinski": "ol of the hydrophilicity of the drug which indicates the absorption property, Lipiniski\u2019s rule of five is used to test the bioavailability characteristics ADME (adsorption, distribution, metabolism, elimination) of the drug like mol"
+      }
+    },
+    {
+      "pmcid": "PMC12074392",
+      "year": "2025",
+      "title": "Discovery of ROCK2 inhibitors through computational screening of ZINC database: ",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "MW"
+      ],
+      "n_computed": 8,
+      "n_gating": 1,
+      "coverage": 0.125,
+      "stability_gate": false,
+      "evidence": {
+        "MW": "d it was observed that the predicted values were in the acceptable range ( Table 4 ). The molecular weight plays a vital role in the distribution of a compound within cells, with lower-weight compounds generally able to distribute more "
+      }
+    },
+    {
+      "pmcid": "PMC10991842",
+      "year": "2024",
+      "title": "Revisiting methotrexate and phototrexate Zinc15 library-based derivatives using ",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "docking",
+        "logP",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "toxicity"
+      ],
+      "n_computed": 6,
+      "n_gating": 1,
+      "coverage": 0.167,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "ngthiest half-life of 8.33 h, indicating a more gradual elimination process. The clinical toxicity values indicate each compound\u2019s toxicity rating or score in the last column compound 180 exhibits the most favorable clinical to"
+      }
+    },
+    {
+      "pmcid": "PMC10965937",
+      "year": "2024",
+      "title": "CDK2",
+      "computed": [
+        "Lipinski",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "novelty",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "docking",
+        "toxicity"
+      ],
+      "n_computed": 9,
+      "n_gating": 2,
+      "coverage": 0.222,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "ampling given specific fragments). We generate 40000 molecules and filter out those whose Vina scores are smaller than -8.0 kcal/mol. Finally, we obtain 10627 molecules with high affinities. We checked all the filtered molecules, ",
+        "toxicity": " cavity and (2) filtering the molecules based on criteria such as energy estimation 4 and toxicity by experimental essays. Despite their widespread applications, these approaches suffer from two significant limitations 5 , 6 . "
+      }
+    },
+    {
+      "pmcid": "PMC13171538",
+      "year": "2026",
+      "title": "Integrative proteome-wide structural analysis and high-throughput docking identi",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW"
+      ],
+      "n_computed": 8,
+      "n_gating": 2,
+      "coverage": 0.25,
+      "stability_gate": false,
+      "evidence": {
+        "Lipinski": "t bond orders and atom types. Drug-likeness was evaluated using Lipinski\u2019s Rule of Five ( Lipinski et al., 2001 ) via the SwissADME web server ( Daina et al., 2017 ) ( http://www.swissadme.ch/ ). Molecular weight, hydrogen bond ",
+        "MW": " 2001 ) via the SwissADME web server ( Daina et al., 2017 ) ( http://www.swissadme.ch/ ). Molecular weight, hydrogen bond donors and acceptors, and predicted logP were recorded. Compounds violating more than one Lipinski criterion were "
+      }
+    },
+    {
+      "pmcid": "PMC11627428",
+      "year": "2024",
+      "title": "Integration of pharmacophore-based virtual screening, molecular docking, ADMET a",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "toxicity"
+      ],
+      "gating": [
+        "MW",
+        "logP"
+      ],
+      "n_computed": 7,
+      "n_gating": 2,
+      "coverage": 0.286,
+      "stability_gate": false,
+      "evidence": {
+        "logP": " of all selected compounds fall within this range. QPlogPo/w determines the octanol/water partition coefficient, a value within a range of \u20132.0 to 6.5 is good. The values of selected hits fall within this range. The compounds that were selec",
+        "MW": "compounds, and it was found that the expected values fell within an acceptable range. The molecular weight of a compound indicates its easy distribution in the cells so the compounds with less weight can easily distribute in the body as"
+      }
+    },
+    {
+      "pmcid": "PMC12040625",
+      "year": "2025",
+      "title": "Structure-guided virtual screening reveals phytoconstituents as potent cathepsin",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "PAINS",
+        "docking",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "toxicity"
+      ],
+      "n_computed": 7,
+      "n_gating": 2,
+      "coverage": 0.286,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "sicochemical property analysis using absorption, distribution, metabolism, excretion, and toxicity (ADMET) prediction tools. The Deep-PK ( https://biosig.lab.uq.edu.au/deeppk ) ( Myung et al., 2024 ) tool was used to predict th",
+        "ADMET": "unds with interference in the assays ( Baell, 2016 ). Thus, only compounds with favorable pharmacokinetic and ADMET profiles and no PAINS patterns were considered for the subsequent simulation study. PAINS filtering was performed post-"
+      }
+    },
+    {
+      "pmcid": "PMC12620837",
+      "year": "2025",
+      "title": "Structure-Guided Discovery of Drug-like Compounds Targeting HPV16 E6 for Antivir",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "toxicity"
+      ],
+      "n_computed": 7,
+      "n_gating": 2,
+      "coverage": 0.286,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "luating PPB and BBB. Specifically, compounds 22943341 and 55342208 demonstrated potential toxicity risks. In addition, all nine compounds comply with Lipinski\u2019s Rule of Five and are free from PAINS alerts. Table 4 ADMET propert",
+        "Lipinski": "342208 demonstrated potential toxicity risks. In addition, all nine compounds comply with Lipinski\u2019s Rule of Five and are free from PAINS alerts. Table 4 ADMET property predictions for the top-9 lead compounds. ID MW nHA nHD log"
+      }
+    },
+    {
+      "pmcid": "PMC11505934",
+      "year": "2024",
+      "title": "In Silico Screening of 1,3,4-Thiadiazole Derivatives as Inhibitors of Vascular E",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "docking",
+        "toxicity"
+      ],
+      "n_computed": 10,
+      "n_gating": 3,
+      "coverage": 0.3,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "es. Among the compounds evaluated, Tivozanib, the reference compound, achieved the lowest docking score of \u221212.135 kcal/mol, indicating the strongest binding affinity among all tested molecules. In this study, a binding affinity thre",
+        "toxicity": "covery and development, encompassing absorption, distribution, metabolism, excretion, and toxicity assessments. These investigations scrutinize how potential drug candidates behave within the human body, evaluating their absorp",
+        "ADMET": " these thresholds may encounter challenges in membrane permeability, oral absorption, and pharmacokinetic performance. ADMET studies thus serve to validate a compound\u2019s interactions with biological systems and inform decision-making in"
+      }
+    },
+    {
+      "pmcid": "PMC11584676",
+      "year": "2024",
+      "title": "PARP1",
+      "computed": [
+        "MW",
+        "PAINS",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "novelty",
+        "reactive",
+        "selectivity",
+        "toxicity"
+      ],
+      "gating": [
+        "PAINS",
+        "novelty",
+        "reactive"
+      ],
+      "n_computed": 10,
+      "n_gating": 3,
+      "coverage": 0.3,
+      "stability_gate": true,
+      "evidence": {
+        "PAINS": "021/cb4003283 PMC3846258 88. Baell JB Holloway GA New substructure filters for removal of pan assay interference compounds (pains) from screening libraries and for their exclusion in bioassays J. Med. Chem. 2010 53 2719 2740 10.1021/jm901137j",
+        "reactive": "s for drug) and (6) MCFs filter 37 , 38 (used to discard compounds containing unstable or reactive groups that could result in the formation of toxic metabolites or intermediates). Finally, 1.4 million compounds were collected for the",
+        "novelty": " the generated set that are non-novel, invalid, redundant, or highly similar in scaffold (Tanimoto similarity &gt; 0.9). Following this, the molecular physicochemical properties were screened (with criteria of 250 &lt; MW &lt; 6"
+      }
+    },
+    {
+      "pmcid": "PMC12006154",
+      "year": "2025",
+      "title": "Virtual screening and molecular dynamics of anti-Alzheimer compounds from &lt;i&",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "novelty",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "QED",
+        "docking"
+      ],
+      "n_computed": 9,
+      "n_gating": 3,
+      "coverage": 0.333,
+      "stability_gate": false,
+      "evidence": {
+        "docking": " predict the efficacy of oral compounds in human systems. All nine active ligands (higher docking scores) of C. halicacabum and standard galantamine were evaluated using RO5 and ADME-Tox ( Daoud et al., 2021 ). The optimal drug\u2019s 40\u2013",
+        "QED": "th potential therapeutic efficacy can be developed rapidly ( Azad, 2023 ). 2.10 In silico drug-likeness and ADME-Tox prediction The analysis followed the well-established drug-likeness properties of Lipinski\u2019s Rule of Five (RO5). In ",
+        "Lipinski": "DME-Tox prediction The analysis followed the well-established drug-likeness properties of Lipinski\u2019s Rule of Five (RO5). In silico ADME-Tox is a set of criteria used to predict the efficacy of oral compounds in human systems. Al"
+      }
+    },
+    {
+      "pmcid": "PMC11253198",
+      "year": "2024",
+      "title": "Virtual screening, molecular docking, MD simulation studies, DFT calculations, A",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "PAINS",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "logP",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "MW",
+        "PAINS",
+        "QED",
+        "TPSA"
+      ],
+      "n_computed": 11,
+      "n_gating": 4,
+      "coverage": 0.364,
+      "stability_gate": true,
+      "evidence": {
+        "PAINS": "654 37239272 Baell J. B. Holloway G. A. ( 2010 ). New substructure filters for removal of Pan assay interference compounds (PAINS) from screening libraries and for their exclusion in bioassays . J. Med. Chem. 53 , 2719 \u2013 2740 . 10.1021/jm9011",
+        "QED": "ocol was implemented to assess each compound based on predefined criteria associated with drug-likeness properties, such as molecular weight (MW) not surpassing 500 Da, a LogP value of 5 or lower, a maximum of 10 hydrogen bond accept",
+        "MW": "h compound based on predefined criteria associated with drug-likeness properties, such as molecular weight (MW) not surpassing 500 Da, a LogP value of 5 or lower, a maximum of 10 hydrogen bond acceptors (HBA), no more than 5 hydrogen bo",
+        "TPSA": "e than 5 hydrogen bond donors (HBD), a limitation of 10 rotatable bonds (RB), and a total polar surface area (TPSA) constrained to 140 \u00c5 2 or less. Following this screening, 15,000 compounds that met these criteria were screened. 2.2 Liga"
+      }
+    },
+    {
+      "pmcid": "PMC11683870",
+      "year": "2024",
+      "title": "Mining for Potent Inhibitors through Artificial Intelligence and Physics: A Unif",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "PAINS",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "novelty",
+        "reactive",
+        "solubility"
+      ],
+      "gating": [
+        "Lipinski",
+        "SA_score",
+        "docking",
+        "novelty"
+      ],
+      "n_computed": 11,
+      "n_gating": 4,
+      "coverage": 0.364,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "le, calculates the shape alignment of the component to the target fragment, and clips the docking score to 0 if the alignment difference exceeds a given threshold. A further augmented feature of iMiner is the generation of molecules ",
+        "SA_score": "compounds, Lipinski rule violations, uncommon structures in medicinal chemistry, and poor synthetic accessibility with options for cross-validation against other docking scoring functions and automation of a molecular dynamics simulation to me",
+        "Lipinski": "and optimization, it is desirable to filter out PAINS molecules as well as molecules with Lipinski rule violations 51 and to select for molecules with good synthetic accessibility (SA) scores according to the SwissADME software.",
+        "novelty": "he proportion of generated molecules that do not exist in the training data set. The high novelty of both our pretrained and RL model indicates that it is not memorizing molecules from the training data set but is indeed genera"
+      }
+    },
+    {
+      "pmcid": "PMC11830341",
+      "year": "2025",
+      "title": "CADD-based discovery of novel oligomeric modulators of PKM2 with antitumor activ",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "novelty",
+        "selectivity",
+        "toxicity"
+      ],
+      "gating": [
+        "MW",
+        "QED",
+        "toxicity"
+      ],
+      "n_computed": 8,
+      "n_gating": 3,
+      "coverage": 0.375,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "s test, indicating a lack of mutagenic potential. Finally, while neither candidate showed toxicity as an hERG I inhibitor, C998 is predicted to potentially inhibit hERG II. In conclusion, the ADMET properties analysed by pkCSM ",
+        "QED": "n, the ADMET properties analysed by pkCSM suggest that both identified molecules meet the drug-likeness criteria, making them suitable candidates for the design of potential PKM2 inhibitors. 3.5 Molecular dynamics simulations: evalua",
+        "MW": "ced Collection, which contains over 500,000 drug-like compounds with predefined criteria: molecular weight \u2264350 Da, cLogP \u22643, and \u22647 rotatable bonds. This library was accessed online via the Enamine website ( https://www.enamine.net ). "
+      }
+    },
+    {
+      "pmcid": "PMC12500923",
+      "year": "2025",
+      "title": "In silico identification of prospective p53-MDM2 inhibitors from ASINEX database",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW",
+        "QED"
+      ],
+      "n_computed": 8,
+      "n_gating": 3,
+      "coverage": 0.375,
+      "stability_gate": false,
+      "evidence": {
+        "QED": "2D structure are given in Fig. 4 were examined using Maestro\u2019s QikProp module. Initially, drug-likeness qualities and conformity with Lipinski\u2019s Rule of Five were evaluated and described in Table 1 , along with comparisons to a stand",
+        "Lipinski": "preparation using the LigPrep module. filtering ligands based on QikProp characteristics, Lipinski\u2019s Rule of Five, and LigFilter qualities to assure drug similarity. ligand preparation using ligprep to validate the developed hyp",
+        "MW": "to a standard drug. A molecule is druggable if it meets the following criteria: logP \u2264 5, molecular weight (MW) \u2264 500 Da, hydrogen bond acceptors (HBA) \u2264 10, hydrogen bond donors (HBD) \u2264 5, and number of rotatable bonds (nRB) \u2264 10. All "
+      }
+    },
+    {
+      "pmcid": "PMC11187211",
+      "year": "2024",
+      "title": "Identification of potential modulators for human GPD1 by docking-based virtual s",
+      "computed": [
+        "Lipinski",
+        "QED",
+        "SA_score",
+        "docking",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "toxicity"
+      ],
+      "n_computed": 5,
+      "n_gating": 2,
+      "coverage": 0.4,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "ng active candidate ligands using ADMET (Absorption, Distribution, Metabolism, Excretion, Toxicity) parameters, combined with molecular docking, pose analysis, and interaction analysis based on Lipinski and Veber criteria. Subs",
+        "Lipinski": "meters, combined with molecular docking, pose analysis, and interaction analysis based on Lipinski and Veber criteria. Subsequently, the top 10 ligands were subjected to 200 ns all-atom molecular dynamics (M.D.) simulations, and"
+      }
+    },
+    {
+      "pmcid": "PMC12193798",
+      "year": "2025",
+      "title": "Computer-aided discovery of dual-target compounds for Alzheimer's from ayurvedic",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "MW",
+        "QED",
+        "solubility",
+        "toxicity"
+      ],
+      "n_computed": 10,
+      "n_gating": 4,
+      "coverage": 0.4,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "nal.pone.0325441.t005 Table 5 ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) analyses of top compounds by ADMET Lab 2. Ligand No./ Standards LogS HIA (%) Caco-2 BBB CYP1A2 CYP2C19 CYP2C9 CYP2D6 CYP3A4 CL ",
+        "QED": "antitative Estimation of Drug-likeness; Weighted QED: Weighted Quantitative Estimation of Drug-likeness. For the unweighted QED (Quantitative Estimate of Drug-likeness) and weighted QED, both standards score positively, indicating a ",
+        "MW": "es. In contrast, none of the other ligands meet these criteria when certain factors (like molecular weight, solubility, and permeability) are given more emphasis, which suggests they may need significant structural optimization to be co",
+        "solubility": "one of the other ligands meet these criteria when certain factors (like molecular weight, solubility, and permeability) are given more emphasis, which suggests they may need significant structural optimization to be considered dr"
+      }
+    },
+    {
+      "pmcid": "PMC11279457",
+      "year": "2024",
+      "title": "Computational Exploration of Potential Pharmacological Inhibitors Targeting the ",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "PAINS",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW",
+        "docking",
+        "logP",
+        "novelty"
+      ],
+      "n_computed": 12,
+      "n_gating": 5,
+      "coverage": 0.417,
+      "stability_gate": false,
+      "evidence": {
+        "docking": " (L4) from \u22127.82 to \u22128.91 kcal/mol, and for the remaining compounds showed an increase in binding affinity [ 77 , 78 ]. Molecular docking must be validated with MD simulation for at least 100 ns to find the stability of the protein\u2013liga",
+        "Lipinski": "eening against the PubChem database, applying a Tanimoto threshold of 90% and adhering to Lipinski\u2019s Rule of Five. A total of 3808 drugs were subjected to this screening process and subsequently downloaded in SDF format for furt",
+        "logP": " CNP0097629.2, and CNP0247704.2 violated one of the criteria, as summarized in Table 10 . Lipophilicity, a property enabling drug-like compounds to dissolve in fats, oils, and nonpolar solvents, facilitating their diffusion through ",
+        "MW": "s improved biological activity [ 35 , 36 ]. The design criteria for these drugs include a molecular weight cutoff between 100 to 560, a log P value between 0 and 5, 1 to 10 hydrogen bond donors, 1 to 5 hydrogen bond acceptors, and the d",
+        "novelty": "m COACH-D, we conducted a ligand-based screening against the PubChem database, applying a Tanimoto threshold of 90% and adhering to Lipinski\u2019s Rule of Five. A total of 3808 drugs were subjected to this screening process and subs"
+      }
+    },
+    {
+      "pmcid": "PMC11785738",
+      "year": "2025",
+      "title": "Investigating new drugs from marine seaweed metabolites for cervical cancer ther",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "MW",
+        "docking",
+        "logP",
+        "toxicity"
+      ],
+      "n_computed": 9,
+      "n_gating": 4,
+      "coverage": 0.444,
+      "stability_gate": false,
+      "evidence": {
+        "docking": " affinities 30 \u2013 32 . On the other hand, it is generally considered undesirable to have a binding affinity that is lower than the standard threshold of -7.0 kcal/mol. Nevertheless, all of our lead compounds exhibited positive affinities",
+        "toxicity": "essibility ratings for all three leads were somewhat greater than those of Topotecan. The toxicity investigation revealed significant findings for the three primary chemicals, demonstrating no significant adverse effects (Table",
+        "logP": "The count of hydrogen bond acceptors was consistently 5 for all three top contenders. The lipophilicity (Log p ) criteria showed that RL379 showed the lowest value (2.62), while BC014 had the greatest value (5.20). All the substance",
+        "MW": "ble pharmacokinetic and pharmacodynamic characteristics (Table 3 ). BC014 had the largest molecular weight among the leading three metabolites, measuring 456.61 g/mol, whereas RL379 exhibited the least molecular weight at 376.49 g/mol. "
+      }
+    },
+    {
+      "pmcid": "PMC11035696",
+      "year": "2024",
+      "title": "PPAR\u03b3",
+      "computed": [
+        "ADMET",
+        "MW",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "selectivity"
+      ],
+      "gating": [
+        "MW",
+        "SA_score",
+        "docking",
+        "novelty"
+      ],
+      "n_computed": 8,
+      "n_gating": 4,
+      "coverage": 0.5,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "ng process was further ranked using KRR-based QSAR scoring based on the average predicted binding affinity (p K I or pIC 50 ), combining the ECFP (double weighted contribution), CATS, and USRCAT descriptors. Aiming to explore the potent",
+        "SA_score": "les meeting various criteria: (i) Unique and novel, (ii) Novelty score \u2265 0.65, (iii) Retrosynthetic accessibility score (RAScore) \u2265 0.5, (iv) QSAR score \u2264 1 \u03bc M, and (v) meeting all four criteria Template / Method Unique and novel / % Novelty ",
+        "MW": "quent filtering was performed based on specific criteria. These filters included an upper molecular weight limit of \u2264600 g mol -1 , a RAScore threshold of \u22650.5, and a novelty score of \u22650.7. The resulting subset of molecules obtained fro",
+        "novelty": "Source data are provided as a Source Data file. The study also included the evaluation of novelty, synthesizability, and predicted bioactivity for the generated molecules. These criteria were essential in assessing the practica"
+      }
+    },
+    {
+      "pmcid": "PMC11192380",
+      "year": "2024",
+      "title": "LSTM-driven drug design using SELFIES for target-focused de novo generation of H",
+      "computed": [
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "MW",
+        "docking",
+        "logP",
+        "novelty"
+      ],
+      "n_computed": 8,
+      "n_gating": 4,
+      "coverage": 0.5,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "bilities. Subsequently, our new compounds underwent the same docking technique, and their docking scores were compared to those of the native inhibitors mentioned above. The activity threshold was set at -8, indicating that any compo",
+        "logP": "olecules produced by the LSTM-ProGen model for targeting the HIV-1 protease, based on the partition coefficient of a solute between octanol and water (LogP), molecular weight (MW), and ring types collected from the analysis of the HIV-1 prot",
+        "MW": "rotease, based on the partition coefficient of a solute between octanol and water (LogP), molecular weight (MW), and ring types collected from the analysis of the HIV-1 protease known inhibitors dataset. Compounds that don\u2019t share simil",
+        "novelty": "taset. Compounds that don\u2019t share similar features are eliminated based on the calculated Tanimoto similarity scores estimated using Morgan fingerprints between the newly generated molecules and those in the original set of HIV-"
+      }
+    },
+    {
+      "pmcid": "PMC11476810",
+      "year": "2024",
+      "title": "Unveiling the Anticancer Potential: Computational Exploration of Nitrogenated De",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "selectivity",
+        "solubility"
+      ],
+      "n_computed": 8,
+      "n_gating": 4,
+      "coverage": 0.5,
+      "stability_gate": false,
+      "evidence": {
+        "Lipinski": "ed to molecular dynamics simulations. The investigated compounds did not violate both the rule of five (Ro5) and the rule of 3 (Ro3), and the likely metabolic reactions were within the permissible range [ 48 ]. A drug candidate\u2019s bi",
+        "ADMET": "he drug discovery process [ 44 ]. Promising molecules with optimal drug-like features and pharmacokinetic properties are more likely to have efficient therapeutic efficacy. As such, compounds having adverse pharmacokinetic properties m",
+        "solubility": "he same chirality, enzyme inhibition assays, cytotoxicity tests on cancer cell lines, and solubility assessments, are necessary to confirm the efficacy, safety, and practicality of the identified lead compounds. The optimisation ",
+        "selectivity": "ur in living organisms, as they cannot account for all biomolecular interactions, such as off-target effects or metabolic pathways, creating uncertainty regarding the efficacy and safety of the compounds being tested. To mitigate "
+      }
+    },
+    {
+      "pmcid": "PMC12461837",
+      "year": "2025",
+      "title": "Exploring pocket-aware inhibitors of BTK kinase by generative deep learning, mol",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "logP"
+      ],
+      "n_computed": 12,
+      "n_gating": 6,
+      "coverage": 0.5,
+      "stability_gate": false,
+      "evidence": {
+        "SA_score": "0 000 candidate compounds. (A) Distribution of molecular weight (MW), (B) distribution of synthetic accessibility (SA), and (C) distribution of drug-likeness (QED) scores for the candidate compounds. The red dashed lines represent the referenc",
+        "QED": " \u2265 0.6\u2014to identify compounds that are both synthetically accessible and possess favorable drug-likeness. A total of 2069 compounds met these criteria. Fig. 3 Distribution of molecular properties for the 10 000 candidate compounds. (A",
+        "Lipinski": "tic feasibility derived from known molecules, while the QED score incorporates Lipinski's Rule of Five and other molecular properties such as molecular weight, polar surface area, the number of hydrogen bond donors/acceptors, and li",
+        "logP": "s molecular weight, polar surface area, the number of hydrogen bond donors/acceptors, and lipophilicity. In this study, an initial systematic screening was performed on 10 000 small molecules. Based on criteria rooted in medicinal c",
+        "MW": "the QED score incorporates Lipinski's Rule of Five and other molecular properties such as molecular weight, polar surface area, the number of hydrogen bond donors/acceptors, and lipophilicity. In this study, an initial systematic screen",
+        "TPSA": "rporates Lipinski's Rule of Five and other molecular properties such as molecular weight, polar surface area, the number of hydrogen bond donors/acceptors, and lipophilicity. In this study, an initial systematic screening was performed on"
+      }
+    },
+    {
+      "pmcid": "PMC12541016",
+      "year": "2025",
+      "title": "Identification of stigmasterol derived AChE inhibitors for Alzheimer's disease u",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "PAINS",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "novelty",
+        "toxicity"
+      ],
+      "n_computed": 13,
+      "n_gating": 7,
+      "coverage": 0.538,
+      "stability_gate": false,
+      "evidence": {
+        "docking": " interaction profiles and synthetic feasibility. Although SA13 and SA14 achieved the same docking score as SA12 (\u201310.6 kcal/mol), SA13 was excluded because it failed to form hydrogen bonds with the key active-site residue Trp286, lim",
+        "SA_score": "tive-site residue Trp286, limiting its binding strength. SA14 was removed due to a higher synthetic accessibility score of 5.79, compared to 5.16 for SA12, indicating that SA14 would be more challenging to synthesize. From the remaining seven ",
+        "toxicity": "ski\u2019s rule of five, indicating favorable drug-likeness, and were subsequently advanced to toxicity screening. Two candidates, SA5 and SA6, were eliminated due to exhibiting two toxicity alerts each, exceeding the acceptable thr",
+        "QED": ", SA23, SA25, and SA26) fully complied with Lipinski\u2019s rule of five, indicating favorable drug-likeness, and were subsequently advanced to toxicity screening. Two candidates, SA5 and SA6, were eliminated due to exhibiting two toxicit",
+        "Lipinski": " SA6, SA12, SA13, SA14, SA15, SA17, SA20, SA21, SA23, SA25, and SA26) fully complied with Lipinski\u2019s rule of five, indicating favorable drug-likeness, and were subsequently advanced to toxicity screening. Two candidates, SA5 and",
+        "logP": "ility of the selected lead candidates, stigmasterol, and the reference drug. LIPO denotes lipophilicity, INSOLU denotes insolubility, INSATU refers to the insaturation index, FLEX represents molecular flexibility, SIZE indicates mol",
+        "novelty": ". A 2D similarity search for structural analogs was performed using the fingerprint-based Tanimoto module available in PubChem, with a Tanimoto coefficient threshold of \u2265 0.90 being utilized to ensure high structural similarity "
+      }
+    },
+    {
+      "pmcid": "PMC12189692",
+      "year": "2025",
+      "title": "Discovery of Novel Natural Inhibitors of H5N1 Neuraminidase Using Integrated Mol",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "PAINS",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "toxicity"
+      ],
+      "n_computed": 11,
+      "n_gating": 6,
+      "coverage": 0.545,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "pplied for nonplanar amide conformations. Epik state penalties were incorporated into the docking scores, van der Waals radii were scaled by a factor of 0.80, and a partial charge cutoff of 0.15 was used. Ligands exceeding 500 atoms ",
+        "toxicity": " body. Their limited presence in the biological system underscores their rapid excretion. Toxicity : The ADMETLab 3 results ( Table 4 ) indicate safe profiles for cardiotoxicity (hERG channel inhibition) and respiratory toxicit",
+        "QED": "ix. Additionally, these compounds fulfill the criteria established by several established drug-likeness rules. Specifically, they meet the Lipinski rule of five [ 69 ] (MW &lt; 500 D, nHA &lt; 10, nHD &lt; 5, logP &lt; 5), the Pfizer",
+        "Lipinski": "teria established by several established drug-likeness rules. Specifically, they meet the Lipinski rule of five [ 69 ] (MW &lt; 500 D, nHA &lt; 10, nHD &lt; 5, logP &lt; 5), the Pfizer rule [ 70 ] (logP &lt; 3, TPSA &gt; 75 \u00c5 2 ",
+        "logP": "en bond donors (HBD) \u2264 5, number of hydrogen bond acceptors (HBA) \u2264 10, and octanol\u2013water partition coefficient (XlogP) \u2264 5. Following this filtration process, 1829 compounds demonstrated a good pharmacophoric fit with a fitness score \u2265 1.5 ",
+        "MW": "cochemical properties using Canvas (Schr\u00f6dinger). The applied selection criteria included molecular weight (MW) \u2264 400 Da, number of rotatable bonds (Rotatable B) \u2264 10, number of hydrogen bond donors (HBD) \u2264 5, number of hydrogen bond ac"
+      }
+    },
+    {
+      "pmcid": "PMC11897136",
+      "year": "2025",
+      "title": "Unlocking the therapeutic potential of unexplored phytocompounds as hepatoprotec",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "novelty",
+        "selectivity",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "MW",
+        "QED",
+        "novelty",
+        "toxicity"
+      ],
+      "n_computed": 9,
+      "n_gating": 5,
+      "coverage": 0.556,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "that generally met drug-likeness criteria and fell within the medium range (T1/2 \u2264 3). In toxicity prediction, both compounds demonstrated non-toxic characteristics in several organs, including the kidneys, liver, skin, and eye",
+        "QED": "hit 2. With a few exceptions, both compounds exhibited bioavailability that generally met drug-likeness criteria and fell within the medium range (T1/2 \u2264 3). In toxicity prediction, both compounds demonstrated non-toxic characteristi",
+        "MW": " Hit 2 Hit 9 Physicochemical properties 1 Molecular formula C 19 H 18 O 7 C 15 H 10 O 8 2 Molecular weight (g/mol) 358.34 318.24 3 Hydrogen bond acceptors count 7 8 4 Hydrogen bond donors count 5 6 5 Rotatable bonds count 7 1 6 Topologi",
+        "ADMET": "rming the accuracy of the molecular docking studies. A good drug must have the acceptable pharmacokinetic criteria, including absorption, distribution, metabolism, and excretion (ADME), with minimum toxicity. It should be rapidly and e",
+        "novelty": "identified hepatoprotective phytoconstituents were submitted to the ZINC database. With a Tanimoto similarity threshold set at 40%, hits were retrieved from the \u201cZINC natural products\u201d and \u201cZINC natural derivatives\u201d subsets with"
+      }
+    },
+    {
+      "pmcid": "PMC12528704",
+      "year": "2025",
+      "title": "Mechanism-based inhibition of squalene epoxidase by phenothiazines for lipid met",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "docking",
+        "logP"
+      ],
+      "n_computed": 9,
+      "n_gating": 5,
+      "coverage": 0.556,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "characteristics for systemic distribution and bioavailability. This combination of strong binding affinity, favorable ADMET properties, and compliance with Lipinski\u2019s criteria makes them excellent candidates for further investigation in",
+        "Lipinski": "uggesting that they may not face significant transport limitations across cell membranes. Lipinski analysis showed that 15 of 18 phenothiazines met all four cut-offs, while dixyrazine and fluphenazine exceeded the logP threshold",
+        "logP": " except for trifluoperazine, which slightly exceeds the MLOGP threshold due to its higher lipophilicity (XLOGP3 = 5.03; consensus Log P = 4.47). Nonetheless, all compounds display high gastrointestinal (GI) absorption, indicating su",
+        "MW": "tial safety risks (Tables 1 and 2 ; Fig. 5 ). All six compounds fall within an acceptable molecular weight range (312\u2013437 g/mol), satisfying Lipinski\u2019s Rule of Five with no violations, except for trifluoperazine, which slightly exceeds ",
+        "ADMET": "election of those six compounds for MD simulations was also driven by their comprehensive pharmacokinetic profiles. These compounds were found to have acceptable predicted values for solubility (Log S), skin permeability (Log Kp), and "
+      }
+    },
+    {
+      "pmcid": "PMC13205492",
+      "year": "2026",
+      "title": "In Silico Identification of Dual-Action Compounds Targeting TLR2 and &lt;i&gt;St",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "selectivity",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "QED",
+        "toxicity"
+      ],
+      "n_computed": 7,
+      "n_gating": 4,
+      "coverage": 0.571,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": " proteins, complemented by in silico absorption, distribution, metabolism, excretion, and toxicity (ADMET) profiling. Results: Fifty-four ECC-related genes and nine hub genes were identified, with TLR2 and cathelicidin antimicr",
+        "QED": "peptide (CAMP) as central nodes. Virtual screening yielded five lead compounds fulfilling drug-likeness and toxicity criteria. Docking to TLR1/TLR2 showed favorable binding energies, with Z7684613096 showing the most consistent bindi",
+        "Lipinski": "fully passed all filters, exhibiting minimal violations of drug-likeness criteria such as Lipinski, Ghose, Veber, Egan, and Muegge, suggesting promising oral bioavailability. The observed toxicity levels ranged from class 3 (Z76",
+        "ADMET": "pture structural diversity while keeping downstream manual curation tractable [ 20 ]. The pharmacokinetic features and drug-like qualities of the top 100 hits were evaluated using SwissADME [ 28 ]. The compounds were checked against se"
+      }
+    },
+    {
+      "pmcid": "PMC11848289",
+      "year": "2025",
+      "title": "Targeting <i>aldose reductase</i> using natural African compounds as promising a",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "novelty",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "solubility",
+        "toxicity"
+      ],
+      "n_computed": 10,
+      "n_gating": 6,
+      "coverage": 0.6,
+      "stability_gate": false,
+      "evidence": {
+        "toxicity": "s for the computation of pharmacokinetics, physicochemical properties, drug-likeness, and toxicity of the preselected compounds. 2.6 Protein-ligand interaction The hydrogen and hydrophobic interactions between AR and the molecu",
+        "QED": "nd predictive models for the computation of pharmacokinetics, physicochemical properties, drug-likeness, and toxicity of the preselected compounds. 2.6 Protein-ligand interaction The hydrogen and hydrophobic interactions between AR a",
+        "Lipinski": "rary In preparing the EANPDB, NANPD, and AfroDB compound libraries for molecular docking, Lipinski\u2019s rule of five was applied to pre-filter compounds eliminating those that failed to meet Lipinski\u2019s criteria. Lipinski\u2019s rule of ",
+        "MW": "clude having less than five hydrogen bond donors, less than 10 hydrogen bond acceptors, a molecular weight greater than 500, and a calculated Log P (cLogP) value exceeding five (or MlogP &gt; 4.15) ( Lipinski, 2004 ; Devadasu et al., 20",
+        "ADMET": "E and AdmetSAR provided access to parameters and predictive models for the computation of pharmacokinetics, physicochemical properties, drug-likeness, and toxicity of the preselected compounds. 2.6 Protein-ligand interaction The hydrog",
+        "solubility": "Holgu\u00edn et al., 2021 ; Tian et al., 2015 ). In this study, compounds exhibiting favorable solubility, pharmacokinetic profiles, and toxicity profiles were meticulously selected. Based on these stringent criteria, eight compounds,"
+      }
+    },
+    {
+      "pmcid": "PMC12190558",
+      "year": "2025",
+      "title": "Conditioned Generative Modeling of Molecular Glues: A Realistic AI Approach for ",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "novelty",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "docking",
+        "logP",
+        "solubility",
+        "toxicity"
+      ],
+      "n_computed": 11,
+      "n_gating": 7,
+      "coverage": 0.636,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "to three affinity-based categories: High Affinity, Low Affinity, and No Affinity based on docking score thresholds less than \u22125 kcal/mol, from \u22125 kcal/mol to \u22121 kcal/mol and above \u22121 kcal/mol or positive values, respectively, as show",
+        "toxicity": "n, hepatotoxicity, and AMES mutagenicity. Only candidates meeting all pharmacokinetic and toxicity thresholds were retained for downstream studies. Filtered compounds were docked into the ligand-binding sites of VHL, CRBN, and ",
+        "Lipinski": "sing Schr\u00f6dinger\u2019s QikProp and ADMET/Tox modules [ 44 ]. Compounds were filtered based on Lipinski\u2019s Rule of Five and Veber\u2019s rule, followed by predictions for intestinal absorption, blood\u2013brain barrier permeability, CYP450 inhi",
+        "logP": " on predicted ADMET properties and included molecular weight (MW) between 130 and 725 Da, lipophilicity (logPo/w) between \u22122 and 6.5, aqueous solubility (logS) between \u22126.5 and 0.5, predicted hERG liability (logHERG) &lt; \u22125, number",
+        "MW": "d libraries. The filtering criteria were based on predicted ADMET properties and included molecular weight (MW) between 130 and 725 Da, lipophilicity (logPo/w) between \u22122 and 6.5, aqueous solubility (logS) between \u22126.5 and 0.5, predicte",
+        "ADMET": "ty, CYP450 inhibition, hepatotoxicity, and AMES mutagenicity. Only candidates meeting all pharmacokinetic and toxicity thresholds were retained for downstream studies. Filtered compounds were docked into the ligand-binding sites of VHL",
+        "solubility": "r weight (MW) between 130 and 725 Da, lipophilicity (logPo/w) between \u22122 and 6.5, aqueous solubility (logS) between \u22126.5 and 0.5, predicted hERG liability (logHERG) &lt; \u22125, number of predicted metabolic reactions (#metab) betwee"
+      }
+    },
+    {
+      "pmcid": "PMC12512771",
+      "year": "2025",
+      "title": "Molecular screening of natural compounds targeting KRAS(G12C): a multi-parametri",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW",
+        "QED",
+        "docking",
+        "logP",
+        "solubility",
+        "toxicity"
+      ],
+      "n_computed": 10,
+      "n_gating": 7,
+      "coverage": 0.7,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "the top hits and enhance prediction accuracy. 37 The top 10% of compounds, based on their docking scores and interaction profiles, were shortlisted for subsequent Induced Fit Docking(IFD) to further assess binding flexibility and sta",
+        "toxicity": "ndidates displayed clean ADMET profiles, with no hERG inhibition, acceptable chronic oral toxicity thresholds (LOAEL &gt; 2.85 log mg/kg-bw/day), and low aquatic toxicity (Minnow toxicity &gt; 2.19 log mM), supporting their dru",
+        "QED": "ar weight (560.59 g/mol) and lipophilicity (LogP = 4.02), all six natural candidates meet drug-likeness criteria. The improved water solubility observed here (LogS \u22122.09 to \u22124.25) aligns with previous findings that phenolic- and flav",
+        "Lipinski": "molecules with potential anticancer activity. The retrieved databases were filtered using Lipinski\u2019s Rule of Five, by filters of FAF-Drugs4 ( https://fafdrugs4.rpbs.univ-paris-diderot.fr/ ) web server to remove non-druggable mol",
+        "logP": "e AMG-510, which violates Lipinski\u2019s rule due to high molecular weight (560.59 g/mol) and lipophilicity (LogP = 4.02), all six natural candidates meet drug-likeness criteria. The improved water solubility observed here (LogS \u22122.09 t",
+        "MW": " natural compounds and control Unlike AMG-510, which violates Lipinski\u2019s rule due to high molecular weight (560.59 g/mol) and lipophilicity (LogP = 4.02), all six natural candidates meet drug-likeness criteria. The improved water solubi",
+        "solubility": "(LogP = 4.02), all six natural candidates meet drug-likeness criteria. The improved water solubility observed here (LogS \u22122.09 to \u22124.25) aligns with previous findings that phenolic- and flavonoid-based inhibitors typically have b"
+      }
+    },
+    {
+      "pmcid": "PMC11355350",
+      "year": "2024",
+      "title": "Identification of Marine-Derived SLC7A11 Inhibitors: Molecular Docking, Structur",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "novelty",
+        "reactive",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "Lipinski",
+        "MW",
+        "TPSA",
+        "docking",
+        "logP",
+        "reactive",
+        "solubility",
+        "toxicity"
+      ],
+      "n_computed": 11,
+      "n_gating": 8,
+      "coverage": 0.727,
+      "stability_gate": true,
+      "evidence": {
+        "docking": "ues as active sites (center coordinates 146.527, 145.684, 120.68, and radius 14.135). The docking score served as our primary screening criterion. First, we isolated the protein and ligand from protein 7EPZ. Subsequently, the LibDock",
+        "toxicity": "d 563 small molecules using pharmacophore and 2D-QSAR models. Molecular docking and ADMET toxicity predictions, with Erastin as a positive control, identified the small molecules 42711 and 27363 as lead compounds with strong in",
+        "Lipinski": " High No Moderately soluble 42711 367.20 3 6 7 118.01 \u00c5 2 1.21 High No Moderately soluble Lipinski\u2019s Rule of Five is a widely utilized criterion in virtual screening. According to Lipinski\u2019s guidelines, molecular weight should b",
+        "logP": " compound should have fewer than a specified number of rotatable bonds; and the oil\u2013water partition coefficient (LogP) should be \u22645 [ 26 ]. However, three of the small molecules (64778, 43932, 41093) did not conform to these criteria. The oi",
+        "MW": " is a widely utilized criterion in virtual screening. According to Lipinski\u2019s guidelines, molecular weight should be below 500; the number of hydrogen bond donors should not exceed 5; the number of hydrogen bond acceptors should not exc",
+        "TPSA": "more than ten hydrogen bond acceptor (HBA) sites, no more than ten rotatable bonds (RBs), polar surface area (PSA) less than 140 \u00c5, and a logarithm of the partition coefficient (logP) value less than 5, indicative of hydrophobicity [ 26 ]",
+        "solubility": "s activity, thereby inducing cellular ferroptosis [ 9 ]. However, Erastin\u2019s limited water solubility and metabolic instability preclude its direct clinical application [ 13 ]. Consequently, there is an urgent need to discover new",
+        "reactive": "orrelates with functional properties. Notably, the Swiss analysis also identified partial structural alerts in medicinal chemistry reports, reinforcing this perspective. However, virtual screening can only predict the physicochemical bi"
+      }
+    },
+    {
+      "pmcid": "PMC12732334",
+      "year": "2025",
+      "title": "In Silico Lead Identification of &lt;i&gt;Staphylococcus aureus&lt;/i&gt; LtaS I",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "SA_score",
+        "TPSA",
+        "docking",
+        "logP",
+        "reactive",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "MW",
+        "QED",
+        "TPSA",
+        "docking",
+        "logP",
+        "solubility"
+      ],
+      "n_computed": 11,
+      "n_gating": 8,
+      "coverage": 0.727,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "le docking scores. Hence, to enhance the reliability of hit selection, all compounds with docking scores equal to or better than \u22126.0 kcal/mol (a total of 268 compounds) were advanced for MM-GBSA binding free energy calculations, all",
+        "QED": "4. Additionally, a natural product-like score &lt; 2 was used. Quantitative estimation of drug likeness (QED) was the final criteria to finetune the filtration process as it integrates eight properties: molecular weight, LogP, H-bond",
+        "Lipinski": "ness filters further supported these observations. Both Compounds A and B fully satisfied Lipinski, Ghose, Egan, and Muegge criteria, indicating compliance with key physicochemical rules governing oral bioavailability and medici",
+        "logP": "nd exhibited a markedly lower molecular weight (170.06 g/mol). Compound A showed moderate lipophilicity (LogP = 2.45), while Compound B was more hydrophilic (LogP = 0.53), in contrast to the highly hydrophilic reference (LogP = \u22121.5",
+        "MW": " the final criteria to finetune the filtration process as it integrates eight properties: molecular weight, LogP, H-bond donors, H-bond acceptors, charge, aromaticity, stereochemistry, and solubility, with a score from 0\u20131. A higher sco",
+        "TPSA": "r both compounds remained within accepted drug-likeness thresholds, and their topological polar surface area (TPSA) values (107.22 \u00c5 2 and 119.19 \u00c5 2 ) were consistent with desirable oral bioavailability profiles. Structural analysis reve",
+        "ADMET": "ounds. A filtration protocol based on a set of calculated physicochemical descriptors and pharmacokinetic parameters was applied and resulted in a total of 40,332 compounds for virtual screening. Our main purpose when designing our fil",
+        "solubility": " weight, LogP, H-bond donors, H-bond acceptors, charge, aromaticity, stereochemistry, and solubility, with a score from 0\u20131. A higher score means the molecule is more drug-like. The QED filtration score was set to &gt;0.2. virtua"
+      }
+    },
+    {
+      "pmcid": "PMC12105006",
+      "year": "2025",
+      "title": "AI-Driven &lt;i&gt;De Novo&lt;/i&gt; Design and Development of Nontoxic DYRK1A I",
+      "computed": [
+        "ADMET",
+        "QED",
+        "SA_score",
+        "docking",
+        "novelty",
+        "toxicity"
+      ],
+      "gating": [
+        "QED",
+        "SA_score",
+        "docking",
+        "novelty",
+        "toxicity"
+      ],
+      "n_computed": 6,
+      "n_gating": 5,
+      "coverage": 0.833,
+      "stability_gate": false,
+      "evidence": {
+        "docking": " In all cases, candidate molecules were rigorously filtered according to our criteria for binding affinity, toxicity, and novelty. The chosen model was the HGG model, trained on a data set of DYRK1A inhibitors. Through an iterative proc",
+        "SA_score": " two key criteria: (i) structural variability of substituents on the phenyl ring and (ii) synthetic accessibility during step b (stage A; Scheme ) using commercially available 4,4,5,5-tetramethyl-1,3,2-dioxaborolanes with different phenyl subs",
+        "toxicity": "didate molecules were rigorously filtered according to our criteria for binding affinity, toxicity, and novelty. The chosen model was the HGG model, trained on a data set of DYRK1A inhibitors. Through an iterative process, it p",
+        "QED": "ists reviewing these structures deemed them promising in terms of chemical properties and drug-likeness. Subsequent experimental results confirmed these initial assessments, further validating the effectiveness of the HGG approach. F",
+        "novelty": "es were rigorously filtered according to our criteria for binding affinity, toxicity, and novelty. The chosen model was the HGG model, trained on a data set of DYRK1A inhibitors. Through an iterative process, it produced five b"
+      }
+    },
+    {
+      "pmcid": "PMC12960686",
+      "year": "2026",
+      "title": "AI-driven virtual screening platform identifies novel NSUN2 inhibitor candidates",
+      "computed": [
+        "ADMET",
+        "Lipinski",
+        "QED",
+        "SA_score",
+        "docking",
+        "logP",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "gating": [
+        "ADMET",
+        "Lipinski",
+        "QED",
+        "SA_score",
+        "docking",
+        "selectivity",
+        "solubility",
+        "toxicity"
+      ],
+      "n_computed": 9,
+      "n_gating": 8,
+      "coverage": 0.889,
+      "stability_gate": false,
+      "evidence": {
+        "docking": "tely one week (7 days) to complete. Model training and validation Set performance Optimal docking scores were extracted for each compound, and corresponding SMILES strings were encoded as 1024-bit Morgan fingerprints for amcp framewo",
+        "SA_score": "nalyses of the 34 lead compounds including Lipinski\u2019s Rule of Five, Veber\u2019s criteria, and synthetic accessibility scores, correlating these with experimental validation results. We believe the current study successfully validates our integrate",
+        "toxicity": "op-ranked Selecting 101,070,481 Rank of prediction confidence 12,000 99.988% ADMET 12,000 Toxicity filters + Docking data 34 99.717% MD 34 Stability + Drug-likeness 2 94.118% The high recall rate achieved by the model is partic",
+        "QED": "performed on the top 12,000 compounds to screen for candidates with low toxicity and high drug-likeness. Finally, 50 ns molecular dynamics simulations were conducted on the top candidate compounds to assess binding stability (e.g., R",
+        "Lipinski": "In future work, we will conduct comprehensive analyses of the 34 lead compounds including Lipinski\u2019s Rule of Five, Veber\u2019s criteria, and synthetic accessibility scores, correlating these with experimental validation results. We ",
+        "ADMET": "date compounds underwent rigorous ADMET evaluation using the vNN-ADMET platform to assess pharmacokinetic properties and toxicity liabilities. Compounds exhibiting high risks for DILI, cardiotoxicity, hepatotoxicity, or inhibition of m",
+        "solubility": "ral bioavailability, gastrointestinal stability, permeability (Caco-2 model), and aqueous solubility. Distribution: Plasma protein binding, volume of distribution, and blood-brain barrier permeability. Metabolism: Cytochrome P450",
+        "selectivity": " Target IC50 &lt; 1 \u03bcM for prioritization; Cellular activity at &lt;10 \u03bcM concentrations; Selectivity profiling against other NSUN family members. While our pipeline employs established computational tools, the contribution lies i"
+      }
+    }
+  ],
+  "skipped": [
+    [
+      "PMC11074339",
+      "no shortlist named"
+    ],
+    [
+      "PMC11390726",
+      "no shortlist named"
+    ],
+    [
+      "PMC12611778",
+      "no shortlist named"
+    ],
+    [
+      "PMC12655458",
+      "review"
+    ]
+  ],
+  "VALIDATION_STATUS": "FAILED - DO NOT CITE",
+  "validation": {
+    "method": "automated keyword scorer vs manual full-text reading",
+    "n_validated": 2,
+    "results": [
+      {
+        "pmcid": "PMC11584676",
+        "manual": 0.53,
+        "auto": 0.3,
+        "error": -0.23
+      },
+      {
+        "pmcid": "PMC11035696",
+        "manual": 0.21,
+        "auto": 0.5,
+        "error": 0.29
+      }
+    ],
+    "conclusion": "Errors of about +/-0.25 in both directions on a 0-0.5 scale. The scorer does not measure gate coverage; it measures proximity of filter verbs to property words. Coverage numbers in this file are NOT reportable. The binary stability_gate flag agreed on both validation papers but n=2 is not validation.",
+    "required_before_use": "manual scoring of at least 15 papers, or a scorer that reproduces manual reads within 0.10 on a held-out set of 10"
+  }
+}

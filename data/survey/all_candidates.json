@@ -1,0 +1,345 @@
+[
+  {
+    "pmcid": "PMC12190558",
+    "year": "2025",
+    "title": "Conditioned Generative Modeling of Molecular Glues: A Realistic AI Approach for Synthesizable D",
+    "journal": "",
+    "doi": "10.3390/biom15060849"
+  },
+  {
+    "pmcid": "PMC11279457",
+    "year": "2024",
+    "title": "Computational Exploration of Potential Pharmacological Inhibitors Targeting the Envelope Protei",
+    "journal": "",
+    "doi": "10.3390/ph17070884"
+  },
+  {
+    "pmcid": "PMC12461837",
+    "year": "2025",
+    "title": "Exploring pocket-aware inhibitors of BTK kinase by generative deep learning, molecular docking,",
+    "journal": "",
+    "doi": "10.1039/d5ra04840k"
+  },
+  {
+    "pmcid": "PMC12655458",
+    "year": "2025",
+    "title": "Computational Chemistry Advances in the Development of PARP1 Inhibitors for Breast Cancer Thera",
+    "journal": "",
+    "doi": "10.3390/ph18111679"
+  },
+  {
+    "pmcid": "PMC12105006",
+    "year": "2025",
+    "title": "AI-Driven &lt;i&gt;De Novo&lt;/i&gt; Design and Development of Nontoxic DYRK1A Inhibitors.",
+    "journal": "",
+    "doi": "10.1021/acs.jmedchem.5c00512"
+  },
+  {
+    "pmcid": "PMC11192380",
+    "year": "2024",
+    "title": "LSTM-driven drug design using SELFIES for target-focused de novo generation of HIV-1 protease i",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0303597"
+  },
+  {
+    "pmcid": "PMC11683870",
+    "year": "2024",
+    "title": "Mining for Potent Inhibitors through Artificial Intelligence and Physics: A Unified Methodology",
+    "journal": "",
+    "doi": "10.1021/acs.jcim.4c00634"
+  },
+  {
+    "pmcid": "PMC12960686",
+    "year": "2026",
+    "title": "AI-driven virtual screening platform identifies novel NSUN2 inhibitor candidates for targeted c",
+    "journal": "",
+    "doi": "10.1038/s41698-026-01296-2"
+  },
+  {
+    "pmcid": "PMC13205492",
+    "year": "2026",
+    "title": "In Silico Identification of Dual-Action Compounds Targeting TLR2 and &lt;i&gt;Streptococcus mut",
+    "journal": "",
+    "doi": "10.3390/dj14050301"
+  },
+  {
+    "pmcid": "PMC13171538",
+    "year": "2026",
+    "title": "Integrative proteome-wide structural analysis and high-throughput docking identify broad-spectr",
+    "journal": "",
+    "doi": "10.3389/fcimb.2026.1723132"
+  },
+  {
+    "pmcid": "PMC13418042",
+    "year": "2026",
+    "title": "Comprehensive Molecular Docking and Molecular Dynamics Reveal Inhibitors of HER2 L755S, T798I, ",
+    "journal": "",
+    "doi": "10.31557/apjcp.2026.27.1.265"
+  },
+  {
+    "pmcid": "PMC12948173",
+    "year": "2025",
+    "title": "In Silico and In Vitro Evaluation of Novel Small Molecule Inhibitors Targeting Apoptosis Pathwa",
+    "journal": "",
+    "doi": "10.31557/apjcp.2025.26.11.4227"
+  },
+  {
+    "pmcid": "PMC12541016",
+    "year": "2025",
+    "title": "Identification of stigmasterol derived AChE inhibitors for Alzheimer's disease using high throu",
+    "journal": "",
+    "doi": "10.1038/s41598-025-20527-3"
+  },
+  {
+    "pmcid": "PMC12232071",
+    "year": "2025",
+    "title": "Virtual screening, optimization design, and synthesis analysis of novel benzofuran derivatives ",
+    "journal": "",
+    "doi": "10.1186/s13065-025-01575-2"
+  },
+  {
+    "pmcid": "PMC12189692",
+    "year": "2025",
+    "title": "Discovery of Novel Natural Inhibitors of H5N1 Neuraminidase Using Integrated Molecular Modeling",
+    "journal": "",
+    "doi": "10.3390/bioengineering12060622"
+  },
+  {
+    "pmcid": "PMC12512771",
+    "year": "2025",
+    "title": "Molecular screening of natural compounds targeting KRAS(G12C): a multi-parametric strategy agai",
+    "journal": "",
+    "doi": "10.1080/14756366.2025.2568121"
+  },
+  {
+    "pmcid": "PMC12546947",
+    "year": "2025",
+    "title": "Computational discovery of BRD4 inhibitors for neuroblastoma therapy using pharmacophore screen",
+    "journal": "",
+    "doi": "10.1038/s41598-025-20714-2"
+  },
+  {
+    "pmcid": "PMC12620837",
+    "year": "2025",
+    "title": "Structure-Guided Discovery of Drug-like Compounds Targeting HPV16 E6 for Antiviral Therapy Deve",
+    "journal": "",
+    "doi": "10.30498/ijb.2025.532784.4182"
+  },
+  {
+    "pmcid": "PMC12500923",
+    "year": "2025",
+    "title": "In silico identification of prospective p53-MDM2 inhibitors from ASINEX database using a compre",
+    "journal": "",
+    "doi": "10.1038/s41598-025-10589-8"
+  },
+  {
+    "pmcid": "PMC12833380",
+    "year": "2026",
+    "title": "Computational-experimental integration identifies potent carbohydrate-hydrolyzing enzyme inhibi",
+    "journal": "",
+    "doi": "10.3389/fphar.2025.1713452"
+  },
+  {
+    "pmcid": "PMC12559228",
+    "year": "2025",
+    "title": "Bioinformatics approach for discovery of potential lead compound of NSP6 of SARS-CoV-2 using st",
+    "journal": "",
+    "doi": "10.1038/s41598-025-22409-0"
+  },
+  {
+    "pmcid": "PMC12040625",
+    "year": "2025",
+    "title": "Structure-guided virtual screening reveals phytoconstituents as potent cathepsin B inhibitors: ",
+    "journal": "",
+    "doi": "10.3389/fmolb.2025.1581711"
+  },
+  {
+    "pmcid": "PMC11627428",
+    "year": "2024",
+    "title": "Integration of pharmacophore-based virtual screening, molecular docking, ADMET analysis, and MD",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0311527"
+  },
+  {
+    "pmcid": "PMC12512888",
+    "year": "2025",
+    "title": "Conjoint analysis of single-cell sequencing and high-throughput virtual screening regarding DDR",
+    "journal": "",
+    "doi": "10.1186/s40001-025-03197-9"
+  },
+  {
+    "pmcid": "PMC12732334",
+    "year": "2025",
+    "title": "In Silico Lead Identification of &lt;i&gt;Staphylococcus aureus&lt;/i&gt; LtaS Inhibitors: A Hi",
+    "journal": "",
+    "doi": "10.3390/ijms262412038"
+  },
+  {
+    "pmcid": "PMC11315321",
+    "year": "2024",
+    "title": "In silico exploration of PD-L1 binding compounds: Structure-based virtual screening, molecular ",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0306804"
+  },
+  {
+    "pmcid": "PMC12528704",
+    "year": "2025",
+    "title": "Mechanism-based inhibition of squalene epoxidase by phenothiazines for lipid metabolism disrupt",
+    "journal": "",
+    "doi": "10.1038/s41598-025-13282-y"
+  },
+  {
+    "pmcid": "PMC12074392",
+    "year": "2025",
+    "title": "Discovery of ROCK2 inhibitors through computational screening of ZINC database: Integrating pha",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0323781"
+  },
+  {
+    "pmcid": "PMC11355350",
+    "year": "2024",
+    "title": "Identification of Marine-Derived SLC7A11 Inhibitors: Molecular Docking, Structure-Based Virtual",
+    "journal": "",
+    "doi": "10.3390/md22080375"
+  },
+  {
+    "pmcid": "PMC11253198",
+    "year": "2024",
+    "title": "Virtual screening, molecular docking, MD simulation studies, DFT calculations, ADMET, and drug ",
+    "journal": "",
+    "doi": "10.3389/fphar.2024.1360226"
+  },
+  {
+    "pmcid": "PMC12193798",
+    "year": "2025",
+    "title": "Computer-aided discovery of dual-target compounds for Alzheimer's from ayurvedic medicinal plan",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0325441"
+  },
+  {
+    "pmcid": "PMC11785738",
+    "year": "2025",
+    "title": "Investigating new drugs from marine seaweed metabolites for cervical cancer therapy by molecula",
+    "journal": "",
+    "doi": "10.1038/s41598-024-82043-0"
+  },
+  {
+    "pmcid": "PMC11505934",
+    "year": "2024",
+    "title": "In Silico Screening of 1,3,4-Thiadiazole Derivatives as Inhibitors of Vascular Endothelial Grow",
+    "journal": "",
+    "doi": "10.3390/cimb46100666"
+  },
+  {
+    "pmcid": "PMC12006154",
+    "year": "2025",
+    "title": "Virtual screening and molecular dynamics of anti-Alzheimer compounds from &lt;i&gt;Cardiospermu",
+    "journal": "",
+    "doi": "10.3389/fchem.2025.1586728"
+  },
+  {
+    "pmcid": "PMC11927919",
+    "year": "2025",
+    "title": "Exploration of small molecules as inhibitors of potential BACE1 protein to treat amyloid cerebr",
+    "journal": "",
+    "doi": "10.1371/journal.pone.0317716"
+  },
+  {
+    "pmcid": "PMC11897136",
+    "year": "2025",
+    "title": "Unlocking the therapeutic potential of unexplored phytocompounds as hepatoprotective agents thr",
+    "journal": "",
+    "doi": "10.1038/s41598-025-92868-y"
+  },
+  {
+    "pmcid": "PMC11187211",
+    "year": "2024",
+    "title": "Identification of potential modulators for human GPD1 by docking-based virtual screening, molec",
+    "journal": "",
+    "doi": "10.1038/s41598-024-61439-y"
+  },
+  {
+    "pmcid": "PMC11830341",
+    "year": "2025",
+    "title": "CADD-based discovery of novel oligomeric modulators of PKM2 with antitumor activity in aggressi",
+    "journal": "",
+    "doi": "10.1016/j.heliyon.2025.e42238"
+  },
+  {
+    "pmcid": "PMC11848289",
+    "year": "2025",
+    "title": "Targeting <i>aldose reductase</i> using natural African compounds as promising agents for manag",
+    "journal": "",
+    "doi": "10.3389/fbinf.2025.1499255"
+  },
+  {
+    "pmcid": "PMC10991842",
+    "year": "2024",
+    "title": "Revisiting methotrexate and phototrexate Zinc15 library-based derivatives using deep learning <",
+    "journal": "",
+    "doi": "10.3389/fchem.2024.1380266"
+  },
+  {
+    "pmcid": "PMC11476810",
+    "year": "2024",
+    "title": "Unveiling the Anticancer Potential: Computational Exploration of Nitrogenated Derivatives of (+",
+    "journal": "",
+    "doi": "10.3390/ijms251910779"
+  },
+  {
+    "pmcid": "PMC11035696",
+    "year": "2024",
+    "title": "PPAR\u03b3",
+    "journal": "",
+    "doi": "10.1038/s41467-024-47613-w"
+  },
+  {
+    "pmcid": "PMC11390726",
+    "year": "2024",
+    "title": "Pairs of proteins (FXR+sEH, FXR+THR\u03b2, PPAR\u03b4+sEH, AT1+sEH, FFAR1+sEH, AT1+FFAR1)",
+    "journal": "",
+    "doi": "10.1038/s41467-024-52060-8"
+  },
+  {
+    "pmcid": "PMC10965937",
+    "year": "2024",
+    "title": "CDK2",
+    "journal": "",
+    "doi": "10.1038/s41467-024-46569-1"
+  },
+  {
+    "pmcid": "PMC11074339",
+    "year": "2024",
+    "title": "Dual specificity to MEK1 and mTOR",
+    "journal": "",
+    "doi": "10.1038/s41467-024-47120-y"
+  },
+  {
+    "pmcid": "PMC11584676",
+    "year": "2024",
+    "title": "PARP1",
+    "journal": "",
+    "doi": "10.1038/s41467-024-54456-y"
+  },
+  {
+    "pmcid": "PMC12611778",
+    "year": "2024",
+    "title": "Hypoxia",
+    "journal": "",
+    "doi": "10.1038/s41587-024-02503-w"
+  },
+  {
+    "pmcid": "PMC12081877",
+    "year": "2025",
+    "title": "SARS",
+    "journal": "",
+    "doi": "10.1038/s41467-025-59870-4"
+  },
+  {
+    "pmcid": "PMC12102218",
+    "year": "2025",
+    "title": "Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)",
+    "journal": "",
+    "doi": "10.1038/s41467-025-59874-0"
+  }
+]

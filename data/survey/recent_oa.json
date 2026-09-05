@@ -1,0 +1,90 @@
+[
+  {
+    "target": "PPAR\u03b3",
+    "year": 2024,
+    "category": "distribution",
+    "hits": 2,
+    "synth": 6,
+    "url": "https://www.nature.com/articles/s41467-024-47613-w",
+    "doi": "10.1038/s41467-024-47613-w",
+    "pmcid": "PMC11035696",
+    "oa": true
+  },
+  {
+    "target": "Pairs of proteins (FXR+sEH, FXR+THR\u03b2, PPAR\u03b4+sEH, AT1+sEH, FFAR1+sEH, AT1+FFAR1)",
+    "year": 2024,
+    "category": "distribution",
+    "hits": null,
+    "synth": null,
+    "url": "https://www.nature.com/articles/s41467-024-52060-8",
+    "doi": "10.1038/s41467-024-52060-8",
+    "pmcid": "PMC11390726",
+    "oa": true
+  },
+  {
+    "target": "CDK2",
+    "year": 2024,
+    "category": "goal-directed",
+    "hits": 7,
+    "synth": 7,
+    "url": "https://www.nature.com/articles/s41467-024-46569-1",
+    "doi": "10.1038/s41467-024-46569-1",
+    "pmcid": "PMC10965937",
+    "oa": true
+  },
+  {
+    "target": "Dual specificity to MEK1 and mTOR",
+    "year": 2024,
+    "category": "goal-directed",
+    "hits": 19,
+    "synth": 32,
+    "url": "https://www.nature.com/articles/s41467-024-47120-y",
+    "doi": "10.1038/s41467-024-47120-y",
+    "pmcid": "PMC11074339",
+    "oa": true
+  },
+  {
+    "target": "PARP1",
+    "year": 2024,
+    "category": "goal-directed",
+    "hits": 2,
+    "synth": 3,
+    "url": "https://www.nature.com/articles/s41467-024-54456-y",
+    "doi": "10.1038/s41467-024-54456-y",
+    "pmcid": "PMC11584676",
+    "oa": true
+  },
+  {
+    "target": "Hypoxia",
+    "year": 2024,
+    "category": "goal-directed",
+    "hits": null,
+    "synth": null,
+    "url": "https://www.nature.com/articles/s41587-024-02503-w",
+    "doi": "10.1038/s41587-024-02503-w",
+    "pmcid": "PMC12611778",
+    "oa": true
+  },
+  {
+    "target": "SARS",
+    "year": 2025,
+    "category": "goal-directed",
+    "hits": 2,
+    "synth": 2,
+    "url": "https://www.nature.com/articles/s41467-025-59870-4",
+    "doi": "10.1038/s41467-025-59870-4",
+    "pmcid": "PMC12081877",
+    "oa": true
+  },
+  {
+    "target": "Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)",
+    "year": 2025,
+    "category": "goal-directed",
+    "hits": 1,
+    "synth": 1,
+    "url": "https://www.nature.com/articles/s41467-025-59874-0",
+    "doi": "10.1038/s41467-025-59874-0",
+    "pmcid": "PMC12102218",
+    "oa": true
+  }
+]

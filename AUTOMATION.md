@@ -84,7 +84,7 @@ result, you need in vitro results to train it on. You have none. So the sequence
 closing it.** A model trained only on literature will confidently mis-rank your chemistry,
 which is the same failure mode as 2025 in a new costume.
 
-### What this means for MD Anderson
+### What this means for a clinical partner
 
 They asked for laboratory validation. Nothing above answers that. The honest statement is:
 

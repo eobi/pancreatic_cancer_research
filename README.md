@@ -50,7 +50,7 @@ Journal* **10**(4), 7-18, doi:10.22624/AIMS/V10N4P1.
 
 ## Why this exists
 
-A 2025 campaign generated molecules for pancreatic cancer. MD Anderson asked for
+A 2025 campaign generated molecules for pancreatic cancer. a clinical partner asked for
 laboratory validation. Chemical synthesis then stalled for over a year — cost, a
 relocation, impure reagents.
 
@@ -128,7 +128,7 @@ valid disconnection is not a working reaction.
 
 **Now — order compounds.** The only step that produces a real measurement, and the long
 pole because shipping takes weeks. These are catalogue compounds: synthesis is already
-solved and they arrive with purity data. This is the fast path to what MD Anderson asked
+solved and they arrive with purity data. This is the fast path to what a clinical partner asked
 for, and it does not depend on solving retrosynthesis.
 
 **Next — G12R (9XB7).** The last untested common variant, and the last chance for

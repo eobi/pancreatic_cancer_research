@@ -719,7 +719,7 @@ column to read rather than a filter that stops a molecule.
 
 **Then:** buyability and price lookup on survivors, and order. For these compounds
 synthesis is already solved — a supplier makes them and ships with purity data. That is
-the fast path to the wet-lab measurement MD Anderson asked for, and it does not depend on
+the fast path to the wet-lab measurement a clinical partner asked for, and it does not depend on
 solving retrosynthesis.
 
 **Separately:** retrosynthesis remains essential for *generated* molecules, where nobody

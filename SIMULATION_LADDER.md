@@ -106,7 +106,7 @@ RMSD/RMSF/SASA your 2025 notes asked for, and kills docking false positives befo
 spends money.
 
 **Phase C — GPU box.** FEP (rung 4) on the top 5. This is the number worth putting in front
-of MD Anderson.
+of a clinical partner.
 
 **Phase D — laptop, hours.** PBPK (rung 5) and KRAS pathway simulation (rung 6) via
 `tellurium`/`libroadrunner`. Cheap, and turns a binding number into a predicted biological

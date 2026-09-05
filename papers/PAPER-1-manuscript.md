@@ -10,10 +10,6 @@ date: "2026-09-05"
 
 **Obi Ebuka David**, Autogon Inc. Correspondence: davidobi023@gmail.com
 
-**Draft v3, 2026-09-05.** All references verified against publisher records (`REFERENCES.md`).
-
----
-
 ## Abstract
 
 We report a self-audit of a generative small-molecule campaign against KRAS in pancreatic
@@ -37,8 +33,6 @@ known answers before its output is used, report four validated targets and three
 screens, and document the two occasions on which our own replacement methods failed in the
 same manner and were caught by those gates. Code, data, and all negative results are
 released.
-
----
 
 ## 1. Introduction
 
@@ -78,8 +72,6 @@ We are the authors of the generative system audited here (ref. 13). This is a se
 and we regard that as a strength of the evidence rather than a limitation of it: we hold the
 primary artefacts, including the failure.
 
----
-
 ## 2. Provenance of the material audited
 
 ```mermaid
@@ -87,7 +79,7 @@ flowchart TD
     A["Medgnosis GenAI system<br/>published, ref. 13"] --> B["KRAS campaign<br/>73 molecules generated"]
     B --> C["Docking: DiffDock + GNINA<br/>4 KRAS variants"]
     C --> D["Property prediction: ADMET-AI<br/>PAINS, AMES, QED, SA, epoxide flag"]
-    D --> E["Selection rule<br/>DiffDock conf >= -1.5<br/>GNINA affinity <= -5.0 kcal/mol"]
+    D --> E["Selection rule<br/>DiffDock conf >= −1.5<br/>GNINA affinity <= −5.0 kcal/mol"]
     E --> F["Shortlist recorded<br/>spreadsheet, 73 + 2 references"]
     F --> G["3 molecules sent to chemists"]
     G --> H["~1 year, no compound delivered"]
@@ -99,14 +91,13 @@ flowchart TD
 **Figure 1. The chain, and where it breaks.** Property prediction (D) fed the record but not
 the decision (E). The dotted edge is the paper's subject.
 
-The generative system and its selection rule are published (ref. 13): molecules were
+The chain from published method to bench failure is summarised in Figure 1. The
+generative system and its selection rule are published (ref. 13): molecules were
 retained on a DiffDock confidence threshold of −1.5 and a GNINA minimised affinity of
 ≤ −5.0 kcal/mol, with ADMET-AI (ref. 12) descriptors computed alongside. No stability or
 reactivity criterion appears in the method. The campaign output analysed here is the
 spreadsheet released with this paper, containing 73 generated molecules and two reference
 drugs, sotorasib (ref. 9) and adagrasib (ref. 10).
-
----
 
 ## 3. Results
 
@@ -165,7 +156,7 @@ BRENK and PAINS as shipped in RDKit (ref. 21). Right, fraction containing an aro
 Red, the audited campaign. Blue, purchasable compounds. Grey, eight published generative
 models whose released outputs are distributed with the MOSES benchmark (ref. 15).
 
-Eight published models, 240,214 molecules, pass at 81 to 89 percent. This campaign passes at
+Eight published models, 240,214 molecules, pass at 81 to 89 percent (Figure 2). This campaign passes at
 6.8 percent, and **not one of its 73 molecules contains an aromatic ring**, against 95 to 99
 percent for every model tested and 100 percent for purchasable compounds. Both reference
 drugs contain aromatic rings.
@@ -301,11 +292,11 @@ the reason we report it.
 
 ![](figures/fig_rescoring.png)
 
-**Figure 6. A flat shortlist carries no ordering to recover.** Left, MM-GBSA against Vina
+**Figure 3. A flat shortlist carries no ordering to recover.** Left, MM-GBSA against Vina
 for all 200 G12V compounds. Right, the Vina score distribution, spanning 1.80 kcal/mol
 against a documented method error of about 2.5 kcal/mol.
 
-Neither rescoring method is malfunctioning. The shortlist spans less than the primary method's
+Neither rescoring method is malfunctioning (Figure 3). The shortlist spans less than the primary method's
 own error and carries no ordering to recover. Reported without the primary spread, ρ = 0.106
 reads as a failed rescoring method rather than a property of the input. Interim estimates during
 the run were 0.239 (n = 50), 0.347 (n = 60), 0.196 (n = 80) and 0.106 (n = 200); the apparent
@@ -326,18 +317,16 @@ every validation gate ran at 16, so the gate never covered the configuration use
 
 ![](figures/fig_exhaustiveness.png)
 
-**Figure 5. Search effort changes geometry, not ranking.** Fifty compounds docked at four
+**Figure 4. Search effort changes geometry, not ranking.** Fifty compounds docked at four
 exhaustiveness levels with an identical embedding seed, so the only variable is the search.
 Left, mean score drift against the deepest search. Centre, rank correlation. Right, top-10
 compounds retained.
 
-A 31-fold compute increase moves the median score by 0.08 kcal/mol, so the completed screens are
+A 31-fold compute increase moves the median score by 0.08 kcal/mol (Figure 4), so the completed screens are
 sound. The same parameter on G12R moved the cognate's score only from −9.28 to −9.80 while moving
 its **pose from 7.19 Å to 0.99 Å**, converting a failed validation into a passed one. Screening
 consumes rank and tolerates shallow search; validation and pose-dependent rescoring consume
 geometry and do not.
-
----
 
 ### 3.8 Selecting hard on docking does not, by itself, reduce makeability
 
@@ -347,20 +336,20 @@ compounds, binned into deciles by Vina score.
 
 ![](figures/fig_deciles.png)
 
-**Figure 7. Docking rank against makeability, inside a catalogue.** Unmodified filter pass
+**Figure 5. Docking rank against makeability, inside a catalogue.** Unmodified filter pass
 rate and aromatic content by Vina decile, best binding on the left.
 
 **Table 9. Makeability is flat across the docking range.**
 
 | decile | Vina range (kcal/mol) | passes filter | aromatic | median MW |
 |---|---|---|---|---|
-| 1 (best) | -12.50 to -10.01 | 100.0% | 100% | 520.5 |
-| 2 | -10.00 to -9.57 | 100.0% | 100% | 516.2 |
-| 5 | -9.03 to -8.76 | 99.5% | 100% | 517.6 |
-| 7 | -8.45 to -8.15 | 97.0% | 100% | 516.7 |
-| 10 (worst) | -7.03 to -4.51 | 100.0% | 100% | 533.6 |
+| 1 (best) | −12.50 to −10.01 | 100.0% | 100% | 520.5 |
+| 2 | −10.00 to −9.57 | 100.0% | 100% | 516.2 |
+| 5 | −9.03 to −8.76 | 99.5% | 100% | 517.6 |
+| 7 | −8.45 to −8.15 | 97.0% | 100% | 516.7 |
+| 10 (worst) | −7.03 to −4.51 | 100.0% | 100% | 533.6 |
 
-There is no gradient. Selecting hard on a docking objective is safe when the search space is
+There is no gradient (Figure 5). Selecting hard on a docking objective is safe when the search space is
 a catalogue, because the catalogue bounds the search to chemistry that exists. The failure
 documented here therefore required **both** an unconstrained generative search space **and**
 the absence of any criterion able to reject a molecule. Neither alone reproduces it.
@@ -382,7 +371,7 @@ sampled papers were retrievable as open-access full text and were scored.
 
 ![](figures/fig_gate_coverage.png)
 
-**Figure 8. Gate coverage against outcome.** Left, fraction of computed properties able to
+**Figure 6. Gate coverage against outcome.** Left, fraction of computed properties able to
 halt the pipeline. Right, molecules actually synthesised. Red, the audited campaign.
 
 **Table 10. Pilot survey of gate coverage (n = 4 scored, rubric fixed in advance).**
@@ -395,7 +384,7 @@ halt the pipeline. Right, molecules actually synthesised. Red, the audited campa
 | CLM (ROR-gamma) | 20 | 4 | 0 | **0.00** | no | 3 | **3** |
 | This campaign | 13 | 19 | 3 | 0.16 | no | **0** | 0 |
 
-**The hypothesis fails.** Two campaigns with gate coverage of zero synthesised their designs
+**The hypothesis fails** (Figure 6). Two campaigns with gate coverage of zero synthesised their designs
 and obtained hits, one of them three from three at 0.37 micromolar (ref. 20). Automated gate
 coverage does not distinguish them from a campaign that produced nothing.
 
@@ -426,7 +415,6 @@ content.
 Each was plausible, each would have made a more quotable paper, and each was removed by a
 control we ran on ourselves. What remains is a single documented negative case with an
 unusually complete audit trail, set against 73 positive controls from the literature.
-
 
 ## 4. Discussion
 
@@ -463,8 +451,6 @@ that computational tools fail silently would be self-refuting if it presented it
 having worked first time. The relevant difference is that ours were caught, by gates, before
 anything was ordered.
 
----
-
 ## 5. Limitations
 
 **One campaign, no control campaign.** We cannot separate "the vetting architecture failed" from
@@ -497,8 +483,6 @@ refutations bound what the surviving claim can carry.
 obvious interest in the interpretation. All data and code are released so the analysis can be
 repeated against us.
 
----
-
 ## 6. Methods
 
 **Software.** AutoDock Vina 1.2.7 (ref. 6); RDKit 2026.03 (BRENK and PAINS catalogues as
@@ -520,16 +504,12 @@ control ordering in MM-GBSA.
 **Statistics.** Spearman rank correlation throughout, reported with n. Interim estimates are
 reported alongside final values where they differ materially.
 
----
-
 ## 7. Data and code availability
 
 `github.com/eobi/pancreatic_cancer_research` contains code, gated libraries, screening results,
 rescoring outputs, the filter battery, and all validation records **including failed validations**.
 The G12R validation that failed at 7.19 Å is retained alongside the one that passed at 0.99 Å. A
 record containing only successes cannot support a methodological claim.
-
----
 
 ## 8. References
 

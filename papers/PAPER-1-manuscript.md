@@ -4,9 +4,8 @@
 Autogon Inc.
 Correspondence: davidobi023@gmail.com
 
-**Draft v1 — 2026-09-05.** Target: Nature Communications / JACS Au.
-*Every citation below is marked [VERIFY] and drawn from recall, not a literature search.
-No reference should survive into a submitted version unchecked.*
+**Draft v2 — 2026-09-05.** Target: Nature Communications / JACS Au.
+*All references verified against publisher records on 2026-09-05; see `REFERENCES.md`.*
 
 ---
 
@@ -45,12 +44,11 @@ route exists. Each component is individually validated in the literature. The st
 whole is rarely validated against the only endpoint that matters — whether a chemist can
 make the molecule and whether it does anything.
 
-That generative models propose unsynthesizable molecules is established [VERIFY: Gao &
-Coley, *The Synthesizability of Molecules Proposed by Generative Models*, JCIM 2020]. That
-structural-alert catalogues over-reject is likewise documented [VERIFY: Capuzzi et al.,
-*Phantom PAINS*, JCIM 2017; Baell & Nissink 2018]. That deep-learning docking can produce
-physically invalid poses has been demonstrated systematically [VERIFY: Buttenschoen et al.,
-*PoseBusters*, 2024]. We do not claim novelty for any of these individually, and we cite
+That generative models propose unsynthesizable molecules is established (ref. 1). That
+structural-alert catalogues over-reject is likewise documented (refs. 2, 3). Capuzzi et al.
+report that **87 small-molecule FDA-approved drugs carry PAINS alerts**, and caution
+explicitly against using such filters to triage compounds. That deep-learning docking can produce
+physically invalid poses has been demonstrated systematically (ref. 4). We do not claim novelty for any of these individually, and we cite
 them as the entry point rather than the contribution.
 
 What has not, to our knowledge, been characterised is the **shared shape** of these
@@ -111,7 +109,7 @@ We then asked why the campaign's vetting stack did not flag any of this, and re-
 component against molecules whose correct classification is known — approved drugs for the
 target and its class, and co-crystallised ligands.
 
-**(i) Structural alerts reject the mechanism.** The BRENK catalogue flags acrylamide as
+**(i) Structural alerts reject the mechanism.** The BRENK catalogue (ref. 5) flags acrylamide as
 `Michael_acceptor_1`. Acrylamide is the covalent warhead of both **sotorasib** and
 **adagrasib**, approved KRAS G12C inhibitors — the alert fires on the feature responsible
 for the drug's activity. Without an exemption the filter rejects both approved drugs while
@@ -122,16 +120,18 @@ passing generated molecules.
 `[NX2]=[OX1]` plus an explicit hydroxylamine pattern resolves it.
 
 **(iii) A stability rule rejects a clinical candidate.** Our own gate rejected
-**MRTX-1133**, a G12D inhibitor in clinical development, on the alkyne in its structure.
+**MRTX1133**, a G12D inhibitor in clinical development (ref. 7), on the alkyne in its structure.
 This was found only because the gate had been exposed as a service with a startup
 self-check; the equivalent script had run for two days with the fault present.
 
-**(iv) ADMET thresholds reject every positive control.** Applying textbook cutoffs
+**(iv) ADMET thresholds reject every positive control.** Applying textbook cutoffs to
+ADMET-AI predictions (ref. 12)
 (DILI < 0.70, hERG < 0.70) to a 200-compound shortlist rejected **199 of 200**, including
 sotorasib and adagrasib. **Every approved control failed.** Thresholds derived from the
 control panel instead retain them; DILI and hERG are demoted to informational.
 
-**(v) Retrosynthesis ranks an impossible molecule above a marketed drug.**
+**(v) Retrosynthesis ranks an impossible molecule above a marketed drug.** Using
+AiZynthFinder (ref. 11):
 
 | molecule | precursors in stock | steps |
 |---|---|---|
@@ -164,24 +164,30 @@ phases; **nine of the eleven gates exist because a tool had already failed silen
 
 **Method validation.** Blind docking with CNN rescoring showed **4.0 kcal/mol run-to-run
 variance on a single molecule** (sotorasib: −3.80 and −7.78 on repeat runs) and could not
-rank. Replacing it with site-directed docking into a box defined by the crystallographic
+rank. Replacing it with site-directed docking (AutoDock Vina 1.2.7; ref. 6) into a box defined by the crystallographic
 ligand gives cognate redock RMSDs of **0.67 Å** (G12C, 8AFB), **0.88 Å** (G12D, 9HFK),
 **1.55 Å** (G12V, 9YMQ) and **0.99 Å** (G12R, 9XB7), against a < 2.0 Å criterion.
 
-**Target selection by disease prevalence.** KRAS variant frequencies in PDAC are G12D 39%,
-G12V 29%, G12R 15%, G12C 1.7%. The original campaign's structural work centred on G12C,
-which has approved drugs and abundant liganded structures — and is a **lung** variant,
-present in under 2% of this disease. Prevalence, not structure availability, now drives
-target intake.
+**Target selection by disease prevalence.** Among 3,755 PDAC tumours carrying a codon-12
+KRAS mutation, the variant distribution is **G12D 47%, G12V 34%, G12R 17%, G12C 2%**
+(ref. 8). *(Denominator: codon-12-mutant tumours. As fractions of all PDAC — KRAS is
+mutated in >90% of cases — these correspond to approximately 40%, 29%, 14% and 1.7%.)*
+
+The original campaign's structural work centred on **G12C**, which has approved drugs
+(refs. 9, 10) and abundant liganded structures — and which is predominantly a **lung**
+variant, accounting for 2% of codon-12-mutant PDAC. Structure availability and clinical
+precedent selected the target; disease prevalence did not. Prevalence now drives target
+intake.
 
 **Selection heuristic, validated against a control arm.** Similarity-based selection was
 compared against a random arm from the same gated library: median docking score **−8.68**
 vs **−8.24** kcal/mol. The heuristic is measured rather than assumed.
 
-**Screens.** Across 518,662 gated purchasable compounds, screens covering 68% of pancreatic
-KRAS by variant frequency (G12D, n = 19,639; G12V, n = 9,913) returned **no compound
+**Screens.** Across 518,662 gated purchasable compounds, screens covering **81% of codon-12-mutant PDAC** (G12D, n = 19,639 compounds;
+G12V, n = 9,913) returned **no compound
 competitive with the clinical inhibitors**: G12D essentially nothing, G12V two compounds
-past the cognate ligand. A G12R screen (15% of PDAC) is in progress.
+past the cognate ligand. A G12R screen is in progress; completing it brings coverage to **98% of codon-12-mutant
+PDAC** (83% of all PDAC).
 
 ### 2.5 Our own methods failed too, in the same way
 
@@ -332,20 +338,38 @@ a methodological claim.
 
 ## 7. References
 
-**[ALL REFERENCES BELOW ARE FROM RECALL AND MUST BE VERIFIED BEFORE SUBMISSION.]**
+*All entries verified against publisher records on 2026-09-05. Full list with resolution
+notes in `papers/REFERENCES.md`.*
 
-1. [VERIFY] Gao, W. & Coley, C. W. The synthesizability of molecules proposed by generative
-   models. *J. Chem. Inf. Model.* (2020).
-2. [VERIFY] Capuzzi, S. J. et al. Phantom PAINS: problems with the utility of alerts for
-   pan-assay interference compounds. *J. Chem. Inf. Model.* (2017).
-3. [VERIFY] Baell, J. B. & Nissink, J. W. M. Seven year itch: pan-assay interference
-   compounds (PAINS) in 2017. *ACS Chem. Biol.* (2018).
-4. [VERIFY] Buttenschoen, M. et al. PoseBusters: AI-based docking methods fail to generate
-   physically valid poses. *Chem. Sci.* (2024).
-5. [VERIFY] Brenk, R. et al. Lessons learnt from assembling screening libraries for drug
-   discovery for neglected diseases. *ChemMedChem* (2008).
-6. [VERIFY] Eberhardt, J. et al. AutoDock Vina 1.2.0. *J. Chem. Inf. Model.* (2021).
-7. [VERIFY] Hallin, J. et al. Anti-tumor efficacy of a potent and selective non-covalent
-   KRAS G12D inhibitor (MRTX1133). *Nat. Med.* (2022).
-8. [VERIFY] KRAS mutation frequencies in pancreatic ductal adenocarcinoma — primary source
-   required for the 39/29/15/1.7% figures.
+1. Gao, W. & Coley, C. W. The Synthesizability of Molecules Proposed by Generative Models.
+   *J. Chem. Inf. Model.* **60**, 5714–5723 (2020). doi:10.1021/acs.jcim.0c00174
+2. Capuzzi, S. J., Muratov, E. N. & Tropsha, A. Phantom PAINS: Problems with the Utility of
+   Alerts for Pan-Assay INterference CompoundS. *J. Chem. Inf. Model.* **57**, 417–427
+   (2017). doi:10.1021/acs.jcim.6b00465
+3. Baell, J. B. & Nissink, J. W. M. Seven Year Itch: Pan-Assay Interference Compounds
+   (PAINS) in 2017 — Utility and Limitations. *ACS Chem. Biol.* (2018).
+   doi:10.1021/acschembio.7b00903
+4. Buttenschoen, M., Morris, G. M. & Deane, C. M. PoseBusters: AI-based docking methods
+   fail to generate physically valid poses or generalise to novel sequences. *Chem. Sci.*
+   **15**, 3130–3139 (2024). doi:10.1039/D3SC04185A
+5. Brenk, R. et al. Lessons Learnt from Assembling Screening Libraries for Drug Discovery
+   for Neglected Diseases. *ChemMedChem* **3**, 435–444 (2008). doi:10.1002/cmdc.200700139
+6. Eberhardt, J., Santos-Martins, D., Tillack, A. F. & Forli, S. AutoDock Vina 1.2.0.
+   *J. Chem. Inf. Model.* **61**, 3891–3898 (2021). doi:10.1021/acs.jcim.1c00203
+7. Wang, X. et al. Identification of MRTX1133, a Noncovalent, Potent, and Selective
+   KRAS^G12D Inhibitor. *J. Med. Chem.* **65**, 3123–3133 (2022).
+   doi:10.1021/acs.jmedchem.1c01688
+8. Ardalan, B., Ciner, A., Baca, Y. et al. Distinct Molecular and Clinical Features of
+   Specific Variants of KRAS Codon 12 in Pancreatic Adenocarcinoma. *Clin. Cancer Res.*
+   **31**, 1082–1090 (2025). doi:10.1158/1078-0432.CCR-24-3149
+9. Canon, J. et al. The clinical KRAS(G12C) inhibitor AMG 510 drives anti-tumour immunity.
+   *Nature* **575**, 217–223 (2019). doi:10.1038/s41586-019-1694-1
+10. Hallin, J. et al. The KRAS^G12C Inhibitor MRTX849 Provides Insight toward Therapeutic
+    Susceptibility of KRAS-Mutant Cancers in Mouse Models and Patients. *Cancer Discov.*
+    **10**, 54–71 (2020). doi:10.1158/2159-8290.CD-19-1167
+11. Genheden, S. et al. AiZynthFinder: a fast, robust and flexible open-source software for
+    retrosynthetic planning. *J. Cheminform.* **12**, 70 (2020).
+    doi:10.1186/s13321-020-00472-1
+12. Swanson, K. et al. ADMET-AI: a machine learning ADMET platform for evaluation of
+    large-scale chemical libraries. *Bioinformatics* **40**, btae416 (2024).
+    doi:10.1093/bioinformatics/btae416

@@ -1,0 +1,36 @@
+{
+  "levels": [
+    4,
+    16,
+    64,
+    128
+  ],
+  "n": 50,
+  "reference": 128,
+  "summary": {
+    "ex4": {
+      "median": -10.94,
+      "mean_delta_vs_ref": 0.084,
+      "rho_vs_ref": 0.821,
+      "top10_kept": 8
+    },
+    "ex16": {
+      "median": -10.96,
+      "mean_delta_vs_ref": 0.022,
+      "rho_vs_ref": 0.95,
+      "top10_kept": 9
+    },
+    "ex64": {
+      "median": -11.0,
+      "mean_delta_vs_ref": -0.011,
+      "rho_vs_ref": 0.977,
+      "top10_kept": 10
+    },
+    "ex128": {
+      "median": -10.98,
+      "mean_delta_vs_ref": 0.0,
+      "rho_vs_ref": 1.0,
+      "top10_kept": 10
+    }
+  }
+}

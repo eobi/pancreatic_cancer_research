@@ -610,6 +610,18 @@ the input carried no ordering to recover. A flat shortlist bounds rho near zero 
 rescoring starts, so a low correlation gets misread as a bad rescoring method rather than
 a property of the shortlist. Measure the primary score's spread first; it costs nothing.
 
+**Shallow search is adequate for ranking and inadequate for pose recovery.** Every screen
+here ran at exhaustiveness 4 while every validation gate ran at 16 — the gate never covered
+the configuration the screens used. Tested directly (50 G12V compounds x 4 levels, 200
+docks): against ex128, ex4 drifts **+0.08 kcal/mol** mean, rho **0.821**, and keeps **8 of
+the top 10**, at 1/31st the cost. So the G12D and G12V negatives are facts about the
+library, not artefacts of the search. The apparent contradiction with G12R resolves the
+same way: there too the *score* barely moved (-9.28 -> -9.80) while the *pose* moved
+7.19 A -> 0.99 A. Exhaustiveness buys geometry, not ranking. Screening ranks by score and
+tolerates a cheap search; validation compares geometry to a crystal and does not. The
+two-tier arrangement was correct — but it was never checked until now, and could as easily
+have gone the other way.
+
 **A control is only meaningful if it is cognate.** Judging 8AFB with Sotorasib, whose
 structure is 6OIM, measures the wrong thing.
 

@@ -262,3 +262,48 @@ primary score**. If the shortlist is flat, rho is bounded near zero before any r
 begins, and a low correlation will be read as a failure of the rescoring method rather
 than a property of the input. The practical rule this yields is one line: **check that
 your shortlist spans more than your scoring function's error before you pay to rescore it.**
+
+---
+
+## Study 7 — Docking exhaustiveness buys geometry, not ranking
+
+**Claim.** Increasing docking search effort improves *pose* accuracy substantially while
+leaving *score ranking* nearly unchanged. Virtual screening, which consumes rank, is
+therefore safe at low exhaustiveness; method validation and pose-dependent rescoring, which
+consume geometry, are not.
+
+**Evidence.** 50 compounds stratified across a G12V shortlist, docked at exhaustiveness
+4 / 16 / 64 / 128 with an identical embedding seed at every level, so the only variable is
+the search (200 docks).
+
+| level | median | mean d vs ex128 | max d | rho vs ex128 | top-10 kept | median cost |
+|---|---|---|---|---|---|---|
+| ex4 | -10.94 | **+0.08** | +1.49 | **0.821** | **8/10** | 24 s |
+| ex16 | -10.96 | +0.02 | +0.76 | 0.950 | 9/10 | 94 s |
+| ex64 | -11.00 | -0.01 | +0.06 | 0.977 | 10/10 | 347 s |
+| ex128 | -10.98 | 0.00 | 0.00 | 1.000 | 10/10 | 747 s |
+
+A 31x increase in compute moves the median score by 0.08 kcal/mol — two orders of
+magnitude inside Vina's ~2.5 kcal/mol error. Only 2 of 50 compounds shift by more than
+1 kcal/mol.
+
+**The complementary observation, from the same target family.** On KRAS G12R (9XB7) the
+cognate ligand's score moved only -9.28 -> -9.80 between ex16 and ex128, while its
+redocked pose moved **7.19 A -> 0.99 A**, turning a failed validation gate into a passed
+one. Same parameter, same protein family: negligible effect on score, decisive effect on
+geometry.
+
+**Reproduce.** `python src/exhaustiveness_test.py data/shortlists/top200_g12v.json
+--receptor targets/g12v/rec.pdbqt --box targets/g12v/box.txt -n 50 --levels 4,16,64,128`
+-> `results/exhaustiveness_g12v.json`, `results/exhaustiveness_verdict_g12v.json`.
+
+**Does not support.** That exhaustiveness never matters to ranking — measured on a
+shortlist spanning only 1.8 kcal/mol, where compounds are near-tied by construction; a
+wider-ranging set may behave differently. Nor that ex4 is sufficient generally: 8/10
+retention means marginal compounds are not stably ordered. Nor anything about targets
+outside KRAS.
+
+**Why it is worth publishing.** Screening exhaustiveness is usually chosen by folklore and
+rarely reported with a sensitivity analysis. The practical rule is one line: **spend search
+effort where geometry is consumed (validation, pose-based rescoring), not where only rank
+is consumed (screening).** For this project it was worth 31x on the screening budget.

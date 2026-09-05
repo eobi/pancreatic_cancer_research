@@ -91,7 +91,7 @@ was unsound, on top of the chemistry.
 
 ### Why blind docking is wrong here
 
-The G12C switch-II pocket is induced-fit: it does not exist in apo KRAS, it is carved open
+The G12C switch-II pocket is induced-fit: it does not exist in apo KRAS; it is carved open
 by whichever inhibitor bound it. Each structure's pocket is shaped by ITS ligand:
 
     8AFB = BI-0474 (LXD)    6OIM = Sotorasib    6UT0 = Adagrasib

@@ -31,7 +31,7 @@ known answers before its output is used, and report four validated targets, thre
 screens, and two occasions on which our own replacement methods failed in the same manner
 and were caught by those gates. We also report four hypotheses we proposed for the failure and could not
 support, including our own, and state where the surviving claim is bounded: the audit is of
-a single campaign, the laboratory outcome is attested rather than documented, and no
+a single campaign; the laboratory outcome is attested rather than documented; and no
 compound has been measured. Code, data, and all negative results are released.
 
 ## 1. Introduction
@@ -429,8 +429,7 @@ coverage does not distinguish them from a campaign that produced nothing.
 What the ROR-gamma paper does record is a different kind of gate. Its first round of designs
 was judged "synthetically inaccessible by medicinal chemists", retrosynthetic analysis "did
 not find a synthetic route", and that assessment prompted a revision of the method rather
-than an order for synthesis (ref. 20). The gate existed, it was a person, and it fired before
-money was spent. The campaign audited here has no equivalent step in its record: the
+than an order for synthesis (ref. 20). The gate existed. It was a person, and it fired before money was spent. The campaign audited here has no equivalent step in its record: the
 spreadsheet in section 3.1 was produced and three molecules were requested from chemists.
 
 The claim that survives is narrower than the one we set out to make, and is about process

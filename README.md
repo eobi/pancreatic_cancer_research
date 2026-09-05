@@ -171,8 +171,7 @@ Also record the **control spread**, how far apart the known binders score: 2.96 
 on G12C, 4.84 on G12D. A spread near zero means the function cannot rank at all.
 
 *What it caught:* the original DiffDock + GNINA setup showed **4.0 kcal/mol run-to-run
-variance on the same molecule** (Sotorasib scored −3.80 and −7.78 on repeat runs). It was
-not ranking, it was sampling noise. Replaced with site-directed Vina.
+variance on the same molecule** (Sotorasib scored −3.80 and −7.78 on repeat runs). It was not ranking; it was sampling noise. Replaced with site-directed Vina.
 
 ### Phase 3, Library acquisition
 Download purchasable compounds from ZINC, resumable and polite.
@@ -329,7 +328,7 @@ check that was missing in 2025.
 ## Four things that will bite you
 
 **The covalent exemption.** BRENK flags acrylamide as `Michael_acceptor_1`, rejecting
-Sotorasib and Adagrasib, the warhead *is* the mechanism. Pass `--covalent` for G12C.
+Sotorasib and Adagrasib. The warhead *is* the mechanism. Pass `--covalent` for G12C.
 
 **RMSD against a PDB ligand.** No bond orders, so `CalcRMS` maps atoms arbitrarily and
 returns a large meaningless number. Assign bond orders from SMILES first. A pose 0.34 Å
@@ -339,7 +338,7 @@ from the crystal centroid first reported as 8.42 Å.
 cross-docking, not binding.
 
 **Score the docked pose, not a fresh conformer.** MM-GBSA on a re-embedded conformer put
-the crystallographic ligand at **+23 kcal/mol**, the protein and ligand were floating
-apart. Scoring the pose gives −33.
+the crystallographic ligand at **+23 kcal/mol**: the protein and ligand were floating
+apart. Scoring the pose gives **-33**.
 
 Full list in [DISCOVERIES.md](DISCOVERIES.md#8-traps-found-along-the-way).

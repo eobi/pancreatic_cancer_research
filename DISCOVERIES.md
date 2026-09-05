@@ -594,6 +594,15 @@ was 564s wall (~66 min CPU) per compound; pinning one thread per worker and runn
 once gave ~1.4x, not the ~5x predicted. Measure one compound before re-architecting a run
 around an analogy. The scaling behaviour of a tool is a property of that tool.
 
+**Docking convergence is per-ligand, not per-target.** G12R (9XB7) failed its gate at the
+default exhaustiveness: cognate redock 7.19 A, centroid 5.67 A off, a genuinely displaced
+pose rather than the bond-order artefact. Raising exhaustiveness to 128 left the two
+non-cognate controls unchanged to two decimals (-12.34 -> -12.33, -12.92 -> -12.93) while
+the cognate moved 0.52 kcal/mol and **7.19 A -> 0.99 A**, turning FAIL into PASS. Reading
+"converged" off the ligands that were not failing is invalid — the cognate is the only
+ligand whose convergence the gate depends on. Any G12R screen therefore needs raised
+exhaustiveness, at roughly 8x the cost per ligand.
+
 **A control is only meaningful if it is cognate.** Judging 8AFB with Sotorasib, whose
 structure is 6OIM, measures the wrong thing.
 

@@ -75,7 +75,9 @@ def to_pdbqt(mol, out_path):
 
 def dock(ligand_pdbqt, receptor_pdbqt, box, out_pdbqt, exhaustiveness=16, n_poses=9,
          seed=42, cpu=None):
-    cpu = cpu or os.cpu_count()
+    # Default to all cores, but let the caller cap it. Validation run alongside a
+    # long MM-GBSA job at the default grabbed 10 cores and halved that job's speed.
+    cpu = cpu or int(os.environ.get("VINA_CPU") or os.cpu_count())
     """Run Vina. Returns list of pose scores (kcal/mol), best first."""
     cx, cy, cz, sx, sy, sz = box
     cmd = [str(VINA),

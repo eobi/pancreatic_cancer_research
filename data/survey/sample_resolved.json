@@ -1,0 +1,110 @@
+[
+  {
+    "target": "PARP1",
+    "doi": "10.1038/s41467-024-54456-y",
+    "pmcid": "PMC11584676",
+    "oa": true,
+    "hits": 2,
+    "synth": 3,
+    "category": "goal-directed"
+  },
+  {
+    "target": "MERTK",
+    "doi": "10.1021/acs.jcim.2c00068",
+    "pmcid": null,
+    "oa": false,
+    "hits": 15,
+    "synth": 17,
+    "category": "distribution"
+  },
+  {
+    "target": "RXR",
+    "doi": "10.1038/s42004-018-0068-1",
+    "pmcid": null,
+    "oa": null,
+    "hits": 2,
+    "synth": 4,
+    "category": "distribution"
+  },
+  {
+    "target": "RIPK3",
+    "doi": null,
+    "pmcid": null,
+    "oa": null,
+    "hits": 6,
+    "synth": 8,
+    "category": "distribution"
+  },
+  {
+    "target": "PPAR\u03b3",
+    "doi": "10.1038/s41467-024-47613-w",
+    "pmcid": "PMC11035696",
+    "oa": true,
+    "hits": 2,
+    "synth": 6,
+    "category": "distribution"
+  },
+  {
+    "target": "Nurr1",
+    "doi": "10.1021/acs.jmedchem.3c00485",
+    "pmcid": "PMC10291550",
+    "oa": true,
+    "hits": 2,
+    "synth": 6,
+    "category": "distribution"
+  },
+  {
+    "target": "Bacteria",
+    "doi": null,
+    "pmcid": null,
+    "oa": null,
+    "hits": 0,
+    "synth": 1,
+    "category": "distribution"
+  },
+  {
+    "target": "DDR1",
+    "doi": "10.1021/acs.jmedchem.1c01205",
+    "pmcid": null,
+    "oa": false,
+    "hits": 2,
+    "synth": 2,
+    "category": "distribution"
+  },
+  {
+    "target": "SARS",
+    "doi": null,
+    "pmcid": null,
+    "oa": null,
+    "hits": 1,
+    "synth": 16,
+    "category": "goal-directed"
+  },
+  {
+    "target": "ROR\u03b3",
+    "doi": "10.1002/anie.202104405",
+    "pmcid": "PMC8457062",
+    "oa": true,
+    "hits": 3,
+    "synth": 3,
+    "category": "distribution"
+  },
+  {
+    "target": "Wee1 with improved selectivity against PLK1",
+    "doi": "10.1021/acs.jcim.4c01031",
+    "pmcid": null,
+    "oa": false,
+    "hits": 3,
+    "synth": 3,
+    "category": "goal-directed"
+  },
+  {
+    "target": "PHD enzymes",
+    "doi": "10.1021/acs.jmedchem.3c01932",
+    "pmcid": null,
+    "oa": false,
+    "hits": 1,
+    "synth": 1,
+    "category": "goal-directed"
+  }
+]

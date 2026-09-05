@@ -1,0 +1,702 @@
+[
+  {
+    "category": "distribution",
+    "title": "*De Novo* Design of Bioactive Small Molecules by Artificial Intelligence",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5838524/",
+    "date": "January 10, 2018",
+    "target": "RXR",
+    "model": "LSTM RNN",
+    "hits": 4,
+    "synth": 5
+  },
+  {
+    "category": "distribution",
+    "title": "Tuning artificial intelligence on the de novo design of natural-product-inspired retinoid ",
+    "url": "https://www.nature.com/articles/s42004-018-0068-1",
+    "date": "October 22, 2018",
+    "target": "RXR",
+    "model": "LSTM RNN",
+    "hits": 2,
+    "synth": 4
+  },
+  {
+    "category": "distribution",
+    "title": "Discovery of Highly Potent, Selective, and Orally Efficacious p300/CBP Histone Acetyltrans",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.9b01721",
+    "date": "January 7, 2020",
+    "target": "p300/CBP histone acetyltransferases (HAT)",
+    "model": "LSTM RNN",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "A Novel Scalarized Scaffold Hopping Algorithm with Graph-Based Variational Autoencoder for",
+    "url": "https://pubs.acs.org/doi/10.1021/acsomega.1c03613",
+    "date": "August 24, 2021",
+    "target": "JAK1",
+    "model": "GraphGMVAE",
+    "hits": 7,
+    "synth": 7
+  },
+  {
+    "category": "distribution",
+    "title": "Combining generative artificial intelligence and on-chip synthesis for de novo drug design",
+    "url": "https://www.science.org/doi/10.1126/sciadv.abg3338",
+    "date": "June 11, 2021",
+    "target": "LXR",
+    "model": "LSTM RNN",
+    "hits": 17,
+    "synth": 25
+  },
+  {
+    "category": "distribution",
+    "title": "Beam Search for Automated Design and Scoring of Novel ROR Ligands with Machine Intelligenc",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202104405",
+    "date": "June 24, 2021",
+    "target": "ROR\u03b3",
+    "model": "LSTM RNN",
+    "hits": 3,
+    "synth": 3
+  },
+  {
+    "category": "distribution",
+    "title": "Discovery of Pyrazolo[3,4-d]pyridazinone Derivatives as Selective DDR1 Inhibitors via Deep",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.1c01205",
+    "date": "January 13, 2022",
+    "target": "DDR1",
+    "model": "BiRNN encoder\u2013decoder",
+    "hits": 2,
+    "synth": 2
+  },
+  {
+    "category": "distribution",
+    "title": "Effective Reaction-Based De Novo Strategy for Kinase Targets: A Case Study on MERTK Inhibi",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.2c00068",
+    "date": "March 30, 2022",
+    "target": "MERTK",
+    "model": "GRU RNN",
+    "hits": 15,
+    "synth": 17
+  },
+  {
+    "category": "distribution",
+    "title": "Recurrent neural network (RNN) model accelerates the development of antibacterial metronid",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2022/ra/d2ra01807a",
+    "date": "August 15, 2022",
+    "target": "Bacteria",
+    "model": "GRU RNN",
+    "hits": 0,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "Target-Focused Library Design by Pocket-Applied Computer Vision and Fragment Deep Generati",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.2c00931",
+    "date": "October 18, 2022",
+    "target": "CDK8",
+    "model": "GGNN GNN",
+    "hits": 9,
+    "synth": 43
+  },
+  {
+    "category": "distribution",
+    "title": "PCW-A1001, AI-assisted de novo design approach to design a selective inhibitor for FLT-3(D",
+    "url": "https://www.frontiersin.org/articles/10.3389/fmolb.2022.1072028/full",
+    "date": "November 25, 2022",
+    "target": "FLT",
+    "model": "LSTM RNN",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "Leveraging molecular structure and bioactivity with chemical language models for de novo d",
+    "url": "https://www.nature.com/articles/s41467-022-35692-6",
+    "date": "January 7, 2023",
+    "target": "PI3K\u03b3",
+    "model": "LSTM RNN",
+    "hits": 3,
+    "synth": 18
+  },
+  {
+    "category": "distribution",
+    "title": "Application of deep generative model for design of Pyrrolo[2,3-d] pyrimidine derivatives a",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0223523422009369?via%3Dihub",
+    "date": "February 5, 2023",
+    "target": "TBK1",
+    "model": "Transformer",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "Accelerated Discovery of Macrocyclic CDK2 Inhibitor QR-6401 by Generative Models and Struc",
+    "url": "https://pubs.acs.org/doi/10.1021/acsmedchemlett.2c00515",
+    "date": "February 8, 2023",
+    "target": "CDK2",
+    "model": "VAE and transformer",
+    "hits": 17,
+    "synth": 23
+  },
+  {
+    "category": "distribution",
+    "title": "De Novo Design of Nurr1 Agonists via Fragment-Augmented Generative Deep Learning in Low-Da",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00485",
+    "date": "May 31, 2023",
+    "target": "Nurr1",
+    "model": "LSTM RNN",
+    "hits": 2,
+    "synth": 6
+  },
+  {
+    "category": "distribution",
+    "title": "Prospective de novo drug design with deep interactome learning",
+    "url": "https://www.nature.com/articles/s41467-024-47613-w",
+    "date": "April 22, 2024",
+    "target": "PPAR\u03b3",
+    "model": "Graph transformer-LSTM RNN",
+    "hits": 2,
+    "synth": 6
+  },
+  {
+    "category": "distribution",
+    "title": "Automated design of multi-target ligands by generative deep learning",
+    "url": "https://www.nature.com/articles/s41467-024-52060-8",
+    "date": "September 11, 2024",
+    "target": "Pairs of proteins (FXR+sEH, FXR+THR\u03b2, PPAR\u03b4+sEH, AT1+sEH, FFAR1+sEH, AT1+FFAR1)",
+    "model": "LSTM RNN",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "distribution",
+    "title": "Combining de novo molecular design with semiempirical protein\u2013ligand binding free energy c",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2024/ra/d4ra05422a",
+    "date": "November 20, 2024",
+    "target": "AChE",
+    "model": "Used [DRAGONFLY]",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "AI-driven de-novo design and development of non-toxic DYRK1A inhibitors for Alzheimer\u2019s di",
+    "url": null,
+    "date": "December 20, 2024",
+    "target": "DYRK1A for Alzheimer's disease",
+    "model": "Used [Hierarchical Graph Encoder-Decoder]",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "Artificial intelligence-enabled discovery of a RIPK3 inhibitor with neuroprotective effect",
+    "url": "https://journals.lww.com/cmj/fulltext/9900/artificial_intelligence_enabled_discovery_of_a.1374.aspx",
+    "date": "December 23, 2024",
+    "target": "RIPK3",
+    "model": "Used ChatGPT 3.5 March 2023",
+    "hits": 6,
+    "synth": 8
+  },
+  {
+    "category": "goal-directed",
+    "title": "Adversarial Threshold Neural Computer for Molecular de Novo Design",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.7b01137",
+    "date": "March 23, 2018",
+    "target": "Kinases",
+    "model": "Differentiable Neural Computer",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Entangled Conditional Adversarial Autoencoder for de Novo Drug Discovery",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.8b00839",
+    "date": "September 4, 2018",
+    "target": "JAK3",
+    "model": "Adversarial Autoencoder",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "goal-directed",
+    "title": "Deep learning enables rapid identification of potent DDR1 kinase inhibitors",
+    "url": "https://www.nature.com/articles/s41587-019-0224-x",
+    "date": "September 2, 2019",
+    "target": "DDR1",
+    "model": "VAE",
+    "hits": 4,
+    "synth": 6
+  },
+  {
+    "category": "goal-directed",
+    "title": "Design and Synthesis of DDR1 Inhibitors with a Desired Pharmacophore Using Deep Generative",
+    "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cmdc.202000786",
+    "date": "December 1, 2020",
+    "target": "DDR1",
+    "model": "LSTM RNN",
+    "hits": 4,
+    "synth": 6
+  },
+  {
+    "category": "goal-directed",
+    "title": "Generative and reinforcement learning approaches for the automated de novo design of bioac",
+    "url": "https://www.nature.com/articles/s42004-022-00733-0",
+    "date": "October 18, 2022",
+    "target": "EGFR",
+    "model": "Stack-GRU RNN",
+    "hits": 4,
+    "synth": 15
+  },
+  {
+    "category": "goal-directed",
+    "title": "Generative deep learning enables the discovery of a potent and selective RIPK1 inhibitor",
+    "url": "https://www.nature.com/articles/s41467-022-34692-w",
+    "date": "November 12, 2022",
+    "target": "RIPK1",
+    "model": "LSTM RNN",
+    "hits": 4,
+    "synth": 8
+  },
+  {
+    "category": "goal-directed",
+    "title": "AlphaFold accelerates artificial intelligence powered drug discovery: efficient discovery ",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2023/sc/d2sc05709c",
+    "date": "January 10, 2023",
+    "target": "CDK20",
+    "model": "Chemistry42",
+    "hits": 6,
+    "synth": 13
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Potent, Selective, and Orally Bioavailable Small-Molecule Inhibitors of CDK8 ",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.2c01718",
+    "date": "April 7, 2023",
+    "target": "CDK8",
+    "model": "Chemistry42",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "goal-directed",
+    "title": "De Novo Design of \u03ba-Opioid Receptor Antagonists Using a Generative Deep-Learning Framework",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.3c00651",
+    "date": "August 9, 2023",
+    "target": "KOR",
+    "model": "VAE",
+    "hits": 2,
+    "synth": 5
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of novel and selective SIK2 inhibitors by the application of AlphaFold structure",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0968089623002626",
+    "date": "August 15, 2023",
+    "target": "SIK2",
+    "model": "Chemistry42",
+    "hits": 6,
+    "synth": 6
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Novel and Potent Prolyl Hydroxylase Domain-Containing Protein (PHD) Inhibitor",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.3c01932",
+    "date": "January 8, 2024",
+    "target": "PHD enzymes",
+    "model": "Chemistry42",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "goal-directed",
+    "title": "Local Scaffold Diversity-Contributed Generator for Discovering Potential NLRP3 Inhibitors",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01818",
+    "date": "January 23, 2024",
+    "target": "NLRP3",
+    "model": "GRU RNN-transformer",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of new antiviral agents through artificial intelligence: In vitro and in vivo re",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0166354224000263?via%3Dihub#bib11",
+    "date": "January 25, 2024",
+    "target": "Neuraminidase (NA) of influenza A and B viruses",
+    "model": "GNN, specifically Attentive FP first described [here]",
+    "hits": 2,
+    "synth": 9
+  },
+  {
+    "category": "goal-directed",
+    "title": "Quantum Computing-Enhanced Algorithm Unveils Novel Inhibitors for KRAS",
+    "url": null,
+    "date": "February 13, 2024",
+    "target": "KRAS",
+    "model": "Quantum Computer-LSTM RNN",
+    "hits": 1,
+    "synth": 12
+  },
+  {
+    "category": "goal-directed",
+    "title": "Generate What You Can Make: Achieving in-house synthesizability with readily available res",
+    "url": null,
+    "date": "March 5, 2024",
+    "target": "MGLL",
+    "model": "Graph transformer",
+    "hits": 1,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "A small-molecule TNIK inhibitor targets fibrosis in preclinical and clinical models",
+    "url": null,
+    "date": "March 8, 2024",
+    "target": "TNIK",
+    "model": "Chemistry42",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Accelerating factor Xa inhibitor discovery with a de novo drug design pipeline",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0968089624000762?via%3Dihub",
+    "date": "March 11, 2024",
+    "target": "Factor Xa",
+    "model": "Attention-convolution layers",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "PocketFlow is a data-and-knowledge-driven structure-based molecular generative model",
+    "url": "https://www.nature.com/articles/s42256-024-00808-8",
+    "date": "March 11, 2024",
+    "target": "HAT1 and YTHDC1",
+    "model": "Flow",
+    "hits": 0,
+    "synth": 2
+  },
+  {
+    "category": "goal-directed",
+    "title": "Generative AI for designing and validating easily synthesizable and structurally novel ant",
+    "url": "https://www.nature.com/articles/s42256-024-00809-7",
+    "date": "March 22, 2024",
+    "target": "Bacteria",
+    "model": "Monte Carlo Tree Search",
+    "hits": 6,
+    "synth": 58
+  },
+  {
+    "category": "goal-directed",
+    "title": "Abstract 5727: ISM9682A, a novel and potent KIF18A inhibitor, shows robust antitumor effec",
+    "url": "https://aacrjournals.org/cancerres/article/84/6_Supplement/5727/741278/Abstract-5727-ISM9682A-a-novel-and-potent-KIF18A",
+    "date": "March 22, 2024",
+    "target": "KIF18A",
+    "model": "Chemistry42",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "A dual diffusion model enables 3D molecule generation and lead optimization based on targe",
+    "url": "https://www.nature.com/articles/s41467-024-46569-1",
+    "date": "March 26, 2024",
+    "target": "CDK2",
+    "model": "Diffusion",
+    "hits": 7,
+    "synth": 7
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of 3-hydroxymethyl-azetidine derivatives as potent polymerase theta inhibitors",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0968089624000762?via%3Dihub",
+    "date": "April 1, 2024",
+    "target": "Pol\u03b8",
+    "model": "Chemistry42",
+    "hits": 4,
+    "synth": 6
+  },
+  {
+    "category": "goal-directed",
+    "title": "Quantum-assisted fragment-based automated structure generator (QFASG) for small molecule d",
+    "url": "https://www.frontiersin.org/articles/10.3389/fchem.2024.1382512/full",
+    "date": "April 3, 2024",
+    "target": "CAMKK2 and ATM",
+    "model": "Chemistry42",
+    "hits": 2,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "Identification of SARS-CoV-2 Mpro inhibitors through deep reinforcement learning for de no",
+    "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2024/MD/D4MD00106K",
+    "date": "April 29, 2024",
+    "target": "SARS",
+    "model": "LSTM RNN",
+    "hits": 1,
+    "synth": 16
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of a Novel and Potent Cyclin-Dependent Kinase 8/19 (CDK8/19) Inhibitor for the T",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00248",
+    "date": "May 1, 2024",
+    "target": "CDK8/19",
+    "model": "Chemistry42",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Generative Active Learning For The Search of Small-molecule Protein Binders",
+    "url": null,
+    "date": "May 2, 2024",
+    "target": "CDK8/19",
+    "model": "MPNN GNN",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "NGT: Generative AI with Synthesizability Guarantees Identifies Potent Inhibitors for a G-p",
+    "url": null,
+    "date": "May 8, 2024",
+    "target": "Melanocortin Type 2 Receptor (MC2R)",
+    "model": "Combinatorial Synthesis Library Variational Auto-Encoder",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "De novo generation of multi-target compounds using deep generative chemistry",
+    "url": "https://www.nature.com/articles/s41467-024-47120-y",
+    "date": "May 6, 2024",
+    "target": "Dual specificity to MEK1 and mTOR",
+    "model": "VAE",
+    "hits": 19,
+    "synth": 32
+  },
+  {
+    "category": "goal-directed",
+    "title": "Synthetically Feasible De Novo Molecular Design of Leads Based on a Reinforcement Learning",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.4c00184",
+    "date": "June 12, 2024",
+    "target": "CXCR4",
+    "model": "MLP",
+    "hits": 20,
+    "synth": 20
+  },
+  {
+    "category": "goal-directed",
+    "title": "Accelerated Discovery of Carbamate Cbl-b Inhibitors Using Generative AI Models and Structu",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c01034",
+    "date": "August 12, 2024",
+    "target": "Cbl",
+    "model": "LSTM RNN",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of novel quinoline papain-like protease inhibitors for COVID-19 through topology",
+    "url": null,
+    "date": "September 13, 2024",
+    "target": "Papain",
+    "model": "GNN with GCN and GGNN blocks",
+    "hits": 9,
+    "synth": 9
+  },
+  {
+    "category": "goal-directed",
+    "title": "AutoDesigner - Core Design, a De Novo Design Algorithm for Chemical Scaffolds: Application",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.4c01031",
+    "date": "October 3, 2024",
+    "target": "Wee1 with improved selectivity against PLK1",
+    "model": "Enumeration",
+    "hits": 3,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "Modern hit-finding with structure-guided de novo design: identification of novel nanomolar",
+    "url": null,
+    "date": "* October 14, 2024 [Pre",
+    "target": "A2A Receptor Antagonist Design",
+    "model": "GRU RNN",
+    "hits": 8,
+    "synth": 10
+  },
+  {
+    "category": "goal-directed",
+    "title": "FragGen: Towards 3D Geometry Reliable Fragment-based Molecular Generation",
+    "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2024/SC/D4SC04620J",
+    "date": "March 15, 2024",
+    "target": "LTK",
+    "model": "GAT GNN",
+    "hits": 3,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "Target-aware Molecule Generation for Drug Design Using a Chemical Language Model",
+    "url": "https://www.nature.com/articles/s41467-024-53632-4#Sec2",
+    "date": "October 29, 2024",
+    "target": "Tuberculosis ClpP",
+    "model": "Transformer-VAE",
+    "hits": 0,
+    "synth": 1
+  },
+  {
+    "category": "goal-directed",
+    "title": "ClickGen: Directed exploration of synthesizable chemical space via modular reactions and r",
+    "url": "https://www.nature.com/articles/s41467-024-54456-y",
+    "date": "November 22, 2024",
+    "target": "PARP1",
+    "model": "Based on U-Net encoder-decoder architecture",
+    "hits": 2,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Pyridine-2-Carboxamides Derivatives as Potent and Selective HPK1 Inhibitors f",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c02421",
+    "date": "November 25, 2024",
+    "target": "Hematopoietic progenitor kinase 1 (HPK1)",
+    "model": "Chemistry42",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "goal-directed",
+    "title": "Intestinal mucosal barrier repair and immune regulation with an AI-developed gut-restricte",
+    "url": "https://www.nature.com/articles/s41587-024-02503-w",
+    "date": "December 11, 2024",
+    "target": "Hypoxia",
+    "model": "Chemistry42",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Generative deep learning enables the discovery of phosphorylation-suppressed STAT3 inhibit",
+    "url": "https://link.springer.com/article/10.1007/s11030-024-11067-5",
+    "date": "",
+    "target": "STAT3",
+    "model": "LSTM RNN",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Electron-density informed effective and reliable de novo molecular design and lead optimiz",
+    "url": null,
+    "date": "",
+    "target": "3 Targets: FGFR3 orthosteric inhibitors, CDC42 allosteric inhibitors, and GCK allosteric activator",
+    "model": "Uses a VAE and an equivariant GNN",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Potent, Highly Selective, and Orally Bioavailable MTA Cooperative PRMT5 Inhib",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c02732",
+    "date": "January 9, 2025",
+    "target": "Protein arginine methyltransferase 5 (PRMT5)",
+    "model": "Chemistry42",
+    "hits": 5,
+    "synth": 6
+  },
+  {
+    "category": "goal-directed",
+    "title": "Designing Macrocyclic Kinase Inhibitors Using Macrocycle Scaffold Hopping with Reinforced ",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c00087",
+    "date": "March 18, 2025",
+    "target": "PDGFR\u03b1 kinase",
+    "model": "RNN encoder-decoder",
+    "hits": 1,
+    "synth": 2
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Novel SIK2/3 Inhibitors for the Potential Treatment of MEF2C+ Acute Myeloid L",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.4c03225",
+    "date": "March 20, 2025",
+    "target": "SIK2/3",
+    "model": "Chemistry42",
+    "hits": 3,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "Novel Arbidol derivatives against SARS-CoV-2: a comprehensive approach using computer- and",
+    "url": null,
+    "date": "March 27, 2025",
+    "target": "SARS",
+    "model": "RNN",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "A novel, covalent broad-spectrum inhibitor targeting human coronavirus Mpro",
+    "url": "https://www.nature.com/articles/s41467-025-59870-4",
+    "date": "May 15, 2025",
+    "target": "SARS",
+    "model": "Chemistry42",
+    "hits": 2,
+    "synth": 2
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Novel Inhibitors for WD Repeat-Containing Protein 5 (WDR5)-MYC Protein-Protei",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/cbdd.70129",
+    "date": "May 21, 2025",
+    "target": "WD Repeat",
+    "model": "Chemistry42",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Oral ENPP1 inhibitor designed using generative AI as next generation STING modulator for s",
+    "url": "https://www.nature.com/articles/s41467-025-59874-0",
+    "date": "May 23, 2025",
+    "target": "Ectonucleotide Pyrophosphatase/Phosphodiesterase 1 (ENPP1)",
+    "model": "Chemistry42",
+    "hits": 1,
+    "synth": 1
+  },
+  {
+    "category": "goal-directed",
+    "title": "Identification of Novel pan-KRAS Inhibitors via Structure-Based Drug Design, Scaffold Hopp",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acsmedchemlett.5c00080",
+    "date": "June 5, 2025",
+    "target": "pan",
+    "model": "Chemistry42",
+    "hits": null,
+    "synth": null
+  },
+  {
+    "category": "goal-directed",
+    "title": "Design and Synthesis of Novel Dual Inhibitors for JAK3 and TEC Kinases in Autoimmune Disor",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c02288",
+    "date": "June 24, 2025",
+    "target": "Dual inhibitors of JAK3 and TEC",
+    "model": null,
+    "hits": 6,
+    "synth": 6
+  },
+  {
+    "category": "goal-directed",
+    "title": "Rational Design and Identification of ISM7594 as a Tissue-Agnostic FGFR2/3 Inhibitor",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.5c00928",
+    "date": "June 25, 2025",
+    "target": "FGFR2/3 Inhibitor",
+    "model": "Chemistry42",
+    "hits": 1,
+    "synth": 1
+  }
+]

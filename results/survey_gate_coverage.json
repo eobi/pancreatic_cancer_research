@@ -1,0 +1,62 @@
+[
+  {
+    "paper": "ClickGen (PARP1)",
+    "pmcid": "PMC11584676",
+    "computed": 15,
+    "gating": 8,
+    "stability_gate": true,
+    "gates": "MW, logP, HBA+HBD, TPSA, PAINS, MCF unstable/reactive, Tanimoto, pharmacophore",
+    "inert": "docking score, LE, 4x SA scores, FCD, novelty, diversity, QED",
+    "synth": 3,
+    "hits": 2,
+    "coverage": 0.53
+  },
+  {
+    "paper": "DRAGONFLY (PPARg)",
+    "pmcid": "PMC11035696",
+    "computed": 14,
+    "gating": 3,
+    "stability_gate": false,
+    "gates": "MW<=600, RAScore>=0.5, novelty>=0.7",
+    "inert": "rot bonds, HBA, HBD, PSA, logP, scaffold novelty, CYP450, off-target panel",
+    "synth": 3,
+    "hits": 2,
+    "coverage": 0.21
+  },
+  {
+    "paper": "CLM (Nurr1)",
+    "pmcid": "PMC10291550",
+    "computed": 8,
+    "gating": 0,
+    "stability_gate": false,
+    "gates": "none; ranking only",
+    "inert": "scaffold diversity, WHALES, Morgan FP, Murcko, MW, TPSA, logP, HBD/HBA",
+    "synth": 6,
+    "hits": 2,
+    "coverage": 0.0
+  },
+  {
+    "paper": "CLM (RORgamma)",
+    "pmcid": "PMC8457062",
+    "computed": 4,
+    "gating": 0,
+    "stability_gate": false,
+    "gates": "none; beam-search score ranking only",
+    "inert": "Fsp3, Tanimoto, WHALES, synthetic accessibility (post hoc)",
+    "synth": 3,
+    "hits": 3,
+    "coverage": 0.0
+  },
+  {
+    "paper": "THIS CAMPAIGN (KRAS)",
+    "pmcid": null,
+    "computed": 19,
+    "gating": 3,
+    "stability_gate": false,
+    "gates": "DiffDock confidence, GNINA affinity, docking quality",
+    "inert": "EpoxideRingPresent, PAINS, AMES, ClinTox, Carcinogens, SA, QED, +9 more",
+    "synth": 0,
+    "hits": 0,
+    "coverage": 0.16
+  }
+]

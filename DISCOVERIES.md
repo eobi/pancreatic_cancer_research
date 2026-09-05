@@ -645,6 +645,28 @@ BOTH an unconstrained generative search space AND no stability gate; neither alo
 reproduces it. Recorded because it is the control a reviewer would demand, and because the
 mechanism it refutes was ours.
 
+**Gate coverage does not predict success, and the third hypothesis of ours to fail.**
+Pilot survey, 4 published campaigns scored under a rubric fixed in advance, drawn as a
+seeded random sample from a curated corpus of 73 generative campaigns with experimental
+validation (Du et al., Nat. Mach. Intell. 2024):
+
+    ClickGen (PARP1)    coverage 0.53   stability gate YES   3 synthesised, 2 hits
+    DRAGONFLY (PPARg)   coverage 0.21   no stability gate    3 synthesised, 2 hits
+    CLM (Nurr1)         coverage 0.00   no stability gate    6 synthesised, 2 hits
+    CLM (RORgamma)      coverage 0.00   no stability gate    3 synthesised, 3 hits
+    THIS CAMPAIGN       coverage 0.16   no stability gate    0 synthesised
+
+**Two campaigns with gate coverage 0.00 succeeded completely**, one obtaining 3 hits from 3
+molecules at 0.37 uM. Automated gate coverage therefore does not explain the difference.
+
+What the RORgamma paper does record is this: its first round of designs was "deemed
+synthetically inaccessible by medicinal chemists" and IBM RXN "did not find a synthetic
+route", and that assessment "prompted methodology revision". The gate existed. It was a
+human medicinal chemist, and when it fired the team changed the method instead of ordering
+synthesis. Our campaign went from spreadsheet to synthesis request with no equivalent step
+recorded. The claim that survives is narrower and about process, not tooling: a gate must
+exist and must be able to stop the pipeline; it need not be automated.
+
 **A control is only meaningful if it is cognate.** Judging 8AFB with Sotorasib, whose
 structure is 6OIM, measures the wrong thing.
 

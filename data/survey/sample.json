@@ -1,0 +1,122 @@
+[
+  {
+    "category": "goal-directed",
+    "title": "ClickGen: Directed exploration of synthesizable chemical space via modular reactions and r",
+    "url": "https://www.nature.com/articles/s41467-024-54456-y",
+    "date": "November 22, 2024",
+    "target": "PARP1",
+    "model": "Based on U-Net encoder-decoder architecture",
+    "hits": 2,
+    "synth": 3
+  },
+  {
+    "category": "distribution",
+    "title": "Effective Reaction-Based De Novo Strategy for Kinase Targets: A Case Study on MERTK Inhibi",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.2c00068",
+    "date": "March 30, 2022",
+    "target": "MERTK",
+    "model": "GRU RNN",
+    "hits": 15,
+    "synth": 17
+  },
+  {
+    "category": "distribution",
+    "title": "Tuning artificial intelligence on the de novo design of natural-product-inspired retinoid ",
+    "url": "https://www.nature.com/articles/s42004-018-0068-1",
+    "date": "October 22, 2018",
+    "target": "RXR",
+    "model": "LSTM RNN",
+    "hits": 2,
+    "synth": 4
+  },
+  {
+    "category": "distribution",
+    "title": "Artificial intelligence-enabled discovery of a RIPK3 inhibitor with neuroprotective effect",
+    "url": "https://journals.lww.com/cmj/fulltext/9900/artificial_intelligence_enabled_discovery_of_a.1374.aspx",
+    "date": "December 23, 2024",
+    "target": "RIPK3",
+    "model": "Used ChatGPT 3.5 March 2023",
+    "hits": 6,
+    "synth": 8
+  },
+  {
+    "category": "distribution",
+    "title": "Prospective de novo drug design with deep interactome learning",
+    "url": "https://www.nature.com/articles/s41467-024-47613-w",
+    "date": "April 22, 2024",
+    "target": "PPAR\u03b3",
+    "model": "Graph transformer-LSTM RNN",
+    "hits": 2,
+    "synth": 6
+  },
+  {
+    "category": "distribution",
+    "title": "De Novo Design of Nurr1 Agonists via Fragment-Augmented Generative Deep Learning in Low-Da",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00485",
+    "date": "May 31, 2023",
+    "target": "Nurr1",
+    "model": "LSTM RNN",
+    "hits": 2,
+    "synth": 6
+  },
+  {
+    "category": "distribution",
+    "title": "Recurrent neural network (RNN) model accelerates the development of antibacterial metronid",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2022/ra/d2ra01807a",
+    "date": "August 15, 2022",
+    "target": "Bacteria",
+    "model": "GRU RNN",
+    "hits": 0,
+    "synth": 1
+  },
+  {
+    "category": "distribution",
+    "title": "Discovery of Pyrazolo[3,4-d]pyridazinone Derivatives as Selective DDR1 Inhibitors via Deep",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jmedchem.1c01205",
+    "date": "January 13, 2022",
+    "target": "DDR1",
+    "model": "BiRNN encoder\u2013decoder",
+    "hits": 2,
+    "synth": 2
+  },
+  {
+    "category": "goal-directed",
+    "title": "Identification of SARS-CoV-2 Mpro inhibitors through deep reinforcement learning for de no",
+    "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2024/MD/D4MD00106K",
+    "date": "April 29, 2024",
+    "target": "SARS",
+    "model": "LSTM RNN",
+    "hits": 1,
+    "synth": 16
+  },
+  {
+    "category": "distribution",
+    "title": "Beam Search for Automated Design and Scoring of Novel ROR Ligands with Machine Intelligenc",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202104405",
+    "date": "June 24, 2021",
+    "target": "ROR\u03b3",
+    "model": "LSTM RNN",
+    "hits": 3,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "AutoDesigner - Core Design, a De Novo Design Algorithm for Chemical Scaffolds: Application",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jcim.4c01031",
+    "date": "October 3, 2024",
+    "target": "Wee1 with improved selectivity against PLK1",
+    "model": "Enumeration",
+    "hits": 3,
+    "synth": 3
+  },
+  {
+    "category": "goal-directed",
+    "title": "Discovery of Novel and Potent Prolyl Hydroxylase Domain-Containing Protein (PHD) Inhibitor",
+    "url": "https://pubs.acs.org/doi/full/10.1021/acs.jmedchem.3c01932",
+    "date": "January 8, 2024",
+    "target": "PHD enzymes",
+    "model": "Chemistry42",
+    "hits": 1,
+    "synth": 1
+  }
+]

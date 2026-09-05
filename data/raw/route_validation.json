@@ -1,0 +1,13 @@
+{
+  "POSITIVE BI-0474": "C[C@H]1CN(CCN1c2cc(cc(n2)c3nc(on3)[C@]4(CCCc5c4c(c(s5)N)C#N)C)N6CCN(CC6)C(=O)C=C)C",
+  "POSITIVE Sotorasib": "CC(C)C1=NC=CC(C)=C1N1C(=O)N=C(N2CCN(C[C@@H]2C)C(=O)C=C)C2=CC(F)=C(N=C12)C1=C(O)C=CC=C1F",
+  "POSITIVE Adagrasib": "[H][C@@]1(COC2=NC3=C(CCN(C3)C3=CC=CC4=C3C(Cl)=CC=C4)C(=N2)N2CCN(C(=O)C(F)=C)[C@@]([H])(CC#N)C2)CCCN1C",
+  "NEGATIVE Hit 13 (Molecule 2 for synthesis)": "NN(N1)C2CCC[C@H1]2CCCC3OC31CC=O",
+  "NEGATIVE Hit 41 (molecule for synthesis)": "NN(N)C1CCC[C@H1]1CCCC2OC2C=O",
+  "NEGATIVE Hit 73 (molecule 1 for Synthesis)": "NN(N)C1CCC[C@H1]1CCCC2OC2CN(OCC3CCCCCCCC=4)CC=43",
+  "SHORTLIST hit 1 (-12.45)": "C[C@@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CC(n5nc(-c6cccc(F)c6)ccc5=O)C4)cn1c23",
+  "SHORTLIST hit 2 (-12.32)": "C[C@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCN(c5ncnc6c5nnn6-c5cccc(F)c5)CC4)cn1c23",
+  "SHORTLIST hit 3 (-12.03)": "C[C@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCN(Cc5nnnn5-c5cccc(F)c5)CC4)cn1c23",
+  "SHORTLIST hit 4 (-12.02)": "CC(=O)N1CCN(c2cc(N3CC(=O)N4CC(C)(C)c5ccccc5[C@@H]4C3)nc(-c3cccnc3)n2)CC1",
+  "SHORTLIST hit 5 (-12.00)": "Cc1ccnc(N=c2ccc(N3CCN(C(=O)c4cn5c6c(c(F)c(F)cc6c4=O)OC[C@@H]5C)CC3)n[nH]2)c1"
+}

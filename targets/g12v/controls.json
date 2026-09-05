@@ -1,0 +1,5 @@
+{
+  "AM-2383": "CCc1c(ccc2c1c(cc(c2)O)c3c(c4c(cn3)c(nc(n4)OC[C@@]56CCCN5C[C@@H](C6)F)N7CCC[C@@](C7)(C)O)F)F",
+  "MRTX-1133": "C#Cc1c(ccc2c1c(cc(c2)O)c3c(c4c(cn3)c(nc(n4)OC[C@@]56CCCN5C[C@@H](C6)F)N7C[C@H]8CC[C@@H](C7)N8)F)F",
+  "RP03514": "CCc1c(ccc2c1c(cc(c2)O)c3c(c4c(cn3)c(nc(n4)OC[C@@]56CCCN5C[C@@H](C6)F)N7CCC[C@@]8(C7)CCO8)F)F"
+}

@@ -1,0 +1,42 @@
+73 generated molecules, 2 reference drugs
+
+generated: 0/73 have an aromatic ring | 64/73 carry an unstable or genotoxic group | mean rings 2.4
+reference drugs: 2/2 have an aromatic ring | 0/2 carry an unstable or genotoxic group | mean rings 5.5
+
+alert census across generated set:
+  hydrazine N-N          44
+  triazane N-N-N         34
+  N-oxide / nitroso      19
+  peroxide O-O           15
+  epoxide                13
+  strained alkene        11
+  aziridine              5
+  1,2-diketone           4
+  azo N=N                3
+  boron                  2
+
+molecules whose own groups react with each other:
+  Hit 8                                  hydrazine opens the epoxide
+  Hit 10                                 hydrazine opens the epoxide
+  Hit 13 (Molecule 2 for synthesis)      hydrazine and aldehyde condense to a hydrazone; hydrazine opens the epoxide
+  Hit 16                                 hydrazine opens the epoxide
+  Hit 17                                 hydrazine opens the epoxide
+  Hit 32                                 hydrazine opens the epoxide
+  Hit 38                                 hydrazine and aldehyde condense to a hydrazone; hydrazine opens the epoxide
+  Hit 41 (molecule for synthesis)        hydrazine and aldehyde condense to a hydrazone; hydrazine opens the epoxide
+  Hit 45                                 hydrazine and aldehyde condense to a hydrazone
+  Hit 48                                 hydrazine and aldehyde condense to a hydrazone
+  Hit 55                                 amine and aldehyde condense to an imine
+  Hit 56                                 hydrazine and aldehyde condense to a hydrazone
+  Hit 59                                 hydrazine and aldehyde condense to a hydrazone; amine and aldehyde condense to an imine
+  Hit 66                                 hydrazine and aldehyde condense to a hydrazone
+  Hit 73 (molecule 1 for Synthesis)      hydrazine opens the epoxide
+
+gate funnel:
+   73  generated
+   73  Parses and sanitizes  (-0)
+    9  No unstable or genotoxic group  (-64)
+    4  Clears PAINS and BRENK  (-5)
+    0  Has a drug-like ring system  (-4)
+    0  Synthesis accessibility < 5  (-0)
+    0  Good docking on all four variants  (-0)

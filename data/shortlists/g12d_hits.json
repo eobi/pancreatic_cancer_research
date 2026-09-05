@@ -1,0 +1,10 @@
+[
+  {
+    "SMILES": "N=c1ccc(-c2nc3c(c(N4CCOCC4)n2)CCN(C(=O)c2cc(Cc4nnc(O)c5ccccc45)ccc2F)C3)c[nH]1",
+    "Vina Score": -12.83,
+    "Vina Poses": 5,
+    "Molecular Formula": "C32H29FN8O3",
+    "Molecular Weight": 592.6350000000001,
+    "Rotatable Bonds": 5
+  }
+]

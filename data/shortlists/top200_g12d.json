@@ -1,0 +1,1602 @@
+[
+  {
+    "SMILES": "N=c1ncc(-c2nc3c(c(N4CCOCC4)n2)CCN(C(=O)c2cc(Cc4nnc(O)c5ccccc45)ccc2F)C3)c[nH]1",
+    "Vina Score": -12.5,
+    "Vina Poses": 5,
+    "Molecular Formula": "C31H28FN9O3",
+    "Molecular Weight": 593.6230000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(c1ccc(F)c(F)c1)N1CC(C(=O)N2CCN(c3ncnc4c3nnn4-c3cccc(F)c3)CC2)C1",
+    "Vina Score": -11.87,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H21F3N8O2",
+    "Molecular Weight": 522.4910000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "N#CCC1(n2cc(-c3ncnc4[nH]ccc34)cn2)CN(C2CCN(C(=O)c3cc(F)ccc3F)CC2)C1",
+    "Vina Score": -11.59,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H24F2N8O",
+    "Molecular Weight": 502.52900000000034,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCN1CCN(c2ncc3c(n2)CCN(C(=O)c2cc(Cc4nnc(O)c5ccccc45)ccc2F)C3)CC1",
+    "Vina Score": -11.57,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H30FN7O2",
+    "Molecular Weight": 527.6040000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CN1CCOc2nc(CNC34CCC(C[C@]5(O)Cn6c(=O)ccc7ncc(F)c5c76)(CC3)OC4)ccc21",
+    "Vina Score": -11.48,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30FN5O4",
+    "Molecular Weight": 507.56600000000026,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(c1ccc(F)c(F)c1)N1CC(C(=O)N2CCN(c3ncnc4c3nnn4-c3ccc(F)cc3)CC2)C1",
+    "Vina Score": -11.37,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H21F3N8O2",
+    "Molecular Weight": 522.4910000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "C[C@@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCN(c5ncnc6c5nnn6Cc5ccccc5)CC4)cn1c23",
+    "Vina Score": -11.33,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H24F2N8O3",
+    "Molecular Weight": 558.5490000000001,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1ccc2sc(N3CC(C(=O)N4CCN(Cc5nnnn5-c5ccc(F)c(F)c5)CC4)C3)nc2c1",
+    "Vina Score": -11.3,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H24F2N8O2S",
+    "Molecular Weight": 526.5730000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCOc1ccc(-n2nnc3c(N4CCN(C(=O)c5cn6c7c(c(F)c(F)cc7c5=O)OC[C@@H]6C)CC4)ncnc32)cc1",
+    "Vina Score": -11.26,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H26F2N8O4",
+    "Molecular Weight": 588.5750000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(c1cc(Cc2nnc(O)c3ccccc23)ccc1F)N1CCc2nc(N3CCOCC3)ncc2C1",
+    "Vina Score": -11.26,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H25FN6O3",
+    "Molecular Weight": 500.53400000000045,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "NC(=O)c1cncc2nc(C3CCN(C(=O)c4cc(Cc5nnc(O)c6ccccc56)ccc4F)CC3)[nH]c12",
+    "Vina Score": -11.25,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H24FN7O3",
+    "Molecular Weight": 525.5440000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1ccccc1-c1ccc(N2CCC[C@H](C(=O)N3CCN(Cc4nnnn4-c4ccc(F)c(F)c4)CC3)C2)nn1",
+    "Vina Score": -11.21,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H31F2N9O",
+    "Molecular Weight": 559.625,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCn1cc(C(=O)N2CC[C@H]3C[C@@H]2Cn2c3cccc2=O)c(=O)c2cc(F)c(N3CCN(C)CC3)cc21",
+    "Vina Score": -11.18,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H32FN5O3",
+    "Molecular Weight": 505.5940000000004,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "O=c1nc([C@@H]2CCCN(S(=O)(=O)c3ccccc3F)C2)nc2n(Cc3ccccc3Cl)[nH]nc1-2",
+    "Vina Score": -11.18,
+    "Vina Poses": 5,
+    "Molecular Formula": "C22H20ClFN6O3S",
+    "Molecular Weight": 502.9590000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(c1ccc(F)c(F)c1)N1CC(C(=O)N2CC[C@H](COc3ccc4nnc(C(F)(F)F)n4n3)C2)C1",
+    "Vina Score": -11.15,
+    "Vina Poses": 5,
+    "Molecular Formula": "C22H19F5N6O3",
+    "Molecular Weight": 510.42300000000023,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "C[C@@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCN(c5cncc(-c6ccnn6C)n5)CC4)cn1c23",
+    "Vina Score": -11.11,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H23F2N7O3",
+    "Molecular Weight": 507.50100000000026,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "O=C([C@H]1CC(=O)N(c2ccc3cc[nH]c3c2)C1)N1CCN(C(=O)[C@@H]2CC(=O)N(c3ccccc3F)C2)CC1",
+    "Vina Score": -11.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H28FN5O4",
+    "Molecular Weight": 517.5610000000003,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "O=c1ccc2ncc(F)c3c2n1C[C@@]3(O)CC12CCC(NCc3cc4c(cc3F)OCCO4)(CC1)CO2",
+    "Vina Score": -11.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H27F2N3O5",
+    "Molecular Weight": 511.52500000000043,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCCn1c(C(=O)N2CCC(Oc3ncc(-c4cnn(C)c4)cn3)CC2)cc2c(=O)n3ccccc3nc21",
+    "Vina Score": -11.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28N8O3",
+    "Molecular Weight": 512.5740000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC(=O)c1cccc(Cn2nnc3c(=O)nc(C4CCN(S(=O)(=O)c5ccccc5F)CC4)[nH]c32)c1",
+    "Vina Score": -11.08,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H23FN6O4S",
+    "Molecular Weight": 510.5510000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CN(C)Cc1ccc2c(c1)CN(c1c[nH]c(=NCc3c(F)ccc4c3CCO4)c3cnnc(O)c13)C2=O",
+    "Vina Score": -11.07,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H25FN6O3",
+    "Molecular Weight": 500.5340000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1oc(C2CCN(C(=O)[C@H]3CC(=O)N(c4ccc(F)c(Cl)c4)C3)CC2)nc1C(=O)N1CCOCC1",
+    "Vina Score": -11.07,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H28ClFN4O5",
+    "Molecular Weight": 518.9730000000003,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "C[C@H]1CN(c2cc(F)c3c(c2)N(C)C(=O)C32CCN(c3nc(O)c4c(n3)N(C)CCC4)CC2)C[C@@H](C)N1",
+    "Vina Score": -11.06,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H36FN7O2",
+    "Molecular Weight": 509.63000000000034,
+    "Rotatable Bonds": 2
+  },
+  {
+    "SMILES": "CCc1cc2c(nc1CNC13CCC(C[C@]4(O)Cn5c(=O)ccc6ncc(F)c4c65)(CC1)OC3)NC(=O)CO2",
+    "Vina Score": -11.06,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H30FN5O5",
+    "Molecular Weight": 535.5760000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=c1ccc2ncc(F)c3c2n1C[C@@]3(O)CC12CCC(NCc3ccc4ncc(O)nc4n3)(CC1)CO2",
+    "Vina Score": -11.05,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H25FN6O4",
+    "Molecular Weight": 504.52200000000033,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccc2nc(CNC34CCC(C[C@]5(O)Cn6c(=O)ccc7ncc(F)c5c76)(CC3)OC4)c(F)cc2n1",
+    "Vina Score": -11.04,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H27F2N5O4",
+    "Molecular Weight": 535.5510000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CN1CCN(C)c2nc(CNC34CCC(C[C@]5(O)Cn6c(=O)ccc7ncc(F)c5c76)(CC3)OC4)ccc21",
+    "Vina Score": -11.04,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H33FN6O3",
+    "Molecular Weight": 520.6090000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C([C@@H]1CCCN(c2nc3ccccc3s2)C1)N1CCN(Cc2nnnn2-c2ccc(F)c(F)c2)CC1",
+    "Vina Score": -10.98,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H26F2N8OS",
+    "Molecular Weight": 524.6010000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C([C@@H]1CCCN1S(=O)(=O)c1ccccc1F)N1CCC(COc2ncc(Br)cn2)CC1",
+    "Vina Score": -10.98,
+    "Vina Poses": 5,
+    "Molecular Formula": "C21H24BrFN4O4S",
+    "Molecular Weight": 527.4160000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C(C1CN(c2nc3c(F)cccc3s2)C1)N1CC[C@@H](COc2ccc3nnc(C(F)(F)F)n3n2)C1",
+    "Vina Score": -10.97,
+    "Vina Poses": 5,
+    "Molecular Formula": "C22H19F4N7O2S",
+    "Molecular Weight": 521.5000000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "N#CCC1(n2cc(-c3ncnc4[nH]ccc34)cn2)CN(C2CCN(C(=O)c3ccc(C#N)c(F)c3)CC2)C1",
+    "Vina Score": -10.97,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H24FN9O",
+    "Molecular Weight": 509.5490000000004,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=c1nc(C2CCN(S(=O)(=O)c3cccc4ccccc34)CC2)[nH]c2c1nnn2Cc1cccc(F)c1",
+    "Vina Score": -10.92,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H23FN6O3S",
+    "Molecular Weight": 518.5740000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCn1nnc2c(N3CCN(C(=O)[C@@H]4CCCN(c5ccc(-c6ccccc6OC)nn5)C4)CC3)ncnc21",
+    "Vina Score": -10.9,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H32N10O2",
+    "Molecular Weight": 528.6210000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cc1nc2cc(F)ccc2c(=O)n1CC1CCN(C(=O)[C@@H]2CCCN(S(=O)(=O)c3ccc(F)cc3)C2)CC1",
+    "Vina Score": -10.9,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30F2N4O4S",
+    "Molecular Weight": 544.624,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCc1ccccc1N1C[C@H](C(=O)N2CCN(C(=O)[C@@H]3CC(=O)N(c4ccccc4F)C3)CC2)CC1=O",
+    "Vina Score": -10.89,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H31FN4O4",
+    "Molecular Weight": 506.5780000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCc1c2c(nc3ccccc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@@]3(CC)OC(=O)Cn1cc(F)c(O)nc1=O",
+    "Vina Score": -10.88,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H23FN4O7",
+    "Molecular Weight": 546.5110000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=S(=O)(c1ccccc1F)N1CCC[C@@H](c2nc(O)c3nnn(Cc4cccc(Cl)c4)c3n2)C1",
+    "Vina Score": -10.87,
+    "Vina Poses": 5,
+    "Molecular Formula": "C22H20ClFN6O3S",
+    "Molecular Weight": 502.9590000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(c1ccc(Nc2ncc(F)c(-c3ccc4ncc(N5CCOCC5)nc4c3)n2)nc1)N1CCNCC1",
+    "Vina Score": -10.87,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H26FN9O2",
+    "Molecular Weight": 515.5530000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COC(=O)c1cc(F)ccc1NC(=O)N1CCC(N2CC(CC#N)(n3cc(-c4ncnc5[nH]ccc45)cn3)C2)CC1",
+    "Vina Score": -10.86,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H28FN9O3",
+    "Molecular Weight": 557.59,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C(C[C@H]1CSc2nc3c(cnn3-c3ccccc3)c(=O)n21)N1CCC[C@H](C(=O)N2CCC(F)(F)CC2)C1",
+    "Vina Score": -10.84,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H28F2N6O3S",
+    "Molecular Weight": 542.6120000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(C[C@@](O)(C(F)(F)F)C34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.79,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H27F4N5O5",
+    "Molecular Weight": 577.5350000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "COc1ccccc1-c1ccc(N2CCC[C@@H](C(=O)NCC3CCN(c4ncc(F)cn4)CC3)C2)nn1",
+    "Vina Score": -10.77,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H32FN7O2",
+    "Molecular Weight": 505.59800000000024,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "C[C@@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCC[C@H](Oc5ncc(Br)cn5)C4)cn1c23",
+    "Vina Score": -10.77,
+    "Vina Poses": 5,
+    "Molecular Formula": "C22H19BrF2N4O4",
+    "Molecular Weight": 521.3180000000002,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "Cc1c(C(=O)N2CC[C@@H](COc3ccc4nnc(C(F)(F)F)n4n3)C2)cnn1-c1ccc(F)c(F)c1",
+    "Vina Score": -10.77,
+    "Vina Poses": 5,
+    "Molecular Formula": "C22H18F5N7O2",
+    "Molecular Weight": 507.4230000000001,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1ccccc1-c1ccc(N2CCC[C@@H](C(=O)N3CCO[C@@H](C(=O)N4CCC(F)(F)CC4)C3)C2)nn1",
+    "Vina Score": -10.75,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H33F2N5O3",
+    "Molecular Weight": 513.5890000000004,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "CN1CCOc2ccc(CNC34CCC(C[C@]5(O)Cn6c(=O)ccc7ncc(F)c5c76)(CC3)OC4)nc21",
+    "Vina Score": -10.74,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30FN5O4",
+    "Molecular Weight": 507.5660000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "C[C@@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCN(c5cncc(N6CCCC6=O)n5)CC4)cn1c23",
+    "Vina Score": -10.74,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H24F2N6O4",
+    "Molecular Weight": 510.5010000000004,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "Cn1ccc(-c2cn([C@H]3C[C@H](O)[C@@H](COc4ccc5ccc(N6CCC6)nc5c4)O3)c3ncnc(N)c23)n1",
+    "Vina Score": -10.74,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28N8O3",
+    "Molecular Weight": 512.5740000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CCCC2=O)CN1",
+    "Vina Score": -10.7,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H35F2N5O2",
+    "Molecular Weight": 511.6170000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cn1cc(-c2ccnc(-n3ncc4cc(C(C)(C)C)cc(F)c4c3=O)c2CO)nc(NC(=O)[C@@H]2C[C@@H]2F)c1=O",
+    "Vina Score": -10.69,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H26F2N6O4",
+    "Molecular Weight": 536.5390000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccc(-c2ncnc(N3CCN(C(=O)C4CN(C(=O)c5ccc6c(c5)OCO6)C4)CC3)c2F)cc1",
+    "Vina Score": -10.69,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H26FN5O5",
+    "Molecular Weight": 519.5330000000004,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C1C[C@@H](C(=O)N2CCN(C(=O)[C@@H]3CC(=O)N(c4ccccc4F)C3)CC2)CN1CCc1c[nH]c2ccccc12",
+    "Vina Score": -10.68,
+    "Vina Poses": 5,
+    "Molecular Formula": "C30H32FN5O4",
+    "Molecular Weight": 545.6150000000004,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CCOCC2)CN1",
+    "Vina Score": -10.68,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H37F2N5O2",
+    "Molecular Weight": 513.6330000000004,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCn1c(C(=O)N2CCC3(CC2)OCCO3)cc2c(N3CCN(c4ccccc4Cl)CC3)ncnc21",
+    "Vina Score": -10.67,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H31ClN6O3",
+    "Molecular Weight": 511.02600000000024,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "CC(=O)N1C[C@@H](NC(=O)c2ccc(OCc3cc(C)nc4ccccc34)cc2)[C@@]2(C1)C(=O)NC(=O)N=C2O",
+    "Vina Score": -10.67,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H25N5O6",
+    "Molecular Weight": 515.5260000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CC(C)N1CCN(C(=O)c2ccc(Nc3ncc(F)c(-c4ccc5ncc(N6CCOCC6)nc5c4)n3)nc2)CC1",
+    "Vina Score": -10.67,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H32FN9O2",
+    "Molecular Weight": 557.6340000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCn1c(=O)c2cc(S(=O)(=O)N3CCN(c4ncnc(-c5ccc(OC)cc5)c4F)CC3)ccc2n(CC)c1=O",
+    "Vina Score": -10.67,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H29FN6O5S",
+    "Molecular Weight": 568.6310000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "Cc1cc(N2CCCC2)nc(N2CCN(C(=O)[C@@H]3CCCN3S(=O)(=O)c3ccccc3F)CC2)n1",
+    "Vina Score": -10.66,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H31FN6O3S",
+    "Molecular Weight": 502.6160000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCN1CCN(c2cc(N=c3cc(C)[nH][nH]3)[nH]c(=N[C@H]3CCN(C(=O)c4cccc(Cl)c4F)C3)n2)CC1",
+    "Vina Score": -10.65,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H31ClFN9O",
+    "Molecular Weight": 528.0360000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1cc(NC(=O)C2CCN(C(=O)[C@@H]3CC(=O)N(c4ccc(F)c(F)c4)C3)CC2)cc(OC)c1OC",
+    "Vina Score": -10.64,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H29F2N3O6",
+    "Molecular Weight": 517.5290000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "Cc1ccc(N=c2ccc(N3CCN(C(=O)C4CN(c5nc6ccc(F)cc6s5)C4)CC3)n[nH]2)nc1",
+    "Vina Score": -10.64,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H25FN8OS",
+    "Molecular Weight": 504.5950000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CC[C@@H](F)C2)CN1",
+    "Vina Score": -10.63,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H36F3N5O",
+    "Molecular Weight": 515.6240000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cc1cccc(-n2ncc3c(=O)n4c(nc32)S[C@H](CC(=O)N2CCC[C@H](C(=O)N3CCC(F)(F)CC3)C2)C4)c1",
+    "Vina Score": -10.63,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30F2N6O3S",
+    "Molecular Weight": 556.6390000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3cnc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CCOCC2)CN1",
+    "Vina Score": -10.62,
+    "Vina Poses": 4,
+    "Molecular Formula": "C28H37F2N5O2",
+    "Molecular Weight": 513.6330000000004,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CN=c1ccc2ccc(OC[C@H]3O[C@@H](n4cc(C5CCC(F)(F)CC5)c5c(N)ncnc54)[C@H](O)[C@@H]3O)cc2[nH]1",
+    "Vina Score": -10.6,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30F2N6O4",
+    "Molecular Weight": 540.5710000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(CCC34CCC(NC(=O)c5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.6,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H26FN5O5",
+    "Molecular Weight": 507.52200000000033,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(CCC34CCC(N(C)C(=O)c5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.59,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28FN5O5",
+    "Molecular Weight": 521.5490000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CN=c1ccc2ccc(OC[C@H]3O[C@@H](n4cc(-c5ccc(C)cn5)c5c(N)ncnc54)[C@@H](F)[C@@H]3O)cc2[nH]1",
+    "Vina Score": -10.59,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H26FN7O3",
+    "Molecular Weight": 515.5490000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1cc(S(C)(=O)=O)ccc1-c1c[nH]c(=NCc2c(F)ccc3c2CCO3)n2cnc(S(C)(=O)=O)c12",
+    "Vina Score": -10.58,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H23FN4O5S2",
+    "Molecular Weight": 530.6030000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1cccc(COc2cccc(N=c3nc(N4CCC(CO)CC4)[nH]c(N4CCC(CO)CC4)n3)c2)c1",
+    "Vina Score": -10.58,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H38N6O3",
+    "Molecular Weight": 518.6620000000005,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "CCc1ncnc(N2CCN(C(=O)[C@H]3CCCN(c4ccc(-c5ccccc5OC)nn4)C3)CC2)c1F",
+    "Vina Score": -10.56,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H32FN7O2",
+    "Molecular Weight": 505.5980000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCOC(=O)N1CCN(C(=O)c2ccccc2NC(=O)[C@@H]2CC(=O)N(c3ccc(F)c(Cl)c3)C2)CC1",
+    "Vina Score": -10.56,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H26ClFN4O5",
+    "Molecular Weight": 516.9570000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCN=c1nc(N2CCN(C(=O)[C@H]3CCCN(c4ccc(-c5ccccc5OC)nn4)C3)CC2)cc(C)[nH]1",
+    "Vina Score": -10.56,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H36N8O2",
+    "Molecular Weight": 516.6500000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c([C@](C)(O)CC34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.55,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30FN5O5",
+    "Molecular Weight": 523.5650000000003,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(CC(=O)C34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.54,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H26FN5O5",
+    "Molecular Weight": 507.52200000000033,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "O=C(Nc1n[nH]c2nc(N3CCN(S(=O)(=O)c4ccccc4C(F)(F)F)CC3)c(F)cc12)C1CC1",
+    "Vina Score": -10.54,
+    "Vina Poses": 5,
+    "Molecular Formula": "C21H20F4N6O3S",
+    "Molecular Weight": 512.4890000000001,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCc1nc(N2CCN(c3ccccc3OC)CC2)cc(N2CC(=O)N3CCc4c(F)cccc4[C@@H]3C2)n1",
+    "Vina Score": -10.54,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H33FN6O2",
+    "Molecular Weight": 516.6210000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CC[C@H]1CN(C(=O)c2cc(Cn3c(=O)nc(O)c4ccccc43)ccc2F)CCN1C(=O)C(F)(F)F",
+    "Vina Score": -10.53,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H22F4N4O4",
+    "Molecular Weight": 506.45600000000013,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "CN(CC(=O)N1CCO[C@@H](C(=O)N2CCC(F)(F)CC2)C1)c1nc2c(C(F)(F)F)cccc2s1",
+    "Vina Score": -10.52,
+    "Vina Poses": 5,
+    "Molecular Formula": "C21H23F5N4O3S",
+    "Molecular Weight": 506.49700000000024,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1ccccc1-c1ccc(N2CCC[C@H](C(=O)N3CCO[C@@H](C(=O)N4CCC(F)(F)CC4)C3)C2)nn1",
+    "Vina Score": -10.52,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H33F2N5O4",
+    "Molecular Weight": 529.5880000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccccc1-c1ccc(N2CCC[C@@H](C(=O)N3CCN(Cc4nnnn4-c4ccc(F)c(F)c4)CC3)C2)nn1",
+    "Vina Score": -10.51,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H31F2N9O2",
+    "Molecular Weight": 575.6239999999999,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "O=C(O)c1cccnc1NCc1cn([C@H]2CCOC3(CCN(C(=O)c4cc(F)cc(F)c4)CC3)C2)nn1",
+    "Vina Score": -10.51,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H26F2N6O4",
+    "Molecular Weight": 512.5170000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C1COc2ccc(CNC34CCC(CCc5c(F)cnc6ccc(OCc7cc(=O)c(O)c[nH]7)nc56)(CC3)OC4)nc2N1",
+    "Vina Score": -10.5,
+    "Vina Poses": 5,
+    "Molecular Formula": "C31H31FN6O6",
+    "Molecular Weight": 602.6229999999999,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "O=C(c1ccc(CNS(=O)(=O)c2ccccc2F)cc1)N1CCO[C@@H](C(=O)N2CCC(F)(F)CC2)C1",
+    "Vina Score": -10.49,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H26F3N3O5S",
+    "Molecular Weight": 525.5490000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC(=O)n1ncc2c(C(=O)N=c3nc(N4CCC5(CC4)OCCO5)[nH]n3-c3cccc(Cl)c3)cccc21",
+    "Vina Score": -10.49,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H24ClN7O4",
+    "Molecular Weight": 521.9650000000001,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "CCc1cc2c(C(N)=O)nn(CC(=O)N3[C@H](C(=O)Nc4cccc(OC(F)(F)F)c4F)C[C@H]4C[C@H]43)c2cn1",
+    "Vina Score": -10.47,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H22F4N6O4",
+    "Molecular Weight": 534.4700000000001,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "CC(=O)N1CCCc2cc(S(=O)(=O)N3CCC[C@H](COc4ncc(Br)cn4)C3)ccc21",
+    "Vina Score": -10.47,
+    "Vina Poses": 5,
+    "Molecular Formula": "C21H25BrN4O4S",
+    "Molecular Weight": 509.4260000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "C[C@@H]1COc2c(F)c(F)cc3c(=O)c(C(=O)N4CCN(c5ccnc(N6CCCCC6)n5)CC4)cn1c23",
+    "Vina Score": -10.46,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H28F2N6O3",
+    "Molecular Weight": 510.5450000000004,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "O=c1cc(CN2CCC3(CC2)OCCO3)n(CCc2cnc[nH]2)cc1OCc1nc(O)c2ccccc2n1",
+    "Vina Score": -10.46,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30N6O5",
+    "Molecular Weight": 518.5740000000002,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "CCOc1ccc(-n2nnc3c(N4CCN(C(=O)c5ccc(F)c(Br)c5)CC4)ncnc32)cc1",
+    "Vina Score": -10.45,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H21BrFN7O2",
+    "Molecular Weight": 526.3700000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=c1ccc(-c2cc(F)cc(F)c2)nn1C[C@@H]1CN(c2ncc(-c3cnn(C4CCNCC4)c3)cn2)CCO1",
+    "Vina Score": -10.45,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28F2N8O2",
+    "Molecular Weight": 534.5710000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C(C1CN(c2nc3c(F)cccc3s2)C1)N1CCN(Cc2nnnn2-c2ccc(F)c(F)c2)CC1",
+    "Vina Score": -10.44,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H21F3N8OS",
+    "Molecular Weight": 514.5370000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "NS(=O)(=O)c1ccc(CNC(=O)C2CCN(C(=O)[C@H]3CC(=O)N(c4ccc(F)c(Cl)c4)C3)CC2)cc1",
+    "Vina Score": -10.44,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H26ClFN4O5S",
+    "Molecular Weight": 537.0130000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCN1CCN(c2cc(N=c3cc(C)[nH][nH]3)[nH]c(=N[C@H]3CCN(C(=O)c4cc(Cl)ccc4F)C3)n2)CC1",
+    "Vina Score": -10.43,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H31ClFN9O",
+    "Molecular Weight": 528.0360000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "N#CCC1(n2cc(-c3c(F)cnc4[nH]ccc34)cn2)CN(C2CCN(C(=O)c3c(F)cncc3F)CC2)C1",
+    "Vina Score": -10.43,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H23F3N8O",
+    "Molecular Weight": 520.5190000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCc1c2c(nc3ccc(OC(=O)N4CC[C@H](N5CCCCC5)C[C@H]4O)cc13)-c1cc3c(c(=O)n1C2)COC(=O)[C@]3(O)CC",
+    "Vina Score": -10.41,
+    "Vina Poses": 5,
+    "Molecular Formula": "C33H38N4O7",
+    "Molecular Weight": 602.6880000000003,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "N#CCC1(n2cc(-c3ncnc4[nH]ccc34)cn2)CN(C2CCN(C(=O)Nc3ncc(F)cc3F)CC2)C1",
+    "Vina Score": -10.41,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H24F2N10O",
+    "Molecular Weight": 518.5320000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CN=c1ccc2ccc(OC[C@H]3O[C@@H](n4cc(-c5cnn(C)c5)c5c(N)ncnc54)[C@@H](F)[C@@H]3O)cc2[nH]1",
+    "Vina Score": -10.4,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H25FN8O3",
+    "Molecular Weight": 504.5260000000001,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccccc1-c1ccc(N2CCC(C(=O)N3CCO[C@H](C(=O)N4CCC(F)(F)CC4)C3)CC2)nn1",
+    "Vina Score": -10.39,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H33F2N5O4",
+    "Molecular Weight": 529.5880000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(COc1cn(C[C@@H]2CCCO2)c(CN2CCN(c3ccc(F)cc3)CC2)cc1=O)Nc1ccccn1",
+    "Vina Score": -10.39,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H32FN5O4",
+    "Molecular Weight": 521.5930000000001,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "COc1ccc(Cl)cc1N1CCN(Cc2cc(=O)[nH]c(N3CCN(C(=O)C4CCCCC4)CC3)n2)CC1",
+    "Vina Score": -10.39,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H37ClN6O3",
+    "Molecular Weight": 529.0850000000004,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CNc1ncnc2c1ccn2[C@@H]1O[C@@H]2[C@H](Cc3ccc4cc(Br)c(N)nc4c3)CC[C@]2(O)[C@H]1O",
+    "Vina Score": -10.39,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H25BrN6O3",
+    "Molecular Weight": 525.4070000000003,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1ncc(C(N)=O)c2nc(C3CCN(C(=O)c4cc(Cc5nnc(O)c6ccccc56)ccc4F)CC3)[nH]c12",
+    "Vina Score": -10.38,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H26FN7O4",
+    "Molecular Weight": 555.57,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C(COc1cn(C[C@H]2CCCO2)c(CN2CCN(c3ccccc3F)CC2)cc1=O)Nc1ccccn1",
+    "Vina Score": -10.38,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H32FN5O4",
+    "Molecular Weight": 521.5930000000001,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "O=C(c1ccc(CNS(=O)(=O)c2ccc(F)c(Cl)c2)cc1)N1CCO[C@@H](C(=O)N2CCC(F)(F)CC2)C1",
+    "Vina Score": -10.38,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H25ClF3N3O5S",
+    "Molecular Weight": 559.994,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C(c1nnc(N2CCN(c3ccccc3F)CC2)c2ccccc12)N1CCN(C(=O)[C@@H]2CCCO2)CC1",
+    "Vina Score": -10.38,
+    "Vina Poses": 4,
+    "Molecular Formula": "C28H31FN6O3",
+    "Molecular Weight": 518.5930000000004,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1cccc(-n2nnc3c(N4CCN(C(=O)C5CN(c6nc7c(F)cccc7s6)C5)CC4)ncnc32)c1",
+    "Vina Score": -10.37,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H24FN9O2S",
+    "Molecular Weight": 545.6040000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "C[C@H]1CN(c2cc(F)c3c(c2)N(C)C(=O)C32CCN(c3nc(O)c4c(n3)N(C)CCC4)CC2)C[C@@H](C)O1",
+    "Vina Score": -10.36,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H35FN6O3",
+    "Molecular Weight": 510.6140000000004,
+    "Rotatable Bonds": 2
+  },
+  {
+    "SMILES": "Cc1cccc(-n2ncc3c(=O)n4c(nc32)S[C@H](CC(=O)N2CCO[C@@H](C(=O)N3CCC(F)(F)CC3)C2)C4)c1",
+    "Vina Score": -10.35,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H28F2N6O4S",
+    "Molecular Weight": 558.6110000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1ccccc1-c1ccc(N2CCC[C@@H](C(=O)NCc3nnnn3-c3ccc(F)c(F)c3)C2)nn1",
+    "Vina Score": -10.35,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H24F2N8O2",
+    "Molecular Weight": 506.5170000000001,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(C[C@H](O)C34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.35,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H28FN5O5",
+    "Molecular Weight": 509.53800000000035,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "CCN1CCN(c2cc(N=c3cc(C)[nH][nH]3)[nH]c(=N[C@H]3CCN(C(=O)c4c(F)cc(Cl)cc4F)C3)n2)CC1",
+    "Vina Score": -10.34,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H30ClF2N9O",
+    "Molecular Weight": 546.0260000000001,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1cc2nc(C)n(CC(=O)N3CCC4(CC3)C[C@@](C)(O)[C@H](n3cc(F)c(O)nc3=O)CO4)c2cc1C",
+    "Vina Score": -10.34,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H32FN5O5",
+    "Molecular Weight": 513.5700000000002,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "CCc1ncnc(N2CCN(C(=O)C[C@@H]3Cn4c(nc5c(cnn5-c5cccc(C)c5)c4=O)S3)CC2)c1F",
+    "Vina Score": -10.33,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H27FN8O2S",
+    "Molecular Weight": 534.6210000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CN=c1ccc2ccc(OC[C@H]3O[C@@H](n4cc(-c5ccn(C6COC6)n5)c5c(N)ncnc54)[C@@H](F)[C@@H]3O)cc2[nH]1",
+    "Vina Score": -10.33,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H27FN8O4",
+    "Molecular Weight": 546.5630000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCOc1ccc(-c2ccc(N3CCN(C(=O)C4CN(C(=O)c5ccc(F)c(F)c5)C4)CC3)nn2)cc1",
+    "Vina Score": -10.32,
+    "Vina Poses": 2,
+    "Molecular Formula": "C27H27F2N5O3",
+    "Molecular Weight": 507.5410000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC(C)c1nc2ccccc2n1CC(=O)N1CCC2(CC1)C[C@@](C)(O)[C@H](n1cc(F)c(O)nc1=O)CO2",
+    "Vina Score": -10.32,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H32FN5O5",
+    "Molecular Weight": 513.5700000000003,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "CN(C)C(=O)COc1ccc2ncc(F)c(CCC34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.32,
+    "Vina Poses": 4,
+    "Molecular Formula": "C29H33FN6O5",
+    "Molecular Weight": 564.6180000000003,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "O=C1c2ccc(OCCN3CCCC3)cc2CN1c1c[nH]c(=NCc2c(F)ccc3c2CCO3)n2cnnc12",
+    "Vina Score": -10.32,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H28FN7O3",
+    "Molecular Weight": 529.5760000000001,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "Cc1ccc(N=c2ccc(N3CCN(C(=O)c4cn5c6c(c(F)c(F)cc6c4=O)OC[C@H]5C)CC3)n[nH]2)nc1",
+    "Vina Score": -10.31,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H25F2N7O3",
+    "Molecular Weight": 533.5390000000003,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "Cc1[nH]nc2nc(-c3ccc(NS(=O)(=O)c4cc(Cl)ccc4F)cc3)nc(OC[C@H]3CNCCO3)c12",
+    "Vina Score": -10.31,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H22ClFN6O4S",
+    "Molecular Weight": 532.9850000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "O=C1COc2ccc(CNC34CCC(CCc5c(F)cnc6ccc(OCCO)nc56)(CC3)OC4)nc2N1",
+    "Vina Score": -10.31,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30FN5O5",
+    "Molecular Weight": 523.5650000000003,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "CC(=O)N1CCN([C@H]2C[C@@H](n3cc(-c4cccc(OC[C@@H]5CCCO5)c4F)c4c(N)ncnc43)C2)CC1",
+    "Vina Score": -10.3,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H33FN6O3",
+    "Molecular Weight": 508.5980000000005,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cc1cc(C(F)(F)F)n2nc([C@H]3CCN(C(=O)COc4ccc(-n5nc(C)cc5C)nn4)C3)cc2n1",
+    "Vina Score": -10.3,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H23F3N8O2",
+    "Molecular Weight": 500.4850000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCn1c(CCC(=O)N2CCC3(CC2)C[C@@](C)(O)[C@H](n2cc(F)c(O)nc2=O)CO3)nc2ccccc21",
+    "Vina Score": -10.29,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H32FN5O5",
+    "Molecular Weight": 513.5700000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Nc1ncnc2c1c(Br)cn2[C@@H]1O[C@H](COc2ccc3ccc(N4CCCC4)nc3c2)[C@@H](O)[C@H]1O",
+    "Vina Score": -10.29,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H25BrN6O4",
+    "Molecular Weight": 541.4060000000004,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccc(N2C[C@H](C(=O)N3CCN(c4nc5c(F)cc(F)cc5s4)CC3)CC2=O)cc1OC",
+    "Vina Score": -10.29,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H24F2N4O4S",
+    "Molecular Weight": 502.5430000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(O)c1cn(C2CC2)c2cc(N3CCC(O)(COc4ccc(N5C[C@H](CO)OC5=O)cc4F)CC3)c(F)cc2c1=O",
+    "Vina Score": -10.28,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H29F2N3O8",
+    "Molecular Weight": 585.5600000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "COc1ccc2nc(C)cc(N3CCN(C(=O)[C@@H]4CC(=O)N(C5CC(C)(C)NC(C)(C)C5)C4)CC3)c2c1",
+    "Vina Score": -10.28,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H41N5O3",
+    "Molecular Weight": 507.6790000000004,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(CCC34CCC(NCc5nc6c(cc5F)OCC(=O)N6)(CC3)CO4)c2n1",
+    "Vina Score": -10.27,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H27F2N5O4",
+    "Molecular Weight": 511.52900000000034,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "COc1ccc(S(=O)(=O)N2CCC[C@@H](C(=O)N3CCN(c4nc5c(F)cc(F)cc5s4)CC3)C2)cc1",
+    "Vina Score": -10.27,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H26F2N4O4S2",
+    "Molecular Weight": 536.6260000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "O=C(c1ccc(Br)cc1OC(F)(F)F)N1CCO[C@@H](C(=O)N2CCC(F)(F)CC2)C1",
+    "Vina Score": -10.27,
+    "Vina Poses": 5,
+    "Molecular Formula": "C18H18BrF5N2O4",
+    "Molecular Weight": 501.2460000000004,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "O=C(NC1CCC2(CC1)OCCO2)C1CCN(C(=O)[C@H]2CC(=O)N(c3ccc(F)c(Cl)c3)C2)CC1",
+    "Vina Score": -10.27,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H31ClFN3O5",
+    "Molecular Weight": 507.99000000000024,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "CCc1cc2c(C(N)=O)nn(CC(=O)N3C[C@H](F)C[C@H]3C(=O)Nc3cccc(OC(F)(F)F)c3F)c2cn1",
+    "Vina Score": -10.26,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H21F5N6O4",
+    "Molecular Weight": 540.4490000000001,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "CCN1CCO[C@@H](CN2C[C@H](C(C)C)N(c3ccn4ncc(-c5ccc(-c6nc[nH]n6)cc5)c4n3)C2=O)C1",
+    "Vina Score": -10.26,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H33N9O2",
+    "Molecular Weight": 515.6220000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "O=C([C@H]1CC(=O)N(c2ccc3c[nH]nc3c2)C1)N1CCN(C(=O)[C@@H]2CC(=O)N(c3cccc(Cl)c3)C2)CC1",
+    "Vina Score": -10.26,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H27ClN6O4",
+    "Molecular Weight": 535.0040000000002,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "CN1CCC(n2cc(-c3cnc(N4CCO[C@H](Cn5nc(-c6ccc(F)c(F)c6)ccc5=O)C4)nc3)cn2)CC1",
+    "Vina Score": -10.25,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H30F2N8O2",
+    "Molecular Weight": 548.598,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4)cc32)[C@@H](CN2C[C@@H](C)OC[C@H]2C)CN1",
+    "Vina Score": -10.25,
+    "Vina Poses": 5,
+    "Molecular Formula": "C30H42FN5O2",
+    "Molecular Weight": 523.6970000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cc1ncc(NC(=O)c2cccc(C(F)(F)F)c2)cc1-c1cc(N2CCOCC2)nc(OCCO)n1",
+    "Vina Score": -10.23,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H24F3N5O4",
+    "Molecular Weight": 503.4810000000004,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "COC(=O)[C@@H](Cc1cc2ccnc(N)c2cc1Cl)N1CC[C@H](NS(=O)(=O)c2cnc(N3CCC(F)(F)C3)s2)C1=O",
+    "Vina Score": -10.23,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H25ClF2N6O5S2",
+    "Molecular Weight": 615.0840000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "Cn1ccc(-c2cn([C@@H]3O[C@H](CCc4ccc5cnc(N6CCC6)nc5c4)[C@@H](O)[C@@H]3F)c3ncnc(N)c23)n1",
+    "Vina Score": -10.23,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28FN9O2",
+    "Molecular Weight": 529.5800000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCOC(=O)C1(Cc2cn([C@H]3CCCc4c(F)cc(F)cc43)nn2)CCN(C(=O)Cc2cc(O)nc(O)n2)CC1",
+    "Vina Score": -10.23,
+    "Vina Poses": 3,
+    "Molecular Formula": "C27H30F2N6O5",
+    "Molecular Weight": 556.57,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "CCc1ncnc(N2CCN(C(=O)C3CCN(c4ccc(-c5ccccc5OC)nn4)CC3)CC2)c1F",
+    "Vina Score": -10.23,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H32FN7O2",
+    "Molecular Weight": 505.5980000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC1(C)CC(NC(=O)C2CCN(C(=O)[C@@H]3CC(=O)N(CCc4ccc(F)cc4)C3)CC2)CC(C)(C)N1",
+    "Vina Score": -10.23,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H41FN4O3",
+    "Molecular Weight": 500.65900000000033,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "N#CCC1(n2cc(-c3ncnc4[nH]ccc34)cn2)CN(C2CCN(C(=O)c3c(F)cc(F)cc3F)CC2)C1",
+    "Vina Score": -10.22,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H23F3N8O",
+    "Molecular Weight": 520.5190000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cn1cc2c(Cl)c(-c3n[nH]c4nc(N5CCC6(CC5)CC(F)(F)C[C@H]6N)c(CO)nc34)ccc2n1",
+    "Vina Score": -10.22,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H25ClF2N8O",
+    "Molecular Weight": 502.95700000000033,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "CS(=O)(=O)c1ccc2nc(N3CC(C(=O)N4CCC[C@H](C(=O)N5CCC(F)(F)CC5)C4)C3)sc2c1",
+    "Vina Score": -10.22,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H28F2N4O4S2",
+    "Molecular Weight": 526.6310000000004,
+    "Rotatable Bonds": 4
+  },
+  {
+    "SMILES": "NS(=O)(=O)c1ccc(CCN2C[C@H](C(=O)N3CCC(c4noc5cc(F)ccc45)CC3)CC2=O)cc1",
+    "Vina Score": -10.22,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H27FN4O5S",
+    "Molecular Weight": 514.5790000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C([C@H]1CN(S(=O)(=O)c2ccc(Br)c(C(F)(F)F)c2)CCO1)N1CCC(F)(F)CC1",
+    "Vina Score": -10.22,
+    "Vina Poses": 5,
+    "Molecular Formula": "C17H18BrF5N2O4S",
+    "Molecular Weight": 521.3020000000002,
+    "Rotatable Bonds": 3
+  },
+  {
+    "SMILES": "COc1cc(C(=O)NCc2nc(N3CCCC3)nc(N3CCOCC3)n2)ccc1OCc1ccccc1",
+    "Vina Score": -10.21,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H32N6O4",
+    "Molecular Weight": 504.59100000000035,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3cnc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CC[C@H](F)C2)CN1",
+    "Vina Score": -10.2,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H36F3N5O",
+    "Molecular Weight": 515.6240000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC[C@@]1(O)CCCN(c2nc3nc(N4CCOCC4)oc3cc2NC(=O)c2coc(-c3ccnc(C)c3)n2)C1",
+    "Vina Score": -10.19,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H31N7O5",
+    "Molecular Weight": 533.5890000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=C([C@@H]1CCCN1S(=O)(=O)c1ccccc1F)N1CC[C@@H](COc2ccc(-c3ccccc3)nn2)C1",
+    "Vina Score": -10.19,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H27FN4O4S",
+    "Molecular Weight": 510.59100000000035,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "C[C@@H](O)Cn1cc(OCc2nc(O)c3ccccc3n2)c(=O)cc1CN1CCN(c2ccccc2F)CC1",
+    "Vina Score": -10.18,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H30FN5O4",
+    "Molecular Weight": 519.5770000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "COc1ccc(OC)c(-c2ccc(=O)n(CC(=O)N3CCC[C@@H](C(=O)N4CCC(F)(F)CC4)C3)n2)c1",
+    "Vina Score": -10.18,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H30F2N4O5",
+    "Molecular Weight": 504.5340000000004,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCCn1c(C(=O)N2CCC[C@@H](Oc3ncc(Br)cn3)C2)cc2c(=O)n3ccccc3nc21",
+    "Vina Score": -10.17,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H23BrN6O3",
+    "Molecular Weight": 511.38000000000017,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "N=c1[nH]nc(COc2cn(C[C@@H]3CCCO3)c(CN3CCN(c4ccc(F)cc4)CC3)cc2=O)s1",
+    "Vina Score": -10.17,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H29FN6O3S",
+    "Molecular Weight": 500.6000000000002,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "CN1CCN(c2cccc([C@@H](O)c3ncc4c(n3)CN(S(=O)(=O)c3ccc(-c5ncco5)c(F)c3)C4)c2)CC1",
+    "Vina Score": -10.17,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H27FN6O4S",
+    "Molecular Weight": 550.6160000000001,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COCCn1c(C(=O)N2CCC[C@@H](C(=O)N3CCC(F)(F)CC3)C2)cc2c(=O)n3ccccc3nc21",
+    "Vina Score": -10.15,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H29F2N5O4",
+    "Molecular Weight": 501.5340000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cn1ccc(-c2cn([C@@H]3O[C@H](COc4ccc5ncc(N6CCC6)nc5c4)[C@@H](O)[C@@H]3F)c3ncnc(N)c23)n1",
+    "Vina Score": -10.15,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H26FN9O3",
+    "Molecular Weight": 531.5520000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC(C)[C@H]1CN(CCN2CC[C@H](F)C2)C(=O)N1c1ccn2ncc(-c3ccc(-c4nc[nH]n4)cc3)c2n1",
+    "Vina Score": -10.15,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H30FN9O",
+    "Molecular Weight": 503.5860000000001,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "COc1ccc2ncc(F)c(CCC34CCC(NCc5ccc6c(n5)N(C)C(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.15,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H30FN5O4",
+    "Molecular Weight": 507.5660000000004,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "Cc1ccc(C#N)c(N2CCC(C(=O)N3CCC(N4CC(CC#N)(n5cc(-c6ncnc7[nH]ccc67)cn5)C4)CC3)CC2)n1",
+    "Vina Score": -10.15,
+    "Vina Poses": 5,
+    "Molecular Formula": "C32H35N11O",
+    "Molecular Weight": 589.7079999999999,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Oc1cc(-c2ncc3c(N4C[C@@H]5CC[C@H](C4)N5)nc(OCCN4C[C@@H]5C[C@H]4CO5)nc3c2F)c2ccccc2c1",
+    "Vina Score": -10.14,
+    "Vina Poses": 5,
+    "Molecular Formula": "C30H31FN6O3",
+    "Molecular Weight": 542.6150000000004,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCOC(=O)[C@@H](Cc1ccc2c(N)nccc2c1F)N1CC[C@H](NS(=O)(=O)c2ccc(N3CCCC3)nc2)C1=O",
+    "Vina Score": -10.14,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H31FN6O5S",
+    "Molecular Weight": 570.6470000000003,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "CCOc1ccc(S(=O)(=O)N2CCOCC2)cc1NC(=O)C1CCN(S(=O)(=O)c2cc(F)ccc2F)CC1",
+    "Vina Score": -10.12,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H29F2N3O7S2",
+    "Molecular Weight": 573.6400000000001,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "Nc1c(N[C@@H]2COC3(CCN(C(=O)OCc4ccccc4)CC3)C2)c(O)nc(=O)n1Cc1ccccc1",
+    "Vina Score": -10.12,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H31N5O5",
+    "Molecular Weight": 505.5750000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3cnc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CCOCC2=O)CN1",
+    "Vina Score": -10.12,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H35F2N5O3",
+    "Molecular Weight": 527.6160000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cc1cc(C)nc(NS(=O)(=O)c2ccc(NC(=O)[C@@H]3CCCN(c4ncnc5[nH]cnc45)C3)cc2)n1",
+    "Vina Score": -10.12,
+    "Vina Poses": 5,
+    "Molecular Formula": "C23H25N9O3S",
+    "Molecular Weight": 507.5800000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CC(=O)NC[C@H]1CN(c2ccc(OCC[C@@H]3CCN(c4nc5c(cc4F)c(=O)c(C(=O)O)cn5C4CC4)C3)c(F)c2)C(=O)O1",
+    "Vina Score": -10.11,
+    "Vina Poses": 5,
+    "Molecular Formula": "C30H31F2N5O7",
+    "Molecular Weight": 611.6020000000003,
+    "Rotatable Bonds": 10
+  },
+  {
+    "SMILES": "O=C(NC[C@H]1CCCO1)C1CCN(C(=O)[C@H]2CC(=O)N(c3cccc(OCc4ccccc4)c3)C2)CC1",
+    "Vina Score": -10.11,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H35N3O5",
+    "Molecular Weight": 505.6150000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "CCOc1ccc(-n2nnc3c(N4CCN(C(=O)C5CN(C(=O)c6ccc(F)c(F)c6)C5)CC4)ncnc32)cc1",
+    "Vina Score": -10.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H26F2N8O3",
+    "Molecular Weight": 548.5540000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCc1ncnc(N2CCN(C(=O)[C@@H]3CCCN3S(=O)(=O)c3c(Cl)cccc3Cl)CC2)c1F",
+    "Vina Score": -10.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C21H24Cl2FN5O3S",
+    "Molecular Weight": 516.4260000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CCc1cc(C(=O)N2CCN(c3nnc(C(C)(C)C)c(O)n3)CC2)nn1Cc1c(F)cccc1Cl",
+    "Vina Score": -10.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H29ClFN7O2",
+    "Molecular Weight": 501.99400000000026,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "COc1ccc(N2C[C@@H](C(=O)N3CCC(Cn4c(C)nc5cc(F)ccc5c4=O)CC3)CC2=O)cc1OC",
+    "Vina Score": -10.09,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H31FN4O5",
+    "Molecular Weight": 522.5770000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COC(=O)[C@@H](Cc1cc2ccnc(N)c2cc1Cl)N1CC[C@H](NS(=O)(=O)c2cnc(N3CCCC3)s2)C1=O",
+    "Vina Score": -10.08,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H27ClN6O5S2",
+    "Molecular Weight": 579.1040000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "CNC(=O)COc1ccc2ncc(F)c(CCC34CCC(NCc5ccc6c(n5)NC(=O)CO6)(CC3)CO4)c2n1",
+    "Vina Score": -10.08,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H31FN6O5",
+    "Molecular Weight": 550.5910000000003,
+    "Rotatable Bonds": 9
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3cnc(Cc4ccc(F)cc4F)cc32)[C@@H](CN2CCCC2=O)CN1",
+    "Vina Score": -10.08,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H35F2N5O2",
+    "Molecular Weight": 511.6170000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4)cc32)[C@@H](CN2CCOC[C@H]2C)CN1",
+    "Vina Score": -10.08,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H40FN5O2",
+    "Molecular Weight": 509.6700000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=c1ccc(-c2ccc(F)c(Cl)c2)nn1C[C@@H]1CN(c2ncc(-c3cnn(C4CCNCC4)c3)cn2)CCO1",
+    "Vina Score": -10.08,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28ClFN8O2",
+    "Molecular Weight": 551.0260000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCOc1ccc(-n2nnc3c(N4CCN(C(=O)[C@@H]5CCCN5S(=O)(=O)c5ccccc5F)CC4)ncnc32)cc1",
+    "Vina Score": -10.07,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H29FN8O4S",
+    "Molecular Weight": 580.6460000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "Cc1cc2n[nH]cc2cc1NC(=O)C1CCN(C2CCN(S(=O)(=O)c3cc(C(=O)O)ccc3F)CC2)CC1",
+    "Vina Score": -10.07,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H30FN5O5S",
+    "Molecular Weight": 543.6210000000001,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "O=c1cc(CN2CCN(c3ccccc3F)CC2)n(CCO)cc1OCc1nc(O)c2ccccc2n1",
+    "Vina Score": -10.06,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H28FN5O4",
+    "Molecular Weight": 505.5500000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "CCc1nc(Nc2ccc(S(=O)(=O)NC(C)=O)cc2)cc(N2CC(=O)N3CCc4c(F)cccc4[C@H]3C2)n1",
+    "Vina Score": -10.06,
+    "Vina Poses": 5,
+    "Molecular Formula": "C26H27FN6O4S",
+    "Molecular Weight": 538.6050000000001,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "Cn1nc(-c2ccnc(-n3ncc4cc(C(C)(C)C)cc(F)c4c3=O)c2CO)cc(NC(=O)[C@@H]2C[C@@H]2F)c1=O",
+    "Vina Score": -10.05,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H26F2N6O4",
+    "Molecular Weight": 536.5390000000002,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1c(Cc2ccc(F)c(C(=O)N3CCN(C(=O)C4(N5CCCC5)CCCC4)CC3)c2)n[nH]c(=O)c1C",
+    "Vina Score": -10.04,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H36FN5O3",
+    "Molecular Weight": 509.6260000000005,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Cc1nc(N2CCCC2)cc(N2CCN(C(=O)[C@@H]3CCCN3S(=O)(=O)c3ccccc3F)CC2)n1",
+    "Vina Score": -10.04,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H31FN6O3S",
+    "Molecular Weight": 502.6160000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "Nc1ncnc2c1c(-c1cnccn1)cn2[C@@H]1O[C@H](COc2ccc3ccc(N4CCC4)nc3c2)[C@@H](O)[C@@H]1F",
+    "Vina Score": -10.03,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H25FN8O3",
+    "Molecular Weight": 528.5480000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COc1cc(OC)c(F)c(-c2ccc(C(=O)Nc3nc(CN4CCOCC4)c[nH]3)c3nccnc23)c1F",
+    "Vina Score": -10.03,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H24F2N6O4",
+    "Molecular Weight": 510.5010000000003,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "Cc1nc(C)n(C[C@H]2CN[C@H](C)CN2CC(=O)N2CC(C)(C)c3cnc(Cc4ccc(F)cc4F)cc32)n1",
+    "Vina Score": -10.03,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H35F2N7O",
+    "Molecular Weight": 523.6320000000003,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COc1cc(F)c2nccc([C@@H](O)CN3CC[C@H](NCc4ccc5c(n4)NC(=O)CS5)[C@H](F)C3)c2c1",
+    "Vina Score": -10.02,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H27F2N5O3S",
+    "Molecular Weight": 515.5860000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "CCn1c(CCCC(=O)N2CCC3(CC2)C[C@H](n2cnc4c(N)nc(N)nc42)[C@@](C)(O)CO3)nc2ccccc21",
+    "Vina Score": -10.02,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H37N9O3",
+    "Molecular Weight": 547.6640000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "COc1cc(N2C[C@H](CNC(=O)C3CN(C(=O)c4ccc(F)c(F)c4)C3)OC2=O)cc(OC)c1OC",
+    "Vina Score": -10.02,
+    "Vina Poses": 5,
+    "Molecular Formula": "C24H25F2N3O7",
+    "Molecular Weight": 505.4740000000003,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "Cc1ccn(-c2cn([C@@H]3O[C@H](COc4ccc5ccc(N6CCC6)nc5c4)[C@@H](O)[C@@H]3F)c3ncnc(N)c23)n1",
+    "Vina Score": -10.01,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H27FN8O3",
+    "Molecular Weight": 530.5640000000002,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "N#Cc1cc(COc2cncc([C@H](CC(=O)O)NC(=O)[C@@H]3CCCN(C(=O)CCC4CCNCC4)C3)c2)ccc1F",
+    "Vina Score": -10.01,
+    "Vina Poses": 5,
+    "Molecular Formula": "C30H36FN5O5",
+    "Molecular Weight": 565.6460000000005,
+    "Rotatable Bonds": 11
+  },
+  {
+    "SMILES": "O=C(NC[C@@H](c1ccccc1)N1CCCC1)C1CCN(C(=O)[C@@H]2CC(=O)N(c3ccc4c[nH]nc4c3)C2)CC1",
+    "Vina Score": -10.01,
+    "Vina Poses": 5,
+    "Molecular Formula": "C30H36N6O3",
+    "Molecular Weight": 528.6570000000002,
+    "Rotatable Bonds": 7
+  },
+  {
+    "SMILES": "CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCN(CCOC4=C(c5ccccc5F)C(=O)OC4)CC3)nc21",
+    "Vina Score": -10.01,
+    "Vina Poses": 5,
+    "Molecular Formula": "C27H26F2N4O6",
+    "Molecular Weight": 540.5230000000001,
+    "Rotatable Bonds": 8
+  },
+  {
+    "SMILES": "COc1ccc(OC)c2sc(N3CCN(C(=O)[C@@H]4CCCN(S(=O)(=O)c5ccc(F)cc5)C4)CC3)nc12",
+    "Vina Score": -10.01,
+    "Vina Poses": 5,
+    "Molecular Formula": "C25H29FN4O5S2",
+    "Molecular Weight": 548.6620000000001,
+    "Rotatable Bonds": 6
+  },
+  {
+    "SMILES": "CCc1nc(N2CCN(c3cccc(OC)c3)CC2)cc(N2CC(=O)N3CCc4c(F)cccc4[C@@H]3C2)n1",
+    "Vina Score": -10.0,
+    "Vina Poses": 5,
+    "Molecular Formula": "C29H33FN6O2",
+    "Molecular Weight": 516.6210000000003,
+    "Rotatable Bonds": 5
+  },
+  {
+    "SMILES": "CN(C[C@]1(O)CCCN(c2ccnc3cccnc23)C1)C(=O)c1ccc(OCCN2CCCC2=O)cc1",
+    "Vina Score": -9.992,
+    "Vina Poses": 5,
+    "Molecular Formula": "C28H33N5O4",
+    "Molecular Weight": 503.60300000000046,
+    "Rotatable Bonds": 8
+  }
+]

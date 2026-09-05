@@ -1,0 +1,17 @@
+
+# secrets
+.env
+*.pem
+kaggle.json
+logs/
+src/aizynthfinder_models/
+data/raw/zinc_tranches/
+__pycache__/
+
+# Regenerable and over GitHub's 100MB limit.
+# screen_*.json hold every Vina pose (194MB each); regenerate with run_screen.py.
+# library_K.smi is a ZINC download; regenerate with fetch_zinc.py --tranches K?
+data/screens/screen_g12v.json
+data/screens/screen_g12d_random.json
+data/screens/screen_g12d_sim.json
+data/raw/library_K.smi

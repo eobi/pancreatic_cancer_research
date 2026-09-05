@@ -135,14 +135,23 @@ aldehyde. Structures drawn from the SMILES strings in Table 2; no atom has been 
 omitted.
 
 **Table 2. The three synthesis candidates as recorded in the campaign output.**
+SMILES strings are listed verbatim beneath the table.
 
-| molecule | SMILES | MW | SA score | aromatic ring | groups present |
-|---|---|---|---|---|---|
-| Hit 13 | `NN(N1)C2CCC[C@H1]2CCCC3OC31CC=O` | 239 | 5.24 | **no** | epoxide, hydrazine, triazane, aldehyde |
-| Hit 41 | `NN(N)C1CCC[C@H1]1CCCC2OC2C=O` | 227 | 4.60 | **no** | epoxide, hydrazine, triazane, aldehyde |
-| Hit 73 | `NN(N)C1CCC[C@H1]1CCCC2OC2CN(OCC3CCCCCCCC=4)CC=43` | 407 | 5.29 | **no** | epoxide, hydrazine, triazane |
-| Sotorasib | *(ref. 9)* | 561 | 3.84 | yes | none of the above |
-| Adagrasib | *(ref. 10)* | 604 | 4.21 | yes | none of the above |
+| molecule | MW | SA score | aromatic ring | groups present |
+|---|---|---|---|---|
+| Hit 13 | 239 | 5.24 | **no** | epoxide, hydrazine, triazane, aldehyde |
+| Hit 41 | 227 | 4.60 | **no** | epoxide, hydrazine, triazane, aldehyde |
+| Hit 73 | 407 | 5.29 | **no** | epoxide, hydrazine, triazane |
+| Sotorasib (ref. 9) | 561 | 3.84 | yes | none of the above |
+| Adagrasib (ref. 10) | 604 | 4.21 | yes | none of the above |
+
+SMILES as recorded in the campaign output file:
+
+```
+Hit 13   NN(N1)C2CCC[C@H1]2CCCC3OC31CC=O
+Hit 41   NN(N)C1CCC[C@H1]1CCCC2OC2C=O
+Hit 73   NN(N)C1CCC[C@H1]1CCCC2OC2CN(OCC3CCCCCCCC=4)CC=43
+```
 
 Each of the three carries **an epoxide and a hydrazine in the same molecule**. A hydrazine is
 a strong nucleophile and an epoxide is a strained electrophile; they consume one another.

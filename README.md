@@ -1,42 +1,138 @@
-# KRAS G12C screening pipeline
+# Digitising pancreatic cancer drug discovery, end to end
+
+A validated pipeline from target structure to an orderable compound, and the plan for
+extending it through the chemical and biological validation that normally happens in a lab.
 
 **[DISCOVERIES.md](DISCOVERIES.md)** — what we found, with the numbers.
 **[PIPELINE.md](PIPELINE.md)** — every phase, its command, and the gate it must pass.
-**[papers/STUDIES.md](papers/STUDIES.md)** — the five publishable studies, their evidence,
-and what each does *not* support.
+**[SIMULATION_LADDER.md](SIMULATION_LADDER.md)** — the fidelity ladder, and what each rung costs.
+**[papers/STUDIES.md](papers/STUDIES.md)** — five publishable studies and what each does *not* support.
+
+---
+
+## Why this exists
+
+A 2025 campaign generated molecules for pancreatic cancer. MD Anderson asked for
+laboratory validation. Chemical synthesis then stalled for over a year — cost, a
+relocation, impure reagents.
+
+The post-mortem found the delay was not only logistical. **Of 3,631 generated molecules,
+0 pass a standard pre-synthesis filter.** 3,626 have no aromatic ring; 57–76% of
+purchasable compounds pass the same filter. The three structures actually sent to chemists
+carry a triazane, an epoxide and, in two cases, a free aldehyde — functional groups that
+destroy each other in the same molecule. A year was spent trying to make things that
+cannot exist.
+
+So the goal is not a better generator. It is to move every step that can be computed
+*before* a compound reaches a bench, and to make each step prove itself against a known
+answer first.
+
+## Two rules the 2025 campaign lacked
+
+1. **Nothing reaches a chemist without passing a chemical-reality gate.**
+2. **No scoring function is trusted until it reproduces a known crystal pose.**
+
+The second rule generalises into the method that runs through everything here: every
+filter is calibrated against molecules whose answer is already known. Five separate
+filters were broken *in the same direction* until checked this way — each silently
+rejecting the approved drugs it should have ranked first. A 14-drug panel caught what
+3 reference compounds missed.
+
+---
+
+## Where the work stands
+
+### Targets screened
+
+KRAS variant frequencies in pancreatic ductal adenocarcinoma drive the priority.
+G12C — the variant with marketed drugs — is a **lung** variant and barely present here.
+
+| variant | % of PDAC | structure | screened | outcome |
+|---|---|---|---|---|
+| G12D | 39% | 9HFK | 19,639 | essentially nothing |
+| G12V | 29% | 9YMQ | 9,913 | 2 past the cognate ligand |
+| G12R | 15% | 9XB7 | **not started** | — |
+| G12C | 1.7% | 8AFB | 2,000 | 82 hits, wrong variant for PDAC |
+
+Screened coverage is **68%** of pancreatic KRAS. G12R would take it to **83%**.
+
+### Fidelity ladder — from a docking score to a computed binding free energy
+
+| rung | method | error vs experiment | cost | status |
+|---|---|---|---|---|
+| 1 | Docking (Vina, site-directed) | ~2.5 kcal/mol | 5 s | **built** |
+| 2 | MM-GBSA rescoring | ~1.5–2.0 kcal/mol | ~5 min | **built** |
+| 3 | MD pose stability (RMSD/RMSF) | kills false positives | 5–12 h | next, runs on an M1 Pro |
+| 4 | FEP / TI binding free energy | **~1.0 kcal/mol** | 1–3 days | needs a real GPU |
+| 5 | PBPK exposure | plasma and tissue exposure | minutes | not built |
+| 6 | Pathway / QSP (KRAS→RAF→MEK→ERK) | downstream signalling | minutes | not built |
+
+**Rung 4 is what changes the argument.** At ~1 kcal/mol a computed number starts
+predicting a measured one — the difference between "this might bind" and "we calculate
+this binds 10× tighter than the reference."
+
+### Chemical process — beyond "does a route exist"
+
+| capability | question | status |
+|---|---|---|
+| Retrosynthesis | does a route exist | **built** |
+| Chemoselectivity + conditions | will each step work *on this molecule* | **built** |
+| Forward reaction prediction | what product does this step actually give | stub — needs a model |
+| Yield prediction | will the route deliver material | not built |
+
+Retrosynthesis alone reproduces the 2025 failure with more confidence attached: it gave an
+impossible molecule an 80% in-stock precursor fraction, **better than Adagrasib's 71%**. A
+valid disconnection is not a working reaction.
+
+---
+
+## The plan
+
+**Now — order compounds.** The only step that produces a real measurement, and the long
+pole because shipping takes weeks. These are catalogue compounds: synthesis is already
+solved and they arrive with purity data. This is the fast path to what MD Anderson asked
+for, and it does not depend on solving retrosynthesis.
+
+**Next — G12R (9XB7).** The last untested common variant, and the last chance for
+catalogue screening to yield a strong lead before the honest conclusion becomes "ZINC does
+not contain a good starting point for pancreatic KRAS."
+
+**Then — rung 3, MD pose stability.** Runs on a laptop. Removes docking false positives
+that survive rescoring, which matters given how weakly the rescoring functions agree here.
+
+**Then — Phase 10, lab capture.** Orders placed from inside the system, and NMR, LC-MS,
+purity and assay readouts ingested back onto the molecule record that predicted them.
+Marked NOT BUILT, and it *matters more than anything above it*: every phase improves only
+if measured outcomes return. Potency, cell response and exposure prediction cannot be
+built at all until they have assay data to calibrate against.
+
+**Separately — retrosynthesis for generated molecules.** The composition-of-matter IP path
+and the longer road. Both belong in the system; only one is on the critical path to a
+measurement.
+
+---
 
 ## Layout
 
     src/          every pipeline script, plus the Kaggle notebook and status helpers
-    data/raw/     ZINC library, the 2025 cross-docking sheet, validation sets
+    data/raw/     the 2025 cross-docking sheet, validation sets
     data/gated/   gate survivors and every rejection with its reason
-    data/screens/ all docking results, with poses
-    data/shortlists/  ranked shortlists and the G12D lead
-    targets/      receptors, boxes, crystal references, validation runs (g12c, g12d)
-    results/      audit output, ADMET report, routes, catalogue exemptions
+    data/screens/ docking results
+    data/shortlists/  ranked shortlists per variant
+    targets/      receptors, boxes, crystal references, validation runs
+    results/      audit output, ADMET, routes, rescoring, forward-chemistry
     runs/         DiffDock notebooks with outputs, and FINDINGS.md
     papers/       what is publishable
-    logs/         run logs
     bin/vina      AutoDock Vina 1.2.7, native arm64
 
-Rebuilt around two rules the 2025 campaign lacked:
-
-1. Nothing reaches a chemist without passing a chemical-reality gate.
-2. No scoring function is trusted until it reproduces a known crystal pose.
-
-## State
-
-Validated on KRAS G12C / 8AFB: cognate redock **0.67 A**, controls separated by
-**2.96 kcal/mol**. A 2,000-compound screen has run — 1,987 scored, **82 beat Adagrasib**,
-2 beat the cognate crystal ligand. All purchasable, no synthesis route to solve.
-
-Next step is ADMET on `top200.json`, gating rather than annotating.
+Pose archives, the ZINC library and the retrosynthesis models are excluded for size;
+`run_screen.py` and `fetch_zinc.py` regenerate them.
 
 ## Flow
 
-    library.smi                    fetch_zinc.py    (ZINC tranches, resumable)
+    library.smi                    fetch_zinc.py       ZINC tranches, resumable
         |
-        |  prepare_ligands.py      ~15,000 mol/s on an M1 Pro, streaming
+        |  prepare_ligands.py      ~15,000 mol/s, streaming
         v
     ligands.json                   chemically real, drug-like, MW-windowed
         |
@@ -44,40 +140,49 @@ Next step is ADMET on `top200.json`, gating rather than annotating.
         v
     selected.json
         |
-        |  run_screen.py           Vina into the validated box, 3.5 s/ligand
+        |  run_screen.py           Vina into the validated box
         v
     screen_results.json  ->  top200.json
         |
-        |  adapt_results.py        into the results.json shape connector.py consumes
+        |  admet_gate.py           gating, not annotating
+        |  mmgbsa.py               rung 2, scores the docked pose
+        |  route_forward.py        selectivity and condition conflicts
         v
-    results.json
+    order dossier
 
 ## Validate before you screen
 
-    python dock_site.py validate
+    python src/dock_site.py validate
 
-Redocks the crystal ligand and reports RMSD to its known pose. Under 2.0 A means the box
+Redocks the crystal ligand and reports RMSD to its known pose. Under 2.0 Å means the box
 and scoring function work on this receptor. **Run this for every new target.** It is the
 check that was missing in 2025.
 
 ## Reproduce the post-mortem
 
-    python audit_molecules.py source-cross_docked_kras.xlsx
+    python src/audit_molecules.py data/raw/source-cross_docked_kras.xlsx
 
 ## Setup
 
     pip install rdkit meeko gemmi scipy numpy openpyxl
     # bin/vina is already the native arm64 binary
 
-## Three things that will bite you
+---
+
+## Four things that will bite you
 
 **The covalent exemption.** BRENK flags acrylamide as `Michael_acceptor_1`, rejecting
-Sotorasib and Adagrasib — the warhead *is* the mechanism. Pass `--covalent` for KRAS G12C.
+Sotorasib and Adagrasib — the warhead *is* the mechanism. Pass `--covalent` for G12C.
 
 **RMSD against a PDB ligand.** No bond orders, so `CalcRMS` maps atoms arbitrarily and
-returns a large meaningless number. Assign bond orders from SMILES first.
+returns a large meaningless number. Assign bond orders from SMILES first. A pose 0.34 Å
+from the crystal centroid first reported as 8.42 Å.
 
 **Cognate controls only.** Judging 8AFB with Sotorasib (whose structure is 6OIM) measures
 cross-docking, not binding.
 
-Full list in [DISCOVERIES.md](DISCOVERIES.md#5-traps-found-along-the-way).
+**Score the docked pose, not a fresh conformer.** MM-GBSA on a re-embedded conformer put
+the crystallographic ligand at **+23 kcal/mol** — the protein and ligand were floating
+apart. Scoring the pose gives −33.
+
+Full list in [DISCOVERIES.md](DISCOVERIES.md#8-traps-found-along-the-way).
